@@ -1,5 +1,5 @@
 #navbar {
-  background: #f2f2f2;
+  background: #FCFCFC;
   height: 30px;
   padding-top: 20px;
   width: 100%; }
@@ -32,7 +32,7 @@
         border-bottom: 3px solid #E76565; }
 
 body {
-  background: #f1f1f1;
+  background: #FCFCFC;
   margin: auto; }
   body .project-container {
     margin-top: 300px;
