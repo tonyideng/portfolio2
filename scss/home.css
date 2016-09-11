@@ -30,5 +30,6 @@ body {
         width: 200px;
         height: 200px;
         text-align: center;
+        font-family: Avenir, sans-serif;
         margin: 15px;
         border-radius: 4px; }

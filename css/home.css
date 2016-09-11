@@ -23,13 +23,18 @@ body {
     body .project-container .project-wrap {
       display: table;
       margin: 0 auto;
-      width: 70%; }
+      width: 1300px; }
       body .project-container .project-wrap .project {
         display: inline-block;
         background: white;
-        width: 200px;
+        width: 280px;
         height: 200px;
         text-align: center;
         font-family: Avenir, sans-serif;
         margin: 15px;
         border-radius: 4px; }
+
+@media screen and (min-width: 320px) and (max-width: 1300px) {
+  .project-wrap {
+    margin-left: 15% !important;
+    width: 80% !important; } }
