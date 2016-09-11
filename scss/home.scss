@@ -49,7 +49,7 @@ body{
   margin:auto;
 
   .project-container{
-    margin-top: 300px;
+    margin-top: 150px;
       display: none;
       .project-wrap{
           display: table;
@@ -67,6 +67,20 @@ body{
             width: 280px;
             border-radius: 4px;
 
+          }
+
+          /*.divider{
+            margin-top: 5px;
+            height: 1px;
+            width: 100%;
+            border-bottom: 1px solid #dcdcdc;
+          }*/
+
+          .project-label{
+            padding: 5px 0px 0px 0px;
+            text-align: left;
+            font-family: Avenir Next, sans-serif;
+            color: #4a4a4a;
           }
 
         }
