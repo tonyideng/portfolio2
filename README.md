@@ -1,2 +1,0 @@
-# tonyideng.github.io
-portfolio
