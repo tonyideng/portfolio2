@@ -6,20 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/projects.css" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-    $('.item-container').fadeIn({queue: false, duration: 1500});
-    $('.item-container').animate({'margin-top': '40px'}, 1500);
- });
-
- $(document).on('click', 'a', function(event){
-
-    $('html,body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-});
-
-</script>
+<script src="js/main.js"></script>
 </head>
 
 <nav id="navbar">

@@ -1,7 +1,7 @@
 #navbar {
   background: #FCFCFC;
   height: 30px;
-  padding: 90px 0px 47px 0px;
+  padding: 90px 0px 17px 0px;
   width: 100%;
 }
 #navbar #nav-link-wrap {
@@ -44,8 +44,8 @@ body {
 }
 body .introduction {
   width: 1080px;
-  display: table;
   margin: 0 auto;
+  display: none;
 }
 body .introduction h1 {
   width: 800px;
