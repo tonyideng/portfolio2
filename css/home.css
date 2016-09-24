@@ -87,8 +87,10 @@ body .project-container .project-wrap #individual-wrap .project img {
   height: 280px;
   width: 340px;
   border-radius: 4px;
+  opacity: .9;
 }
 body .project-container .project-wrap #individual-wrap .project img:hover {
+  opacity: 1;
   transition: all .3s ease-in-out;
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
