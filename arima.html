@@ -1,234 +1,64 @@
 <!DOCTYPE html>
-<html class="html" lang="en-US">
- <head>
+<html>
+<head>
+<title>Tony's Portfolio</title>
+<link rel="stylesheet" type="text/css" href="css/home.css" >
+<link rel="stylesheet" type="text/css" href="css/projects.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.item-container').fadeIn({queue: false, duration: 1500});
+    $('.item-container').animate({'margin-top': '40px'}, 1500);
+ });
 
-  <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "arima.css"], "outOfDate":[]};
+ $(document).on('click', 'a', function(event){
+
+    $('html,body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
+
 </script>
+</head>
 
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2014.1.1.276"/>
-  <link rel="shortcut icon" href="images/favicon.ico?275457523"/>
-  <title>Arima</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?331452649"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4284169977"/>
-  <link rel="stylesheet" type="text/css" href="css/arima.css?4181523810" id="pagesheet"/>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   document.documentElement.className += ' js';
-</script>
-  <!-- JS includes -->
-  <!--[if lt IE 9]>
-  <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
-  <![endif]-->
-   </head>
- <body>
-
-  <div class="clearfix" id="page"><!-- column -->
-   <div class="position_content" id="page_position_content">
-    <div class="browser_width colelem" id="u72-bw">
-     <div class="shadow" id="u72"><!-- group -->
-      <div class="clearfix" id="u72_align_to_page">
-       <img class="grpelem" id="u73" alt="" width="213" height="131" src="images/portfolio-u73.png"/><!-- rasterized frame -->
-       <a class="anchor_item grpelem" id="arimatop"></a>
-       <nav class="MenuBar clearfix grpelem" id="menuu97"><!-- horizontal box -->
-        <div class="MenuItemContainer clearfix grpelem" id="u98"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix colelem" id="u99" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u100-4"><!-- content --><p>Projects</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u105"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix colelem" id="u108" href="photography.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u110-4"><!-- content --><p>Photography</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u120"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix colelem" id="u121" href="about.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u122-4"><!-- content --><p>About</p></div></a>
-        </div>
-       </nav>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="u206-4"><!-- content -->
-     <p><span id="u206">....................................................................................................................................................................................................................................................................</span></p>
-    </div>
-    <div class="PamphletWidget clearfix colelem" id="pamphletu5351"><!-- none box -->
-     <div class="popup_anchor" id="u5360popup">
-      <div class="ContainerGroup clearfix" id="u5360"><!-- stack box -->
-       <div class="Container invi grpelem" id="u5361"><!-- rasterized frame --></div>
-      </div>
-     </div>
-     <div class="ThumbGroup clearfix grpelem" id="u5356"><!-- none box -->
-      <div class="popup_anchor">
-       <a class="nonblock nontext Thumb PamphletThumbSelected popup_element" id="u5357" href="arima.html"><!-- simple frame --></a>
-      </div>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="u5549-10"><!-- content -->
-     <p>The past year, I co-founded Adae, a start up that focused on a cashless online to offline marketplace. It was a great learning process, where I took on many roles such as designer, product developer, front&#45;end web developer.</p>
-     <p>&nbsp;</p>
-     <p>Below you will see the product we are working on and will launch in mid&#45;February, 2016. It is a secure P2P marketplace where you can rent, sell, buy, lease, or offer your time (tutoring, helping out etc.). We are trying to solve the problem that many people encounter when using online classifieds sites that involve cash payments. We hope this product will let people have a peace of mind with their online to offline transactions.</p>
-    </div>
-    <div class="clip_frame colelem" id="u5543"><!-- image -->
-     <img class="block" id="u5543_img" src="images/item%20page.jpg" alt="" width="861" height="2272"/>
-    </div>
-    <div class="clearfix colelem" id="u5550-4"><!-- content -->
-     <p>This is a typical item page, here, the user has chosen to lease her item, this means the person leasing from her can opt to buy the item after the rental period.</p>
-    </div>
-    <div class="clip_frame colelem" id="u5551"><!-- image -->
-     <img class="block" id="u5551_img" src="images/actual%20feed.jpg" alt="" width="862" height="928"/>
-    </div>
-    <div class="clearfix colelem" id="u5557-4"><!-- content -->
-     <p>This is the page where you can see all the listings posted by people, you can also post shout&#45;outs to ask if anyone has something you want, and is not on the listings.</p>
-    </div>
-    <div class="clip_frame colelem" id="u5587"><!-- image -->
-     <img class="block" id="u5587_img" src="images/actual%20feed%20request.jpg" alt="" width="856" height="922"/>
-    </div>
-    <div class="clearfix colelem" id="u5594-4"><!-- content -->
-     <p>This is the Shout Outs page, where users can post a request for something they'd like to have. This mock up is displaying some Shout Outs where users want to rent something.</p>
-    </div>
-    <div class="clearfix colelem" id="pu5567"><!-- group -->
-     <div class="clip_frame grpelem" id="u5567"><!-- image -->
-      <img class="block" id="u5567_img" src="images/trans_1.jpg" alt="" width="409" height="617"/>
-     </div>
-     <div class="clip_frame grpelem" id="u5573"><!-- image -->
-      <img class="block" id="u5573_img" src="images/trans_2.jpg" alt="" width="409" height="616"/>
-     </div>
-     <div class="clip_frame grpelem" id="u5578"><!-- image -->
-      <img class="block" id="u5578_img" src="images/trans_3.jpg" alt="" width="389" height="617"/>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="u5585-6"><!-- content -->
-     <p>Our current idea of secure transactions to prevent scamming from buyers and sellers when they meet up in person revolves around our</p>
-     <p>Companion App, in which the buyer scans a unique Transaction QR code generated in the app. Only when the QR code is scanned, does the money transfer to the seller. For the person doing the scanning, they will see a QR scanner instead of a QR code.</p>
-    </div>
-    <div class="shadow clip_frame colelem" id="u5380"><!-- image -->
-     <img class="block" id="u5380_img" src="images/landing_nyc.jpg" alt="" width="867" height="550"/>
-    </div>
-    <div class="clearfix colelem" id="u5390-4"><!-- content -->
-     <p>This was the previous Q &amp; A data visualization product I worked on with Arima, it grew initially but ultimately we moved on to what you saw before this. The development of this product nevertheless taught us many things .</p>
-    </div>
-    <div class="shadow clip_frame colelem" id="u5386"><!-- image -->
-     <img class="block" id="u5386_img" src="images/landing_taipei.jpg" alt="" width="867" height="550"/>
-    </div>
-    <div class="clearfix colelem" id="u5391-4"><!-- content -->
-     <p>Currently, we are deploying a revamped landing page to better let first time users know about our product and gain more users. This include a concise one pager, a pleasing background of cities that represent the &quot;rest of the planet&quot; since most users will be from cities, and a possible interactive widget so the user can quickly start using our product as a guest.</p>
-    </div>
-    <div class="shadow clip_frame colelem" id="u5482"><!-- image -->
-     <img class="block" id="u5482_img" src="images/sign-up-page.jpg" alt="" width="866" height="550"/>
-    </div>
-    <div class="clearfix colelem" id="u5404-4"><!-- content -->
-     <p>One of my early contributions was the redesign of our &quot;Getting Started&quot; process, after discussing with fellow team mates, we decided to combine both the sign&#45;up process and getting started. The most important part of this page is making sure the sign up process is designed with a sense of assurance, conciseness, and safety, so that first time users are willing to further use our product.</p>
-    </div>
-    <div class="shadow clip_frame colelem" id="u5405"><!-- image -->
-     <img class="block" id="u5405_img" src="images/log-in-page.jpg" alt="" width="872" height="554"/>
-    </div>
-    <div class="shadow clip_frame clearfix colelem" id="u5488"><!-- image -->
-     <div id="u5488_clip">
-      <img class="position_content" id="u5488_img" src="images/capture.jpg" alt="" width="871" height="436"/>
-     </div>
-    </div>
-    <div class="clearfix colelem" id="u5508-4"><!-- content -->
-     <p>This was the first iteration of the question and answer interface. The questions did not seem click&#45;able, and users complained that it was dull and unfriendly.</p>
-    </div>
-    <div class="shadow clip_frame colelem" id="u5525"><!-- image -->
-     <img class="block" id="u5525_img" src="images/hover_style2.jpg" alt="" width="869" height="433"/>
-    </div>
-    <div class="clearfix colelem" id="u5509-4"><!-- content -->
-     <p>I designed a new interface that had better typographic layout of the questions, and also cleaned up the screen space. The wording was also made to appear more personable for the user, and a filter for &quot;Most Popular&quot; and &quot;Most Recent&quot; was added. A Category side bar remains open by default for users to quickly jump across categories.</p>
-    </div>
-    <div class="shadow clip_frame colelem" id="u5535"><!-- image -->
-     <img class="block" id="u5535_img" src="images/contextual_hover2.jpg" alt="" width="867" height="432"/>
-    </div>
-    <div class="clearfix colelem" id="u5511-4"><!-- content -->
-     <p>This future deployment will also feature contextual hovers, with green indicating an unanswered questions, and gray indicating an answered question.</p>
-    </div>
-    <div class="shadow clip_frame colelem" id="u5519"><!-- image -->
-     <img class="block" id="u5519_img" src="images/categories.jpg" alt="" width="871" height="881"/>
-    </div>
-    <div class="clearfix colelem" id="u5518-4"><!-- content -->
-     <p>Another feature will be a categories page that will display the featured question and the most popular question from each category, this page is is intended to act like a &quot;home feed&quot; for users to explore other parts the site that interests them.</p>
-    </div>
-    <div class="verticalspacer"></div>
-    <div class="clearfix colelem" id="u5412"><!-- group -->
-     <div class="PamphletWidget clearfix grpelem" id="pamphletu5457"><!-- none box -->
-      <div class="popup_anchor" id="u5458popup">
-       <div class="ContainerGroup clearfix" id="u5458"><!-- stack box -->
-        <div class="Container invi grpelem" id="u5459"><!-- rasterized frame --></div>
-       </div>
-      </div>
-      <div class="ThumbGroup clearfix grpelem" id="u5466"><!-- none box -->
-       <div class="popup_anchor">
-        <a class="nonblock nontext Thumb popup_element clearfix" id="u5467" href="vimo.html" title="Vimo"><!-- group --><div class="PamphletWidget clearfix grpelem" id="pamphletu5468"><!-- none box --><div class="popup_anchor" id="u5469popup"><div class="ContainerGroup clearfix" id="u5469"><!-- stack box --><div class="Container invi grpelem" id="u5470"><!-- rasterized frame --></div></div></div><div class="ThumbGroup clearfix grpelem" id="u5475"><!-- none box --><div class="popup_anchor"><div class="Thumb popup_element" id="u5476"><!-- simple frame --></div></div></div></div></a>
-       </div>
-      </div>
-     </div>
-     <div class="PamphletWidget clearfix grpelem" id="pamphletu5413"><!-- none box -->
-      <div class="popup_anchor" id="u5433popup">
-       <div class="ContainerGroup clearfix" id="u5433"><!-- stack box -->
-        <div class="Container invi grpelem" id="u5434"><!-- rasterized frame --></div>
-       </div>
-      </div>
-      <div class="ThumbGroup clearfix grpelem" id="u5416"><!-- none box -->
-       <div class="popup_anchor">
-        <a class="nonblock nontext Thumb popup_element anim_swing clearfix" id="u5417" href="arima.html#arimatop"><!-- group --><div class="PamphletWidget clearfix grpelem" id="pamphletu5418"><!-- none box --><div class="popup_anchor" id="u5421popup"><div class="ContainerGroup clearfix" id="u5421"><!-- stack box --><div class="Container invi grpelem" id="u5422"><!-- rasterized frame --></div></div></div><div class="ThumbGroup clearfix grpelem" id="u5427"><!-- none box --><div class="popup_anchor"><div class="Thumb popup_element" id="u5428"><!-- simple frame --></div></div></div></div></a>
-       </div>
-      </div>
-     </div>
-     <div class="PamphletWidget clearfix grpelem" id="pamphletu5435"><!-- none box -->
-      <div class="popup_anchor" id="u5453popup">
-       <div class="ContainerGroup clearfix" id="u5453"><!-- stack box -->
-        <div class="Container invi grpelem" id="u5454"><!-- rasterized frame --></div>
-       </div>
-      </div>
-      <div class="ThumbGroup clearfix grpelem" id="u5440"><!-- none box -->
-       <div class="popup_anchor">
-        <a class="nonblock nontext Thumb popup_element clearfix" id="u5441" href="battlemaze.html" title="FollowMe"><!-- group --><div class="PamphletWidget clearfix grpelem" id="pamphletu5442"><!-- none box --><div class="popup_anchor" id="u5449popup"><div class="ContainerGroup clearfix" id="u5449"><!-- stack box --><div class="Container invi grpelem" id="u5450"><!-- rasterized frame --></div></div></div><div class="ThumbGroup clearfix grpelem" id="u5445"><!-- none box --><div class="popup_anchor"><div class="Thumb popup_element" id="u5446" title="BattleMaze"><!-- simple frame --></div></div></div></div></a>
-       </div>
-      </div>
-     </div>
-    </div>
-    <a class="nonblock nontext Button clearfix colelem" id="buttonu5479" href="index.html"><!-- container box --><div class="clearfix grpelem" id="u5480-6"><!-- content --><p id="u5480-4"><span id="u5480">↩</span><span id="u5480-2">&nbsp;</span><span id="u5480-3">&nbsp;Back to Projects</span></p></div></a>
-    <div class="clearfix colelem" id="u1361-4"><!-- content -->
-     <p><span id="u1361">...................................................................................................................................................................................................................................................................</span></p>
-    </div>
-    <div class="clearfix colelem" id="u1362-4"><!-- content -->
-     <p>Ⓒ2016 Tony Deng</p>
-    </div>
-   </div>
+<nav id="navbar">
+  <div id="nav-link-wrap">
+    <a target="_blank" href="pdf/tony_resume.pdf">Resume</a>
+    <a href="about.html">About</a>
+    <a href="index.html">Work</a>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script src="scripts/museutils.js?4136605575" type="text/javascript"></script>
-  <script src="scripts/jquery.musemenu.js?4009181048" type="text/javascript"></script>
-  <script src="scripts/jquery.watch.js?172956391" type="text/javascript"></script>
-  <script src="scripts/webpro.js?420478120" type="text/javascript"></script>
-  <script src="scripts/musewpslideshow.js?480958572" type="text/javascript"></script>
-  <script src="scripts/jquery.museoverlay.js?184401257" type="text/javascript"></script>
-  <script src="scripts/touchswipe.js?60020316" type="text/javascript"></script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   $(document).ready(function() { try {
-(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
-for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
-typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.resizeHeight()/* resize height */
-Muse.Utils.initWidget('#pamphletu5351', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'none',autoPlay:true,displayInterval:900,transitionStyle:'vertical',transitionDuration:1300,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:600,playOnce:false}); });/* #pamphletu5351 */
-Muse.Utils.initWidget('#pamphletu5468', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:900,transitionStyle:'fading',transitionDuration:900,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:600,playOnce:false}); });/* #pamphletu5468 */
-Muse.Utils.initWidget('#pamphletu5457', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:true,displayInterval:900,transitionStyle:'fading',transitionDuration:900,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:100,playOnce:false}); });/* #pamphletu5457 */
-Muse.Utils.initWidget('#pamphletu5418', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:900,transitionStyle:'fading',transitionDuration:900,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:600,playOnce:false}); });/* #pamphletu5418 */
-Muse.Utils.initWidget('#pamphletu5413', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:true,displayInterval:900,transitionStyle:'fading',transitionDuration:900,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:100,playOnce:false}); });/* #pamphletu5413 */
-Muse.Utils.initWidget('#pamphletu5442', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:900,transitionStyle:'fading',transitionDuration:900,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:600,playOnce:false}); });/* #pamphletu5442 */
-Muse.Utils.initWidget('#pamphletu5435', function(elem) { new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:true,displayInterval:900,transitionStyle:'fading',transitionDuration:900,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:100,playOnce:false}); });/* #pamphletu5435 */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
-</script>
-   </body>
+</nav>
+
+<body>
+
+<div class="introduction">
+  <h1>
+    Arima was a 5 person early stage start up where I was the lead designer.
+  </h1>
+  <h3>
+    We worked on a big data tool that created interactive data visualizations collected from fun polls, and pivoted into a unique crowd sourced image hosting site that streamed
+    live comments on top of each image.
+  <h3>
+</div>
+
+<div class="item-container">
+  <div class="item-wrap">
+    <div id ="item-individual-wrap">
+      <img src ="images/arima_images_feed.png">
+
+
+    </div>
+  </div>
+</div>
+
+</body>
+
+<a href="#navbar"><div class="back-to-top"><img src ="images/up-arrow.png"></div></a>
+
+
+<footer id="footer">
+<div class="footer-text"> Designed and Coded by Tony Deng &#169;2016 </div>
+</footer>
+
 </html>

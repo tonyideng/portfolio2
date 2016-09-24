@@ -1,0 +1,206 @@
+$orange: #E76565;
+
+#navbar{
+  background: #FCFCFC;
+  height: 30px;
+  padding: 90px 0px 47px 0px;
+  width: 100%;
+  #nav-link-wrap{
+    margin-right: 20%;
+   a{
+     padding: 10px;
+     text-decoration: none;
+     font-family: Avenir Next, sans-serif;
+     display: inline-block;
+     float: right;
+     margin-right: 10px;
+     font-size: 22px;
+     font-weight: 600;
+
+     &:link{
+            color: $orange;
+          }
+
+          &:visited{
+            color: $orange;
+          }
+
+          &:hover {
+            color: $orange;
+            border-bottom: 3px solid $orange;
+            transition: all .25s ease-in-out;
+            -webkit-transform: translateY(-3px);
+             -moz-transform: translateY(-3px);
+              -ms-transform: translateY(-3px);
+               -o-transform: translateY(-3px);
+                  transform: translateY(-3px);
+          }
+
+          &:active{
+            color: $orange;
+            border-bottom: 3px solid $orange;
+          }
+   }
+ }
+}
+
+body{
+  background: #FCFCFC;
+  margin:auto;
+
+.introduction{
+  width: 1080px;
+  display: table;
+  margin: 0 auto;
+
+    h1{
+      width: 800px;
+      color: #585858;
+      font-family: Avenir Next, sans-serif;
+    }
+
+    h3{
+      width: 1080px;
+      color: #585858;
+      font-family: Avenir Next, sans-serif;
+
+    }
+}
+
+  .project-container{
+    margin-top: 150px;
+      display: none;
+      .project-wrap{
+          display: table;
+          margin: 0 auto;
+          width: 1120px;
+          #individual-wrap{
+            display: table;
+            margin: 0 auto;
+
+          .project{
+              display: inline-block;
+              text-align: center;
+              margin: 15px;
+              margin-bottom: 30px;
+
+            img{
+              object-fit: cover;
+              height: 280px;
+              width: 340px;
+              border-radius: 4px;
+
+              &:hover{
+                transition: all .3s ease-in-out;
+                -webkit-transform: translateY(-10px);
+                 -moz-transform: translateY(-10px);
+                  -ms-transform: translateY(-10px);
+                   -o-transform: translateY(-10px);
+                      transform: translateY(-10px);
+                      cursor: pointer;
+              }
+
+            }
+
+            /*.divider{
+              margin-top: 5px;
+              height: 1px;
+              width: 100%;
+              border-bottom: 1px solid #dcdcdc;
+            }*/
+
+            .project-label{
+              padding: 5px 0px 0px 0px;
+              text-align: left;
+              font-family: Avenir Next, sans-serif;
+              color: #585858;
+              font-weight: 500;
+            }
+
+          }
+        }
+      }
+  }
+}
+
+.back-to-top{
+  text-align: center;
+  margin-top: 6em;
+    img{
+    height: auto;
+    width: 55px;
+    opacity: .75;
+    &:hover{
+      opacity: 1;
+      transition: all .3s ease-in-out;
+      -webkit-transform: translateY(-5px);
+       -moz-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+         -o-transform: translateY(-5px);
+            transform: translateY(-5px);
+            cursor: pointer;
+    }
+    }
+}
+
+#footer{
+  background-color: #D7D7D7;
+  display: block;
+  width: 100%;
+  height: 100px;
+  bottom: 0px;
+  margin-top: 10em;
+
+  .footer-text{
+    color: #9B9B9B;
+    font-family: Avenir Next, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 3.5em;
+  }
+}
+
+//Mobile Views
+
+@media screen and (min-width: 300px) and (max-width: 1100px){
+
+  #navbar{
+    background: #FCFCFC;
+    height: 30px;
+    padding: 90px 0px 17px 0px;
+    width: 100%;
+  }
+
+  .introduction{
+    width: 95% !important;
+
+
+      h1{
+        width: 95% !important;
+      }
+
+      h3{
+      width: 95% !important;
+
+      }
+  }
+
+  .project-wrap{
+        width: 90% !important;
+        #individual-wrap{
+          display: table !important;
+          margin: 0 auto !important;
+          width: 90% !important;
+
+          img{
+            object-fit: cover;
+            height: 100% !important;
+            width: 100% !important;
+            border-radius: 4px;
+
+          }
+
+
+        }
+    }
+}
