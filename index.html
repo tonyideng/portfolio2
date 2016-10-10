@@ -6,10 +6,9 @@
 <title>Tony's Portfolio</title>
 <link rel="stylesheet" type="text/css" href="css/home.css" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="js/main.js"></script>
 
-<meta http-equiv="refresh" content="0; URL='http://tonys.me/portfolio'" />
+
+<!--<meta http-equiv="refresh" content="0; URL='http://tonys.me/portfolio'" />-->
 
 
 </head>
@@ -26,14 +25,33 @@
 <body>
 
 <div class="introduction">
+  <img id ="avatar" src ="images/me.png">
   <h1>
-    Hello! I'm Tony, MHCI student at CMU, Co-Founder of a start up, and aspiring Designer.
+    <span style ="color: #FE777A;">Hello!</span> I'm Tony, MHCI student at CMU, Co-Founder of a start up, and aspiring Designer.
   </h1>
-  <h3>
-    Check out some cool projects of mine at CMU and also some neat stuff I've worked on in the past.
-    <i>(Update 9/2016, I'm currently reworking my portfolio, so it may seem incomplete at the moment).</i>
-      <a target="_blank" href ="http://tonys.me/portfolio/"> Go here to view my old portfolio.</a>
-  <h3>
+
+</div>
+
+
+<div class="project-intro">
+  <div id="sub-intro">
+    <h3>
+      Here's what I've been up to in the past few years!
+      <h3>
+  </div>
+
+  <div class="current-past-projects">
+    <div id = "current-wrap">
+      <a href="#individual-wrap"><img id="current-projects" src ="images/current-projects.png">
+      <p> Recent Projects </br> 2016-Present</p></a>
+    </div>
+
+    <div id = "past-wrap">
+      <a href="#individual-wrap"><img id="past-projects" src ="images/past-projects.png">
+      <p> Past Projects </br> 2013-2016 </p></a>
+    </div>
+  </div>
+
 </div>
 
 <div class="project-container">
@@ -91,10 +109,17 @@
 <a href="#navbar"><div class="back-to-top"><img src ="images/up-arrow.png"></div></a>
 </div>
 
+
 </body>
 
 <footer id="footer">
 <div class="footer-text"> Designed & Coded by Tony Deng &#169;2016 </div>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
 
 </html>
