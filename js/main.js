@@ -18,16 +18,19 @@
   });
 
   //fading in sub-intro delay
-  $(".project-intro").hide(0).delay(2800).fadeIn(1300);
+  $('.project-intro').hide().delay(2400).queue(function(next) {
+      $(this).fadeIn({duration:1300, queue:false}).animate({'margin-top':  '40px'}, {duration:1300, queue:false});
+   });
+
 
   //clicking to reveal projects
   $("#current-projects").click(function(){
-        $(".project-container").fadeToggle(1500);
+        $(".project-container").fadeIn(1500);
     });
 
-    $(".back-to-top").click(function(){
+  /*$(".back-to-top").click(function(){
           $(".project-container").fadeOut(1500);
-      });
+      });*/
 
 
 
