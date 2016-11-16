@@ -185,6 +185,59 @@ body .project-container .project-wrap #individual-wrap .project .project-label {
   color: #585858;
   font-weight: 500;
 }
+body .past-project-container {
+  margin-top: 130px;
+  display: none;
+}
+body .past-project-container .past-project-wrap {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #EEEEEE;
+}
+body .past-project-container .past-project-wrap #past-individual-wrap {
+  display: table;
+  margin: 0 auto;
+  width: 1120px;
+}
+body .past-project-container .past-project-wrap #past-individual-wrap .past-project {
+  display: inline-block;
+  text-align: center;
+  margin: 55px;
+  margin-bottom: 30px;
+  /*.divider{
+    margin-top: 5px;
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+  }*/
+}
+body .past-project-container .past-project-wrap #past-individual-wrap .past-project img {
+  object-fit: cover;
+  height: 260px;
+  width: 260px;
+  border-radius: 500px;
+  opacity: .9;
+}
+body .past-project-container .past-project-wrap #past-individual-wrap .past-project img:hover {
+  opacity: 1;
+  transition: all .3s ease-in-out;
+  /*-webkit-transform: translateY(-10px);
+   -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+     -o-transform: translateY(-10px);
+        transform: translateY(-10px);*/
+  cursor: pointer;
+  transform: scale(1.05);
+  border-radius: 30px;
+}
+body .past-project-container .past-project-wrap #past-individual-wrap .past-project .past-project-label {
+  padding: 5px 0px 0px 0px;
+  text-align: left;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  color: #585858;
+  font-weight: 500;
+}
 
 #footer {
   background-color: #EEEEEE;
@@ -267,5 +320,3 @@ body .project-container .project-wrap #individual-wrap .project .project-label {
     border-radius: 4px;
   }
 }
-
-/*# sourceMappingURL=home.css.map */

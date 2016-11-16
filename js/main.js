@@ -25,7 +25,13 @@
 
   //clicking to reveal projects
   $("#current-projects").click(function(){
+        $(".past-project-container").fadeOut(1000);
         $(".project-container").fadeIn(1500);
+    });
+
+  $("#past-projects").click(function(){
+        $(".project-container").fadeOut(1000);
+        $(".past-project-container").fadeIn(1500);
     });
 
   /*$(".back-to-top").click(function(){
