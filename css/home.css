@@ -178,6 +178,10 @@ body .project-container .project-wrap #individual-wrap .project img {
   border-radius: 13px;
   opacity: .9;
   transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 body .project-container .project-wrap #individual-wrap .project img:hover {
   opacity: 1;
