@@ -18,7 +18,7 @@
   });
 
   //fading in sub-intro delay
-  $('.project-intro').hide().delay(1200).queue(function(next) {
+  $('.project-intro').hide().delay(1100).queue(function(next) {
       $(this).fadeIn({duration:1000, queue:false}).animate({'margin-top':  '40px'}, {duration:1000, queue:false});
    });
 
@@ -29,10 +29,10 @@
         $(".project-container").fadeIn(1300);
     });
 
-  $("#past-projects").click(function(){
+  /*$("#past-projects").click(function(){
         $(".project-container").fadeOut(1000);
         $(".past-project-container").fadeIn(1300);
-    });
+    });*/
 
   /*$(".back-to-top").click(function(){
           $(".project-container").fadeOut(1500);

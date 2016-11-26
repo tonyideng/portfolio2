@@ -75,25 +75,60 @@ body .project-intro .current-past-projects {
   display: table;
   margin: 0 auto;
   width: 450px;
+      /*#past-wrap{
+        float: right;
+        a{
+          text-decoration: none;
+        }
+        p{
+          font-size: 15px;
+          font-weight: 300;
+          color: $gray;
+          margin-top: -1em;
+          font-family: $main-font;
+          cursor: default;
+        }
+        #past-projects{
+          height:120px;
+          width: auto;
+          margin: 25px 45px;
+
+          &:hover{
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+                  cursor: pointer;
+                  transform: scale(1.05);
+
+          }
+        }
+      }*/
 }
 body .project-intro .current-past-projects #current-wrap {
-  float: left;
+  margin: 0 auto;
+  display: table;
 }
 body .project-intro .current-past-projects #current-wrap a {
   text-decoration: none;
 }
-body .project-intro .current-past-projects #current-wrap p {
-  font-size: 15px;
-  font-weight: 300;
-  color: #929292;
-  margin-top: -1em;
+body .project-intro .current-past-projects #current-wrap #current-projects {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 1em;
   font-family: Avenir Next, Gill Sans, sans-serif;
   cursor: default;
-}
-body .project-intro .current-past-projects #current-wrap #current-projects {
-  height: 120px;
-  width: auto;
-  margin: 25px 45px;
+  background-color: #FE777A;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 body .project-intro .current-past-projects #current-wrap #current-projects:hover {
   -webkit-transition: all .3s ease-in-out;
@@ -103,34 +138,10 @@ body .project-intro .current-past-projects #current-wrap #current-projects:hover
   transition: all .3s ease-in-out;
   cursor: pointer;
   transform: scale(1.05);
-}
-body .project-intro .current-past-projects #past-wrap {
-  float: right;
-}
-body .project-intro .current-past-projects #past-wrap a {
-  text-decoration: none;
-}
-body .project-intro .current-past-projects #past-wrap p {
-  font-size: 15px;
-  font-weight: 300;
-  color: #929292;
-  margin-top: -1em;
-  font-family: Avenir Next, Gill Sans, sans-serif;
-  cursor: default;
-}
-body .project-intro .current-past-projects #past-wrap #past-projects {
-  height: 120px;
-  width: auto;
-  margin: 25px 45px;
-}
-body .project-intro .current-past-projects #past-wrap #past-projects:hover {
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  cursor: pointer;
-  transform: scale(1.05);
+  background-color: #FE777A;
+  -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
+  -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
+  box-shadow: 3px 3px 0px 0px #FFAFAD;
 }
 body .project-container {
   margin-top: 130px;
@@ -150,7 +161,7 @@ body .project-container .project-wrap #individual-wrap {
 body .project-container .project-wrap #individual-wrap .project {
   display: inline-block;
   text-align: center;
-  margin: 55px;
+  margin: 35px;
   margin-bottom: 30px;
   /*.divider{
     margin-top: 5px;
@@ -162,8 +173,8 @@ body .project-container .project-wrap #individual-wrap .project {
 body .project-container .project-wrap #individual-wrap .project img {
   object-fit: cover;
   height: 260px;
-  width: 260px;
-  border-radius: 500px;
+  width: 300px;
+  border-radius: 13px;
   opacity: .9;
 }
 body .project-container .project-wrap #individual-wrap .project img:hover {
@@ -176,7 +187,6 @@ body .project-container .project-wrap #individual-wrap .project img:hover {
         transform: translateY(-10px);*/
   cursor: pointer;
   transform: scale(1.05);
-  border-radius: 30px;
 }
 body .project-container .project-wrap #individual-wrap .project .project-label {
   padding: 5px 0px 0px 0px;

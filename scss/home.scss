@@ -94,23 +94,29 @@ body{
       margin: 0 auto;
       width: 450px;
       #current-wrap{
-        float: left;
+        margin: 0 auto;
+        display: table;
         a{
           text-decoration: none;
-
         }
-        p{
-          font-size: 15px;
-          font-weight: 300;
-          color: $gray;
-          margin-top: -1em;
+
+        #current-projects{
+          text-align: center;
+          font-size: 16px;
+          font-weight: 400;
+          color: #fff;
+          margin-top: 1em;
           font-family: $main-font;
           cursor: default;
-        }
-        #current-projects{
-          height:120px;
-          width: auto;
-          margin: 25px 45px;
+          background-color: $orange;
+          padding: 10px 20px 10px 20px;
+          border-radius: 3px;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+
 
           &:hover{
             -webkit-transition: all .3s ease-in-out;
@@ -118,14 +124,19 @@ body{
             -ms-transition: all .3s ease-in-out;
             -o-transition: all .3s ease-in-out;
             transition: all .3s ease-in-out;
-                  cursor: pointer;
-                  transform: scale(1.05);
+            cursor: pointer;
+            transform: scale(1.05);
+            background-color: $orange;
+            -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
+            -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
+            box-shadow: 3px 3px 0px 0px #FFAFAD;
+
           }
 
         }
       }
 
-      #past-wrap{
+      /*#past-wrap{
         float: right;
         a{
           text-decoration: none;
@@ -154,7 +165,7 @@ body{
 
           }
         }
-      }
+      }*/
     }
   }
 
@@ -175,14 +186,14 @@ body{
           .project{
               display: inline-block;
               text-align: center;
-              margin: 55px;
+              margin: 35px;
               margin-bottom: 30px;
 
             img{
               object-fit: cover;
               height: 260px;
-              width: 260px;
-              border-radius: 500px;
+              width: 300px;
+              border-radius: 13px;
               opacity: .9;
 
               &:hover{
@@ -195,7 +206,6 @@ body{
                       transform: translateY(-10px);*/
                       cursor: pointer;
                       transform: scale(1.05);
-                      border-radius: 30px;
 
 
               }
