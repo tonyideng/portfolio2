@@ -179,7 +179,7 @@ body{
           display: table;
           margin: 0 auto;
           width: 100%;
-          background-color: #EEEEEE;
+          background-color: #FAFAFA;
           #individual-wrap{
             display: table;
             margin: 0 auto;
@@ -334,9 +334,16 @@ body{
     height: auto;
     width: 55px;
     opacity: .75;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     &:hover{
       opacity: 1;
-      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
       -webkit-transform: translateY(-5px);
        -moz-transform: translateY(-5px);
         -ms-transform: translateY(-5px);
