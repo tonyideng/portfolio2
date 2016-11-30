@@ -43,6 +43,8 @@
 .menu {
   background-color: gray;
   text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 .menu ul {
   list-style: none;
