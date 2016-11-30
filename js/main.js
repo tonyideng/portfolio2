@@ -1,9 +1,12 @@
 
 //animation of headers on each page
- $(document).ready(function() {
+ //$(document).ready(function() {
      $('.introduction').fadeIn({queue: false, duration: 900});
      $('.introduction').animate({'margin-top': '140px'}, 900);
-  });
+//  });
+
+$('.intro-hero').fadeIn({queue: false, duration: 1000});
+$('.intro-hero').animate({'margin-left': '-10px'}, 900);
 
 //animation of body content on home-page
 /*$(document).ready(function() {
@@ -12,10 +15,10 @@
  });*/
 
 //animation of body content on each project pages
- $(document).ready(function() {
+// $(document).ready(function() {
      $('.item-container').fadeIn({queue: false, duration: 900});
      $('.item-container').animate({'margin-top': '40px'}, 900);
-  });
+//  });
 
   //fading in sub-intro delay
   $('.project-intro').hide().delay(1100).queue(function(next) {
