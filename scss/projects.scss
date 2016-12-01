@@ -57,13 +57,15 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
 .menu{
   background-color: gray;
   text-align: center;
+  width: 150px;
   position: fixed;
-  bottom: 0;
+  right: 0;
+  margin-right: 10em;
   ul{
     list-style: none;
 
     li{
-      display: inline;
+      display: block;
       padding: 10px;
     }
   }
