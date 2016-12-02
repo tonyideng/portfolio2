@@ -26,18 +26,56 @@
 .item-container .item-wrap #item-individual-wrap {
   display: table;
   margin: 0 auto;
-  /*.divider{
-    margin-top: 5px;
-    height: 1px;
-    width: 100%;
-    border-bottom: 1px solid #dcdcdc;
-  }*/
 }
 .item-container .item-wrap #item-individual-wrap #pui-gif {
   object-fit: contain;
   height: auto;
   width: 340px;
   border-radius: 24px;
+}
+.item-container .divider {
+  height: 1px;
+  width: 35%;
+  border-bottom: 1px solid #dcdcdc;
+  display: table;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+.item-container #more-projects-container {
+  margin-top: 5em;
+  height: 200px;
+}
+.item-container #more-projects-container .more-projects {
+  display: table;
+  margin: 0 auto;
+}
+.item-container #more-projects-container .more-projects img {
+  object-fit: cover;
+  height: 260px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 18px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.item-container #more-projects-container .more-projects img:hover {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.item-container #more-projects-container .more-projects #view-more {
+  background-color: #dcdcdc;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  font-size: 18px;
+  color: #585858;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .menu {
@@ -46,7 +84,7 @@
   width: 150px;
   position: fixed;
   right: 0;
-  margin-right: 10em;
+  margin-right: 5%;
 }
 .menu ul {
   list-style: none;

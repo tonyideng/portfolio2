@@ -42,17 +42,58 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             border-radius: 24px;
 
           }
+      }
+    }
 
-          /*.divider{
-            margin-top: 5px;
-            height: 1px;
-            width: 100%;
-            border-bottom: 1px solid #dcdcdc;
-          }*/
+    .divider{
+      height: 1px;
+      width: 35%;
+      border-bottom: 1px solid #dcdcdc;
+      display: table;
+      margin: 0 auto;
+      margin-top: 5em;
+    }
 
+    #more-projects-container{
+      margin-top: 5em;
+      height: 200px;
+      .more-projects{
+        display: table;
+        margin: 0 auto;
+        img{
+          object-fit: cover;
+          height: 260px;
+          width: 300px;
+          padding: 10px;
+          border-radius: 18px;
+          transition: all .3s ease-in-out;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+
+          &:hover{
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            cursor: pointer;
+            transform: scale(1.05);
+          }
+        }
+        #view-more{
+          background-color: #dcdcdc;
+          font-family: $main-font;
+          font-size: 18px;
+          color: $black;
+          border-radius: 5px;
+          text-align: center;
+        }
       }
     }
 }
+
+
 
 .menu{
   background-color: gray;
@@ -60,7 +101,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
   width: 150px;
   position: fixed;
   right: 0;
-  margin-right: 10em;
+  margin-right: 5%;
   ul{
     list-style: none;
 
