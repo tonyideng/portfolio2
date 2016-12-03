@@ -189,11 +189,11 @@
   padding-top: 3.5em;
 }
 
-#menu-tab {
+#menu-container #menu-tab {
   background-color: #dcdcdc;
   width: 35px;
-  height: 205px;
-  border-right: 2px solid #BBBBBB;
+  height: 292px;
+  border-right: 2px solid #EEEEEE;
   border-radius: 6px 0px 0px 6px;
   position: fixed;
   right: 0;
@@ -201,30 +201,51 @@
   top: 13em;
   z-index: 1000;
 }
-#menu-tab #list {
+#menu-container #menu-tab #list {
   height: 20px;
   width: auto;
-  margin: 85px 0px 0px 7px;
+  margin: 125px 0px 0px 7px;
 }
-
-.menu {
-  display: none;
+#menu-container #menu-tab:hover {
+  cursor: pointer;
   background-color: #dcdcdc;
-  border-radius: 5px;
-  width: 205px;
+}
+#menu-container .menu {
+  display: none;
+  background-color: #EEEEEE;
+  width: 210px;
   position: fixed;
   right: 0;
   font-family: Avenir Next, Gill Sans, sans-serif;
   top: 13em;
   z-index: 1000;
 }
-.menu ul {
+#menu-container .menu ul {
   list-style: none;
   margin-left: -10px;
 }
-.menu ul li {
+#menu-container .menu ul li {
   display: block;
-  padding: 15px 5px 15px 0px;
+  padding: 25px 5px 15px 10px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+#menu-container .menu ul li:hover {
+  cursor: pointer;
+  color: #FE777A;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 @media screen and (min-width: 300px) and (max-width: 1100px) {
@@ -276,5 +297,3 @@
     width: 90% !important;
   }
 }
-
-/*# sourceMappingURL=projects.css.map */

@@ -214,44 +214,72 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
   }
 }
 
-#menu-tab{
-  background-color: #dcdcdc;
-  width: 35px;
-  height: 205px;
-  border-right: 2px solid #BBBBBB;
-  border-radius: 6px 0px 0px 6px;
-  position: fixed;
-  right: 0;
-  margin-left: 210px;
-  top: 13em;
-  z-index: 1000;
-  #list{
-    height: 20px;
-    width: auto;
-    margin: 85px 0px 0px 7px;
-  }
-}
+#menu-container{
 
-.menu{
-  display: none;
-  background-color: #dcdcdc;
-  border-radius: 5px;
-  width: 205px;
-  position: fixed;
-  right: 0;
-  font-family: $main-font;
-  top: 13em;
-  z-index: 1000;
-  ul{
-    list-style: none;
-    margin-left: -10px;
-    li{
-      display: block;
-      padding: 15px 5px 15px 0px;
+
+    #menu-tab{
+      background-color: #dcdcdc;
+      width: 35px;
+      height: 292px;
+      border-right: 2px solid #EEEEEE;
+      border-radius: 6px 0px 0px 6px;
+      position: fixed;
+      right: 0;
+      margin-left: 210px;
+      top: 13em;
+      z-index: 1000;
+
+      #list{
+        height: 20px;
+        width: auto;
+        margin: 125px 0px 0px 7px;
+      }
+
+      &:hover{
+        cursor: pointer;
+        background-color: #dcdcdc;
+
+      }
+    }
+
+    .menu{
+      display: none;
+      background-color: #EEEEEE;
+      width: 210px;
+      position: fixed;
+      right: 0;
+      font-family: $main-font;
+      top: 13em;
+      z-index: 1000;
+      ul{
+        list-style: none;
+        margin-left: -10px;
+        li{
+          display: block;
+          padding: 25px 5px 15px 10px;
+          transition: all .3s ease-in-out;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+          &:hover{
+            cursor: pointer;
+            color: $orange;
+            transition: all .3s ease-in-out;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            -webkit-transform: translateX(5px);
+             -moz-transform: translateX(5px);
+              -ms-transform: translateX(5px);
+               -o-transform: translateX(5px);
+                  transform: translateX(5px);
+          }
+        }
+      }
     }
   }
-}
-
 @media screen and (min-width: 300px) and (max-width: 1100px){
 
   #navbar{
