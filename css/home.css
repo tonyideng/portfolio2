@@ -153,6 +153,7 @@ body .project-container .project-wrap {
   margin: 0 auto;
   width: 100%;
   background-color: #FAFAFA;
+  padding: 40px 0px 40px 0px;
 }
 body .project-container .project-wrap #individual-wrap {
   display: table;
@@ -259,7 +260,7 @@ body .past-project-container .past-project-wrap #past-individual-wrap .past-proj
   background-color: #EEEEEE;
   width: 100%;
   height: 100px;
-  margin-top: 45%;
+  margin-top: 20%;
   bottom: 0;
   left: 0;
   clear: both;

@@ -172,6 +172,23 @@
   cursor: pointer;
 }
 
+#footer {
+  background-color: #EEEEEE;
+  width: 100%;
+  height: 100px;
+  margin-top: 50%;
+  bottom: 0;
+  left: 0;
+  clear: both;
+}
+#footer .footer-text {
+  color: #9B9B9B;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 3.5em;
+}
+
 .menu {
   background-color: gray;
   text-align: center;
