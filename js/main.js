@@ -41,7 +41,11 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
           $(".project-container").fadeOut(1500);
       });*/
 
+//animation to reveal .even-more-projects
 
+$('#view-more').click(function(){
+  $('.even-more-projects').slideToggle(500);
+});
 
 //animation of anchor scrolling
  $(document).on('click', 'a', function(event){

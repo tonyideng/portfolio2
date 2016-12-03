@@ -49,7 +49,18 @@
   display: table;
   margin: 0 auto;
 }
-.item-container #more-projects-container .more-projects img {
+.item-container #more-projects-container .more-projects .ind-project {
+  display: inline-block;
+}
+.item-container #more-projects-container .more-projects .ind-project .project-label {
+  padding: 5px 0px 25px 0px;
+  text-align: left;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  color: #585858;
+  font-weight: 500;
+  text-indent: 12px;
+}
+.item-container #more-projects-container .more-projects .ind-project img {
   object-fit: cover;
   height: 260px;
   width: 300px;
@@ -61,7 +72,7 @@
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
 }
-.item-container #more-projects-container .more-projects img:hover {
+.item-container #more-projects-container .more-projects .ind-project img:hover {
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
@@ -69,13 +80,88 @@
   cursor: pointer;
   transform: scale(1.05);
 }
-.item-container #more-projects-container .more-projects #view-more {
-  background-color: #dcdcdc;
+.item-container #more-projects-container .even-more-projects {
+  margin: 0 auto;
+}
+.item-container #more-projects-container .even-more-projects .ind-project {
+  display: inline-block;
+}
+.item-container #more-projects-container .even-more-projects .ind-project img {
+  object-fit: cover;
+  height: 260px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 18px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.item-container #more-projects-container .even-more-projects .ind-project img:hover {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.item-container #more-projects-container #view-more {
+  background-color: #FD9092;
   font-family: Avenir Next, Gill Sans, sans-serif;
-  font-size: 18px;
-  color: #585858;
-  border-radius: 5px;
+  font-size: 16px;
+  color: #FFF;
+  border-radius: 0px 0px 15px 15px;
   text-align: center;
+  padding: 8px;
+  width: 925px;
+  display: table;
+  margin: 0 auto;
+  margin-top: 1em;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.item-container #more-projects-container #view-more:hover {
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
+  -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
+  box-shadow: 3px 3px 0px 0px #FFAFAD;
+  transform: scale(1.02);
+  cursor: pointer;
+  background-color: #FE777A;
+}
+.item-container #more-projects-container .back-to-top-2 {
+  text-align: center;
+  margin-top: 12em;
+}
+.item-container #more-projects-container .back-to-top-2 img {
+  height: auto;
+  width: 55px;
+  opacity: .75;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.item-container #more-projects-container .back-to-top-2 img:hover {
+  opacity: 1;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .menu {
@@ -126,6 +212,20 @@
     width: 100% !important;
     border-radius: 4px;
   }
-}
 
-/*# sourceMappingURL=projects.css.map */
+  #more-projects-container {
+    margin-top: 5em;
+    height: 200px;
+  }
+  #more-projects-container .more-projects {
+    width: 90% !important;
+  }
+  #more-projects-container .more-projects img {
+    object-fit: cover;
+    height: 260px;
+    width: 300px;
+  }
+  #more-projects-container #view-more {
+    width: 90% !important;
+  }
+}
