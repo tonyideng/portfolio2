@@ -42,8 +42,15 @@
   margin-top: 5em;
 }
 .item-container #more-projects-container {
-  margin-top: 5em;
+  margin-top: 4em;
   height: 200px;
+}
+.item-container #more-projects-container h2 {
+  text-align: center;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  color: #929292;
+  font-weight: 300;
+  margin-bottom: 1.5em;
 }
 .item-container #more-projects-container .more-projects {
   display: table;
@@ -53,7 +60,7 @@
   display: inline-block;
 }
 .item-container #more-projects-container .more-projects .ind-project .project-label {
-  padding: 5px 0px 25px 0px;
+  padding: 0px 0px 25px 0px;
   text-align: left;
   font-family: Avenir Next, Gill Sans, sans-serif;
   color: #585858;
@@ -81,6 +88,7 @@
   transform: scale(1.05);
 }
 .item-container #more-projects-container .even-more-projects {
+  display: none;
   margin: 0 auto;
 }
 .item-container #more-projects-container .even-more-projects .ind-project {
@@ -107,7 +115,7 @@
   transform: scale(1.05);
 }
 .item-container #more-projects-container #view-more {
-  background-color: #FD9092;
+  background-color: #419bf9;
   font-family: Avenir Next, Gill Sans, sans-serif;
   font-size: 16px;
   color: #FFF;
@@ -117,12 +125,13 @@
   width: 925px;
   display: table;
   margin: 0 auto;
-  margin-top: 1em;
+  margin-top: 1.5em;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
+  text-decoration: none;
 }
 .item-container #more-projects-container #view-more:hover {
   transition: all .3s ease-in-out;
@@ -130,12 +139,11 @@
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
-  -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
-  -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
-  box-shadow: 3px 3px 0px 0px #FFAFAD;
+  -webkit-box-shadow: 3px 3px 0px 0px #416BF9;
+  -moz-box-shadow: 3px 3px 0px 0px #416BF9;
+  box-shadow: 3px 3px 0px 0px #416BF9;
   transform: scale(1.02);
   cursor: pointer;
-  background-color: #FE777A;
 }
 .item-container #more-projects-container .back-to-top-2 {
   text-align: center;
