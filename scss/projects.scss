@@ -223,6 +223,8 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
   position: fixed;
   right: 0;
   margin-left: 210px;
+  top: 13em;
+  z-index: 1000;
   #list{
     height: 20px;
     width: auto;
@@ -238,12 +240,14 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
   position: fixed;
   right: 0;
   font-family: $main-font;
+  top: 13em;
+  z-index: 1000;
   ul{
     list-style: none;
     margin-left: -10px;
     li{
       display: block;
-      padding: 15px 5px 20px 0px;
+      padding: 15px 5px 15px 0px;
     }
   }
 }
