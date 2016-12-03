@@ -25,6 +25,16 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
       $(this).fadeIn({duration:1000, queue:false}).animate({'margin-top':  '40px'}, {duration:1000, queue:false});
    });
 
+  //showing side menu on project page to get the attention of the user, and click function to activate the menu.
+  //$('#menu-tab').hide().delay(100).queue(function(next) {
+      //$(this).fadeIn({duration:1000, queue:false}).animate({'margin-right':  '60px'}, {duration:800, queue:false});
+   //});
+
+   $( '#menu-tab' ).click(function(){ //animating the slide menu
+     $('.menu').toggle('slide', { direction: 'right' }, 1000);
+       $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '210px' : '0px'}, 1000);
+   });
+
 
   //clicking to reveal projects
   $("#current-projects").click(function(){

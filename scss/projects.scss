@@ -14,7 +14,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
   margin-top: -22px;
 
   h1{
-    padding: 6em 0em 5em 0em;
+    padding: 5em 0em 4em 0em;
     font-family: $main-font;
     color: #fff;
     text-align: center;
@@ -214,21 +214,36 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
   }
 }
 
-
-
-.menu{
-  background-color: gray;
-  text-align: center;
-  width: 150px;
+#menu-tab{
+  background-color: #dcdcdc;
+  width: 35px;
+  height: 205px;
+  border-right: 2px solid #BBBBBB;
+  border-radius: 6px 0px 0px 6px;
   position: fixed;
   right: 0;
-  margin-right: 5%;
+  margin-left: 210px;
+  #list{
+    height: 20px;
+    width: auto;
+    margin: 85px 0px 0px 7px;
+  }
+}
+
+.menu{
+  display: none;
+  background-color: #dcdcdc;
+  border-radius: 5px;
+  width: 205px;
+  position: fixed;
+  right: 0;
+  font-family: $main-font;
   ul{
     list-style: none;
-
+    margin-left: -10px;
     li{
       display: block;
-      padding: 10px;
+      padding: 15px 5px 20px 0px;
     }
   }
 }
