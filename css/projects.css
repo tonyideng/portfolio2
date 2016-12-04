@@ -23,6 +23,22 @@
   margin: 0 auto;
   width: 1120px;
 }
+.item-container .item-wrap #project-scope {
+  width: 60%;
+  display: table;
+  margin: 0 auto;
+}
+.item-container .item-wrap #project-scope h3 {
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  color: #FE777A;
+  font-weight: 400;
+}
+.item-container .item-wrap #project-scope p {
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  line-height: normal;
+  color: #585858;
+  font-weight: 400;
+}
 .item-container .item-wrap #item-individual-wrap {
   display: table;
   margin: 0 auto;
@@ -274,6 +290,9 @@
   }
 
   .item-wrap {
+    width: 90% !important;
+  }
+  .item-wrap #project-scope {
     width: 90% !important;
   }
   .item-wrap #item-individual-wrap {

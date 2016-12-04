@@ -30,6 +30,23 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
         display: table;
         margin: 0 auto;
         width: 1120px;
+        #project-scope{
+          width: 60%;
+          display: table;
+          margin: 0 auto;
+          h3{
+            font-family: $main-font;
+            color: $orange;
+            font-weight: 400;
+          }
+
+          p{
+            font-family: $main-font;
+            line-height: normal;
+            color: $black;
+            font-weight: 400;
+          }
+        }
         #item-individual-wrap{
           display: table;
           margin: 0 auto;
@@ -313,6 +330,10 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
 
   .item-wrap{
         width: 90% !important;
+
+        #project-scope{
+          width: 90% !important;
+        }
         #item-individual-wrap{
           display: table !important;
           margin: 0 auto !important;

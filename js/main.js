@@ -26,9 +26,7 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
    });
 
   //showing side menu on project page to get the attention of the user, and click function to activate the menu.
-  /*$('#menu-container').hide().delay(1000).queue(function(next) {
-      $(this).show({duration:1000, queue:false});
-   });*/
+  $('#menu-container').hide().delay(2000).show(1000);
 
    $( '#menu-tab' ).click(function(){ //animating the slide menu
      $('.menu').toggle('slide', { direction: 'right' }, 400);
@@ -52,12 +50,11 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
       });*/
 
 //animation to reveal .even-more-projects
-
 $('#view-more').click(function(){
   $('.even-more-projects').slideToggle(500);
 });
 
-//animation of anchor scrolling
+//animation of smooth anchor scrolling
  $(document).on('click', 'a', function(event){
 
     $('html,body').animate({
