@@ -58,6 +58,16 @@
 .item-container .item-wrap #process .process_pic {
   width: 100%;
 }
+.item-container .item-wrap #process .transition {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
 .item-container .item-wrap #item-individual-wrap {
   display: table;
   margin: 0 auto;

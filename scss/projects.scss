@@ -68,6 +68,17 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
           .process_pic{
             width: 100%;
           }
+
+          .transition {
+            -webkit-transform: scale(1.3);
+            -moz-transform: scale(1.3);
+            -o-transform: scale(1.3);
+            transform: scale(1.3);
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+          }
         }
 
         #item-individual-wrap{
