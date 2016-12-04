@@ -30,6 +30,9 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
         display: table;
         margin: 0 auto;
         width: 1120px;
+        #item-individual-wrap{
+          display: table;
+          margin: 0 auto;
         #project-scope{
           width: 60%;
           display: table;
@@ -48,7 +51,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
           }
         }
 
-        #process{
+        #process, #final-result, #whatlearndid{
           width: 60%;
           display: table;
           margin: 0 auto;
@@ -63,6 +66,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             line-height: normal;
             color: $black;
             font-weight: 400;
+            margin-bottom: 2em;
           }
 
           .process_pic{
@@ -81,9 +85,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
           }
         }
 
-        #item-individual-wrap{
-          display: table;
-          margin: 0 auto;
+
 
 
           #pui-gif{
@@ -91,7 +93,18 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             height: auto;
             width: 340px;
             border-radius: 24px;
+          }
 
+          #live{
+            text-align: center;
+            background-color: $orange;
+            color: #FFF;
+            padding: 10px;
+            border-radius: 6px;
+          }
+
+          a{
+            text-decoration: none !important;
           }
       }
     }
@@ -313,6 +326,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
       ul{
         list-style: none;
         margin: 25px 0px 0px -20px;
+
         li{
           display: block;
           padding: 20px 5px 15px 10px;
