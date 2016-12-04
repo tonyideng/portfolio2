@@ -218,26 +218,27 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
 
 
     #menu-tab{
-      background-color: #dcdcdc;
+      background-color: #DEDEDE;
       width: 35px;
       height: 292px;
-      border-right: 2px solid #EEEEEE;
+      border-right: 3px solid #E0e0e0;
       border-radius: 6px 0px 0px 6px;
       position: fixed;
       right: 0;
       margin-left: 210px;
-      top: 13em;
+      top: 14.5em;
       z-index: 1000;
+
 
       #list{
         height: 20px;
         width: auto;
-        margin: 125px 0px 0px 7px;
+        margin: 135px 0px 0px 7px;
       }
 
       &:hover{
         cursor: pointer;
-        background-color: #dcdcdc;
+        background-color: #d2d2d2;
 
       }
     }
@@ -246,17 +247,24 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
       display: none;
       background-color: #EEEEEE;
       width: 210px;
+      height: 360px;
       position: fixed;
       right: 0;
       font-family: $main-font;
-      top: 13em;
+      font-weight: 300;
+      font-size: 18px;
+      border-radius: 6px 0px 0px 6px;
+      top: 11.5em;
       z-index: 1000;
+      a{
+        text-decoration: none;
+      }
       ul{
         list-style: none;
-        margin-left: -10px;
+        margin: 25px 0px 0px -20px;
         li{
           display: block;
-          padding: 25px 5px 15px 10px;
+          padding: 20px 5px 15px 10px;
           transition: all .3s ease-in-out;
           -webkit-transition: all .3s ease-in-out;
           -moz-transition: all .3s ease-in-out;

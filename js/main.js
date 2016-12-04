@@ -31,8 +31,8 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
    });*/
 
    $( '#menu-tab' ).click(function(){ //animating the slide menu
-     $('.menu').toggle('slide', { direction: 'right' }, 700);
-       $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '210px' : '0px'}, 700);
+     $('.menu').toggle('slide', { direction: 'right' }, 400);
+       $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '210px' : '0px'}, 400);
    });
 
 
