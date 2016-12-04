@@ -54,6 +54,17 @@ $('#view-more').click(function(){
   $('.even-more-projects').slideToggle(500);
 });
 
+//zoom image on hover
+$('.process_pic').click(function() {
+    $(this).css("cursor", "pointer");
+    $(this).animate({width: "150%", height: "150%", }, 'slow');
+
+});
+ $('.process_pic').hover(function() {
+    $(this).animate({width: "100%"}, 'slow');
+
+});
+
 //animation of smooth anchor scrolling
  $(document).on('click', 'a', function(event){
 

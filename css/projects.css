@@ -39,6 +39,25 @@
   color: #585858;
   font-weight: 400;
 }
+.item-container .item-wrap #process {
+  width: 60%;
+  display: table;
+  margin: 0 auto;
+}
+.item-container .item-wrap #process h3 {
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  color: #FE777A;
+  font-weight: 400;
+}
+.item-container .item-wrap #process p {
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  line-height: normal;
+  color: #585858;
+  font-weight: 400;
+}
+.item-container .item-wrap #process .process_pic {
+  width: 100%;
+}
 .item-container .item-wrap #item-individual-wrap {
   display: table;
   margin: 0 auto;
