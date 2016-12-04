@@ -41,18 +41,26 @@ body {
   background: #FDFDFD;
   margin: auto;
 }
-body .introduction {
+body .introduction, body .about-me {
   display: none;
   text-align: center;
   margin-top: 100px;
 }
-body .introduction #avatar {
+body .introduction #avatar, body .about-me #avatar {
   text-align: center;
   height: 150px;
   width: auto;
   margin-bottom: 20px;
 }
-body .introduction h1 {
+body .introduction #avatar2, body .about-me #avatar2 {
+  text-align: center;
+  height: 300px;
+  width: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-top: -40px;
+}
+body .introduction h1, body .about-me h1 {
   width: 420px;
   color: #585858;
   font-family: Avenir Next, Gill Sans, sans-serif;
@@ -60,6 +68,39 @@ body .introduction h1 {
   font-weight: 300;
   display: table;
   margin: 0 auto;
+}
+body .introduction h2, body .about-me h2 {
+  width: 420px;
+  color: #585858;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+body .introduction a, body .about-me a {
+  text-align: left;
+  display: inline;
+  font-size: 16px;
+  color: #929292;
+  font-weight: 300;
+  margin-right: 25px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+}
+body .introduction a:hover, body .about-me a:hover {
+  color: #FE777A;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 body .project-intro {
   text-align: center;
