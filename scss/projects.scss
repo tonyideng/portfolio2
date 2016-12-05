@@ -111,12 +111,35 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             text-align: center;
             background-color: $orange;
             color: #FFF;
-            padding: 10px;
+            padding: 10px 20px 10px 20px;
             border-radius: 6px;
-          }
+            text-decoration: none;
+            font-family: $main-font;
+            display: table;
+            margin: 0 auto;
+            margin-bottom: 3em;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
 
-          a{
-            text-decoration: none !important;
+
+            &:hover{
+              -webkit-transition: all .3s ease-in-out;
+              -moz-transition: all .3s ease-in-out;
+              -ms-transition: all .3s ease-in-out;
+              -o-transition: all .3s ease-in-out;
+              transition: all .3s ease-in-out;
+              cursor: pointer;
+              transform: scale(1.05);
+              background-color: $orange;
+              -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
+              -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
+              box-shadow: 3px 3px 0px 0px #FFAFAD;
+
+            }
+
           }
       }
     }

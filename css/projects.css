@@ -94,11 +94,31 @@
   text-align: center;
   background-color: #FE777A;
   color: #FFF;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   border-radius: 6px;
+  text-decoration: none;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
-.item-container .item-wrap #item-individual-wrap a {
-  text-decoration: none !important;
+.item-container .item-wrap #item-individual-wrap #live:hover {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #FE777A;
+  -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
+  -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
+  box-shadow: 3px 3px 0px 0px #FFAFAD;
 }
 .item-container .divider {
   height: 1px;
