@@ -11,7 +11,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
   #nav-link-wrap{
     text-align: center;
    a{
-     padding: 2px 20px 8px 20px;
+     padding: 2px 20px 13px 20px;
      text-decoration: none;
      font-family: $main-font;
      display: inline-block;
@@ -47,9 +47,15 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
  }
 }
 
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 body{
   background: #FDFDFD;
-  margin:auto;
+  margin: 0 0 100px; /* bottom = footer height */
+
 
 .introduction, .about-me{
   display: none;
@@ -178,6 +184,10 @@ body{
 
           }
 
+          &:active{
+            background-color: #EC5B5F;
+          }
+
         }
       }
 
@@ -259,8 +269,10 @@ body{
                       transform: translateY(-10px);
                       cursor: pointer;
                       transform: scale(1.05);
+              }
 
-
+              &:active{
+                opacity: .6;
               }
 
             }
@@ -273,7 +285,7 @@ body{
             }*/
 
             .project-label{
-              padding: 5px 0px 0px 0px;
+              padding: 8px 0px 0px 0px;
               text-align: left;
               font-family: Avenir Next, Gill Sans, sans-serif;
               color: #585858;
@@ -354,12 +366,11 @@ body{
 
 #footer{
   background-color: #EEEEEE;
-  width: 100%;
-  height: 100px;
-  margin-top: 45%;
-  bottom: 0;
+  position: absolute;
   left: 0;
-  clear: both;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
 
 
   .footer-text{
@@ -367,14 +378,14 @@ body{
     font-family: Avenir Next, Gill Sans, sans-serif;
     font-size: 12px;
     text-align: center;
-    padding-top: 3.5em;
+    padding-top: 3em;
   }
 }
 
 .back-to-top{
   text-align: center;
-  margin-top: 16em;
-  margin-bottom: 20em;
+  margin-top: 8em;
+  margin-bottom: 15em;
   position: relative;
     img{
     height: auto;

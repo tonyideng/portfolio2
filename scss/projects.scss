@@ -21,8 +21,6 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
   }
 }
 
-
-
 .item-container{
   margin-top: 150px;
     display: none;
@@ -155,7 +153,6 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
 
     #more-projects-container{
       margin-top: 4em;
-      height: 200px;
 
       h2{
         text-align: center;
@@ -229,9 +226,10 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             cursor: pointer;
             transform: scale(1.05);
           }
+
         }
       }
-      }
+    }
       #view-more{
         background-color: #419bf9;
         font-family: $main-font;
@@ -261,12 +259,16 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
           box-shadow: 3px 3px 0px 0px #416BF9;
           transform: scale(1.02);
           cursor: pointer;
+          background-color: #2A89F8;
+        }
+        &:active{
+          opacity: .6;
         }
       }
 
         .back-to-top-2{
           text-align: center;
-          margin-top: 12em;
+          margin: 10em 0em 8em 0em;
             img{
             height: auto;
             width: 55px;
@@ -296,25 +298,23 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
 
 #footer{
   background-color: #EEEEEE;
-  width: 100%;
-  height: 100px;
-  margin-top: 70em;
-  bottom: 0;
+  background-color: #EEEEEE;
+  position: absolute;
   left: 0;
-  clear: both;
-
+  bottom: 0;
+  height: 80px;
+  width: 100%;
 
   .footer-text{
     color: #9B9B9B;
     font-family: Avenir Next, Gill Sans, sans-serif;
     font-size: 12px;
     text-align: center;
-    padding-top: 3.5em;
+    padding-top: 3em;
   }
 }
 
 #menu-container{
-
 
     #menu-tab{
       background-color: #AAD1FF;
@@ -327,6 +327,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
       margin-left: 210px;
       top: 14.5em;
       z-index: 1000;
+      display: none;
 
 
       #list{
@@ -338,13 +339,15 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
       &:hover{
         cursor: pointer;
         background-color: #89BFFD;
-
+      }
+      &:active{
+        background-color: #5299ED;
       }
     }
 
     .menu{
       display: none;
-      background-color: #EEEEEE;
+      background-color: #F0F0F0;
       width: 210px;
       height: 360px;
       position: fixed;

@@ -130,7 +130,6 @@
 }
 .item-container #more-projects-container {
   margin-top: 4em;
-  height: 200px;
 }
 .item-container #more-projects-container h2 {
   text-align: center;
@@ -231,10 +230,14 @@
   box-shadow: 3px 3px 0px 0px #416BF9;
   transform: scale(1.02);
   cursor: pointer;
+  background-color: #2A89F8;
+}
+.item-container #more-projects-container #view-more:active {
+  opacity: .6;
 }
 .item-container #more-projects-container .back-to-top-2 {
   text-align: center;
-  margin-top: 12em;
+  margin: 10em 0em 8em 0em;
 }
 .item-container #more-projects-container .back-to-top-2 img {
   height: auto;
@@ -261,19 +264,19 @@
 
 #footer {
   background-color: #EEEEEE;
-  width: 100%;
-  height: 100px;
-  margin-top: 70em;
-  bottom: 0;
+  background-color: #EEEEEE;
+  position: absolute;
   left: 0;
-  clear: both;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
 }
 #footer .footer-text {
   color: #9B9B9B;
   font-family: Avenir Next, Gill Sans, sans-serif;
   font-size: 12px;
   text-align: center;
-  padding-top: 3.5em;
+  padding-top: 3em;
 }
 
 #menu-container #menu-tab {
@@ -287,6 +290,7 @@
   margin-left: 210px;
   top: 14.5em;
   z-index: 1000;
+  display: none;
 }
 #menu-container #menu-tab #list {
   height: 20px;
@@ -297,9 +301,12 @@
   cursor: pointer;
   background-color: #89BFFD;
 }
+#menu-container #menu-tab:active {
+  background-color: #5299ED;
+}
 #menu-container .menu {
   display: none;
-  background-color: #EEEEEE;
+  background-color: #F0F0F0;
   width: 210px;
   height: 360px;
   position: fixed;
@@ -400,3 +407,5 @@
     width: 90% !important;
   }
 }
+
+/*# sourceMappingURL=projects.css.map */

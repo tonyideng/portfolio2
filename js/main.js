@@ -26,7 +26,7 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
    });
 
   //showing side menu on project page to get the attention of the user, and click function to activate the menu.
-  $('#menu-container').hide().delay(2000).show(1000);
+  $('#menu-tab').delay(1500).show("slide",{ direction: 'right' }, 1500);
 
    $( '#menu-tab' ).click(function(){ //animating the slide menu
      $('.menu').toggle('slide', { direction: 'right' }, 400);
