@@ -20,7 +20,7 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
      $('.item-container').animate({'margin-top': '40px'}, 900);
 //  });
 
-  //fading in sub-intro delay
+  //fading in view projects button (delayed)
   $('.project-intro').hide().delay(1000).queue(function(next) {
       $(this).fadeIn({duration:1000, queue:false}).animate({'margin-top':  '40px'}, {duration:1000, queue:false});
    });
