@@ -227,12 +227,12 @@ body{
 
   .project-container{
     margin-top: 130px;
-      display: none;
+      //display: none;
       .project-wrap{
           display: table;
           margin: 0 auto;
           width: 100%;
-          background-color: #FAFAFA;
+          //background-color: #F8F8F8;
           padding: 40px 0px 40px 0px;
 
           #individual-wrap{
@@ -243,21 +243,19 @@ body{
           .project{
               display: inline-block;
               text-align: center;
+              background-color: #fff;
+              height: 310px;
+              width: 300px;
               margin: 35px;
               margin-bottom: 30px;
-
-            img{
-              object-fit: cover;
-              height: 260px;
-              width: 300px;
-              border-radius: 13px;
-              opacity: .9;
-              transition: all .3s ease-in-out;
+              border-radius: 4px;
               -webkit-transition: all .3s ease-in-out;
               -moz-transition: all .3s ease-in-out;
               -ms-transition: all .3s ease-in-out;
               -o-transition: all .3s ease-in-out;
-
+              -webkit-box-shadow: 0px 2px 4px 0px #dcdcdc;
+              -moz-box-shadow: 0px 2px 4px 0px #dcdcdc;
+              box-shadow: 0px 2px 4px 0px #dcdcdc;
 
               &:hover{
                 opacity: 1;
@@ -268,7 +266,27 @@ body{
                    -o-transform: translateY(-10px);
                       transform: translateY(-10px);
                       cursor: pointer;
-                      transform: scale(1.05);
+                      transform: scale(1.03);
+
+              }
+
+            img{
+              object-fit: cover;
+              height: 260px;
+              width: 300px;
+              border-radius: 4px 4px 0px 0px;
+              opacity: .93;
+              transition: all .3s ease-in-out;
+
+              &:hover{
+                opacity: 1;
+                transition: all .3s ease-in-out;
+                -webkit-transform: translateY(-5px);
+                 -moz-transform: translateY(-5px);
+                  -ms-transform: translateY(-5px);
+                   -o-transform: translateY(-5px);
+                      transform: translateY(-5px);
+                      cursor: pointer;
               }
 
               &:active{
@@ -285,11 +303,11 @@ body{
             }*/
 
             .project-label{
-              padding: 8px 0px 0px 0px;
+              padding: 8px 0px 8px 13px;
               text-align: left;
               font-family: Avenir Next, Gill Sans, sans-serif;
               color: #585858;
-              font-weight: 500;
+              font-weight: 400;
             }
 
           }
@@ -441,14 +459,6 @@ body{
 
   .current-past-projects{
     width: 95% !important;
-
-    #current-wrap{
-      float: none !important;
-    }
-
-    #past-wrap{
-      float: none !important;
-    }
   }
 
   .project-wrap{
@@ -460,7 +470,6 @@ body{
 
           img{
             object-fit: cover;
-            height: 100% !important;
             width: 100% !important;
             border-radius: 4px;
 

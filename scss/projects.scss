@@ -168,34 +168,64 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
 
         .ind-project{
           display: inline-block;
+          background-color: #fff;
+          height: 310px;
+          width: 300px;
+          margin: 15px;
+          border-radius: 4px;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+          -webkit-box-shadow: 0px 2px 4px 0px #dcdcdc;
+          -moz-box-shadow: 0px 2px 4px 0px #dcdcdc;
+          box-shadow: 0px 2px 4px 0px #dcdcdc;
+
+          &:hover{
+            opacity: 1;
+            transition: all .3s ease-in-out;
+            -webkit-transform: translateY(-10px);
+             -moz-transform: translateY(-10px);
+              -ms-transform: translateY(-10px);
+               -o-transform: translateY(-10px);
+                  transform: translateY(-10px);
+                  cursor: pointer;
+                  transform: scale(1.03);
+
+          }
 
           .project-label{
-            padding: 0px 0px 25px 0px;
+            padding: 5px 0px 0px 0px;
             text-align: left;
             font-family: Avenir Next, Gill Sans, sans-serif;
             color: #585858;
-            font-weight: 500;
+            font-weight: 400;
             text-indent: 12px;
           }
           img{
             object-fit: cover;
             height: 260px;
             width: 300px;
-            padding: 10px;
-            border-radius: 18px;
+            border-radius: 4px 4px 0px 0px;
             transition: all .3s ease-in-out;
             -webkit-transition: all .3s ease-in-out;
             -moz-transition: all .3s ease-in-out;
             -ms-transition: all .3s ease-in-out;
             -o-transition: all .3s ease-in-out;
+            opacity: .93;
 
             &:hover{
               -webkit-transition: all .3s ease-in-out;
               -moz-transition: all .3s ease-in-out;
               -ms-transition: all .3s ease-in-out;
               -o-transition: all .3s ease-in-out;
+              -webkit-transform: translateY(-5px);
+               -moz-transform: translateY(-5px);
+                -ms-transform: translateY(-5px);
+                 -o-transform: translateY(-5px);
+                    transform: translateY(-5px);
               cursor: pointer;
-              transform: scale(1.05);
+              opacity: 1;
             }
           }
         }
@@ -206,25 +236,50 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
         margin: 0 auto;
         .ind-project{
           display: inline-block;
+          background-color: #fff;
+          height: 310px;
+          width: 300px;
+          margin: 15px;
+          border-radius: 4px;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+          -webkit-box-shadow: 0px 2px 4px 0px #dcdcdc;
+          -moz-box-shadow: 0px 2px 4px 0px #dcdcdc;
+          box-shadow: 0px 2px 4px 0px #dcdcdc;
+
+          &:hover{
+            opacity: 1;
+            transition: all .3s ease-in-out;
+                  cursor: pointer;
+                  transform: scale(1.03);
+
+          }
         img{
           object-fit: cover;
           height: 260px;
           width: 300px;
-          padding: 10px;
-          border-radius: 18px;
+          border-radius: 4px 4px 0px 0px;
           transition: all .3s ease-in-out;
           -webkit-transition: all .3s ease-in-out;
           -moz-transition: all .3s ease-in-out;
           -ms-transition: all .3s ease-in-out;
           -o-transition: all .3s ease-in-out;
+          opacity: .93;
 
           &:hover{
             -webkit-transition: all .3s ease-in-out;
             -moz-transition: all .3s ease-in-out;
             -ms-transition: all .3s ease-in-out;
             -o-transition: all .3s ease-in-out;
+            -webkit-transform: translateY(-5px);
+             -moz-transform: translateY(-5px);
+              -ms-transform: translateY(-5px);
+               -o-transform: translateY(-5px);
+                  transform: translateY(-5px);
             cursor: pointer;
-            transform: scale(1.05);
+            opacity: 1;
           }
 
         }
@@ -361,11 +416,11 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
       a{
         text-decoration: none;
         &:link{
-               color: $gray;
+               color: $black;
              }
 
              &:visited{
-               color: $gray;
+               color: $black;
              }
       }
       ul{
@@ -446,7 +501,6 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
 
     #more-projects-container{
       margin-top: 5em;
-      height: 200px;
       .more-projects{
         width: 90% !important;
         img{
