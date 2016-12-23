@@ -4,9 +4,9 @@ $black: #585858;
 $main-font: Avenir Next, Gill Sans, sans-serif;
 
 #navbar{
-  background: #EEEEEE;
+  background: #FDFDFD;
   height: 20px;
-  padding: 14px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
   width: 100%;
   #nav-link-wrap{
     text-align: center;
@@ -60,7 +60,7 @@ body{
 .introduction, .about-me{
   display: none;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
 
   #avatar{
     text-align: center;
@@ -383,7 +383,7 @@ body{
 }
 
 #footer{
-  background-color: #EEEEEE;
+  background-color: #F4F4F4;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -436,9 +436,8 @@ body{
 @media screen and (min-width: 300px) and (max-width: 800px){
 
   #navbar{
-    background: #EEEEEE;
     height: 20px;
-    padding: 20px 0px 17px 0px;
+    padding: 18px 0px 17px 0px;
     width: 100%;
 
   }

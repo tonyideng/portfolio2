@@ -1,7 +1,7 @@
 #navbar {
-  background: #EEEEEE;
+  background: #FDFDFD;
   height: 20px;
-  padding: 14px 0px 20px 0px;
+  padding: 20px 0px 20px 0px;
   width: 100%;
 }
 #navbar #nav-link-wrap {
@@ -50,7 +50,7 @@ body {
 body .introduction, body .about-me {
   display: none;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 body .introduction #avatar, body .about-me #avatar {
   text-align: center;
@@ -326,7 +326,7 @@ body .past-project-container .past-project-wrap #past-individual-wrap .past-proj
 }
 
 #footer {
-  background-color: #EEEEEE;
+  background-color: #F4F4F4;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -372,9 +372,8 @@ body .past-project-container .past-project-wrap #past-individual-wrap .past-proj
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
   #navbar {
-    background: #EEEEEE;
     height: 20px;
-    padding: 20px 0px 17px 0px;
+    padding: 18px 0px 17px 0px;
     width: 100%;
   }
 
