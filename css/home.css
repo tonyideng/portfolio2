@@ -50,7 +50,7 @@ body {
 body .introduction, body .about-me {
   display: none;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 body .introduction #avatar, body .about-me #avatar {
   text-align: center;
@@ -196,7 +196,6 @@ body .project-intro .current-past-projects #current-wrap #current-projects:activ
 }
 body .project-container {
   margin-top: 130px;
-  display: none;
 }
 body .project-container .project-wrap {
   display: table;
