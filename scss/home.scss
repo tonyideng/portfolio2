@@ -143,7 +143,6 @@ body{
     .current-past-projects{
       display: table;
       margin: 0 auto;
-      width: 450px;
       #current-wrap{
         margin: 0 auto;
         display: table;
@@ -227,27 +226,26 @@ body{
 
   .project-container{
     margin-top: 130px;
-    display: none;
+    //display: none;
       .project-wrap{
-          display: table;
-          margin: 0 auto;
-          width: 100%;
           //background-color: #F8F8F8;
-          padding: 40px 0px 40px 0px;
+          //padding: 40px 0px 40px 0px;
+          width: 100%;
+          height: auto;
+          margin: 15% 0;
+          text-align: center;
 
           #individual-wrap{
-            display: table;
+            width: 85%;
             margin: 0 auto;
-            width: 1120px;
+            display: table;
 
           .project{
               display: inline-block;
-              text-align: center;
               background-color: #fff;
               height: 310px;
               width: 300px;
-              margin: 35px;
-              margin-bottom: 30px;
+              margin: 20px;
               border-radius: 4px;
               -webkit-transition: all .3s ease-in-out;
               -moz-transition: all .3s ease-in-out;
@@ -402,7 +400,6 @@ body{
 
 .back-to-top{
   text-align: center;
-  margin-top: 8em;
   margin-bottom: 15em;
   position: relative;
     img{
@@ -428,9 +425,12 @@ body{
     }
     }
 }
-
-
-
+//large screen views
+@media screen and (min-width: 1680px) and (max-width: 2440px){
+  #individual-wrap{
+    width: 1120px !important;
+  }
+}
 //Mobile Views
 
 @media screen and (min-width: 300px) and (max-width: 800px){
@@ -457,15 +457,15 @@ body{
   }
 
   .current-past-projects{
-    width: 95% !important;
+    width: 90% !important;
   }
 
   .project-wrap{
-        width: 90% !important;
+        width: 100% !important;
         #individual-wrap{
           display: table !important;
           margin: 0 auto !important;
-          width: 90% !important;
+          width: 100% !important;
 
           img{
             object-fit: cover;
