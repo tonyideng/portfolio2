@@ -234,9 +234,10 @@
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
-  -webkit-box-shadow: 0px 2px 4px 0px #dcdcdc;
-  -moz-box-shadow: 0px 2px 4px 0px #dcdcdc;
-  box-shadow: 0px 2px 4px 0px #dcdcdc;
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 .item-container #more-projects-container .more-projects .ind-project:hover {
   opacity: 1;
@@ -297,9 +298,10 @@
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
-  -webkit-box-shadow: 0px 2px 4px 0px #dcdcdc;
-  -moz-box-shadow: 0px 2px 4px 0px #dcdcdc;
-  box-shadow: 0px 2px 4px 0px #dcdcdc;
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.04);
 }
 .item-container #more-projects-container .even-more-projects .ind-project:hover {
   opacity: 1;
