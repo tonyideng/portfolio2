@@ -30,7 +30,7 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
 
    $( '#menu-tab' ).click(function(){ //animating the slide menu
      $('.menu').toggle('slide', { direction: 'right' }, 400);
-       $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '210px' : '0px'}, 400);
+       $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '215px' : '0px'}, 400);
    });
 
 
@@ -54,15 +54,9 @@ $('#view-more').click(function(){
   $('.even-more-projects').slideToggle(500);
 });
 
-//zoom image on hover
+//zoom image on click
 $('.process_pic').click(function() {
-    $(this).css("cursor", "pointer");
-    $(this).animate({width: "150%", height: "150%", }, 'slow');
-
-});
- $('.process_pic').hover(function() {
-    $(this).animate({width: "100%"}, 'slow');
-
+    $(this).toggleClass('transition');
 });
 
 //animation of smooth anchor scrolling
