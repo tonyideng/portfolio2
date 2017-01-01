@@ -13,7 +13,7 @@
   font-family: Avenir Next, Gill Sans, sans-serif;
   display: inline-block;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 200;
   transition: all .25s ease-in-out;
 }
 #navbar #nav-link-wrap a:link {
@@ -71,7 +71,7 @@ body .introduction h1, body .about-me h1 {
   color: #585858;
   font-family: Avenir Next, Gill Sans, sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 200;
   display: table;
   margin: 0 auto;
 }
@@ -165,7 +165,7 @@ body .project-intro .current-past-projects #current-wrap #current-projects {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
-  margin-top: 1em;
+  margin-top: 1px;
   font-family: Avenir Next, Gill Sans, sans-serif;
   cursor: default;
   background-color: #FE777A;
@@ -202,6 +202,9 @@ body .project-container .project-wrap {
   height: auto;
   margin: 15% 0;
   text-align: center;
+}
+body .project-container .project-wrap #anchor-home {
+  height: 35px;
 }
 body .project-container .project-wrap #individual-wrap {
   width: 85%;
@@ -269,59 +272,6 @@ body .project-container .project-wrap #individual-wrap .project .project-label {
   color: #585858;
   font-weight: 500;
 }
-body .past-project-container {
-  margin-top: 130px;
-  display: none;
-}
-body .past-project-container .past-project-wrap {
-  display: table;
-  margin: 0 auto;
-  width: 100%;
-  background-color: #EEEEEE;
-}
-body .past-project-container .past-project-wrap #past-individual-wrap {
-  display: table;
-  margin: 0 auto;
-  width: 1120px;
-}
-body .past-project-container .past-project-wrap #past-individual-wrap .past-project {
-  display: inline-block;
-  text-align: center;
-  margin: 55px;
-  margin-bottom: 30px;
-  /*.divider{
-    margin-top: 5px;
-    height: 1px;
-    width: 100%;
-    border-bottom: 1px solid #dcdcdc;
-  }*/
-}
-body .past-project-container .past-project-wrap #past-individual-wrap .past-project img {
-  object-fit: cover;
-  height: 260px;
-  width: 260px;
-  border-radius: 500px;
-  opacity: .9;
-}
-body .past-project-container .past-project-wrap #past-individual-wrap .past-project img:hover {
-  opacity: 1;
-  transition: all .3s ease-in-out;
-  /*-webkit-transform: translateY(-10px);
-   -moz-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-     -o-transform: translateY(-10px);
-        transform: translateY(-10px);*/
-  cursor: pointer;
-  transform: scale(1.05);
-  border-radius: 30px;
-}
-body .past-project-container .past-project-wrap #past-individual-wrap .past-project .past-project-label {
-  padding: 5px 0px 0px 0px;
-  text-align: left;
-  font-family: Avenir Next, Gill Sans, sans-serif;
-  color: #585858;
-  font-weight: 500;
-}
 
 #footer {
   background-color: #F4F4F4;
@@ -341,8 +291,8 @@ body .past-project-container .past-project-wrap #past-individual-wrap .past-proj
 
 .back-to-top {
   text-align: center;
-  margin-bottom: 15em;
-  position: relative;
+  margin-bottom: 10em;
+  margin-top: -100px;
 }
 .back-to-top img {
   height: auto;
@@ -370,6 +320,10 @@ body .past-project-container .past-project-wrap #past-individual-wrap .past-proj
 @media screen and (min-width: 1680px) and (max-width: 2440px) {
   #individual-wrap {
     width: 1120px !important;
+  }
+
+  .back-to-top {
+    display: none;
   }
 }
 @media screen and (min-width: 300px) and (max-width: 800px) {

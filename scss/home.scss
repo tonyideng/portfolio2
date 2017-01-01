@@ -16,7 +16,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
      font-family: $main-font;
      display: inline-block;
      font-size: 18px;
-     font-weight: 300;
+     font-weight: 200;
      transition: all .25s ease-in-out;
 
 
@@ -83,7 +83,7 @@ body{
       color: $black;
       font-family: $main-font;
       font-size: 18px;
-      font-weight: 300;
+      font-weight: 200;
       display: table;
       margin: 0 auto;
     }
@@ -155,7 +155,7 @@ body{
           font-size: 16px;
           font-weight: 400;
           color: #fff;
-          margin-top: 1em;
+          margin-top: 1px;
           font-family: $main-font;
           cursor: default;
           background-color: $orange;
@@ -234,6 +234,10 @@ body{
           height: auto;
           margin: 15% 0;
           text-align: center;
+
+          #anchor-home{
+            height: 35px;
+          }
 
           #individual-wrap{
             width: 85%;
@@ -314,71 +318,6 @@ body{
       }
   }
 
-
-
-  .past-project-container{
-    margin-top: 130px;
-      display: none;
-      .past-project-wrap{
-          display: table;
-          margin: 0 auto;
-          width: 100%;
-          background-color: #EEEEEE;
-          #past-individual-wrap{
-            display: table;
-            margin: 0 auto;
-            width: 1120px;
-
-          .past-project{
-              display: inline-block;
-              text-align: center;
-              margin: 55px;
-              margin-bottom: 30px;
-
-            img{
-              object-fit: cover;
-              height: 260px;
-              width: 260px;
-              border-radius: 500px;
-              opacity: .9;
-
-              &:hover{
-                opacity: 1;
-                transition: all .3s ease-in-out;
-                /*-webkit-transform: translateY(-10px);
-                 -moz-transform: translateY(-10px);
-                  -ms-transform: translateY(-10px);
-                   -o-transform: translateY(-10px);
-                      transform: translateY(-10px);*/
-                      cursor: pointer;
-                      transform: scale(1.05);
-                      border-radius: 30px;
-
-
-              }
-
-            }
-
-            /*.divider{
-              margin-top: 5px;
-              height: 1px;
-              width: 100%;
-              border-bottom: 1px solid #dcdcdc;
-            }*/
-
-            .past-project-label{
-              padding: 5px 0px 0px 0px;
-              text-align: left;
-              font-family: Avenir Next, Gill Sans, sans-serif;
-              color: #585858;
-              font-weight: 500;
-            }
-
-          }
-        }
-      }
-  }
-
 }
 
 #footer{
@@ -401,8 +340,8 @@ body{
 
 .back-to-top{
   text-align: center;
-  margin-bottom: 15em;
-  position: relative;
+  margin-bottom: 10em;
+  margin-top: -100px;
     img{
     height: auto;
     width: 55px;
@@ -431,6 +370,11 @@ body{
   #individual-wrap{
     width: 1120px !important;
   }
+
+  .back-to-top{
+    display: none;
+  }
+
 }
 //Mobile Views
 
