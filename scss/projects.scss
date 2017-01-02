@@ -196,19 +196,19 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             width: 315px;
             border-radius: 15px;
           }
-        }
 
           #live{
             text-align: center;
             background-color: $orange;
             color: #FFF;
-            padding: 10px 20px 10px 20px;
+            padding: 10px 40px 10px 40px;
             border-radius: 3px;
             text-decoration: none;
             font-family: $main-font;
             display: table;
             margin: 0 auto;
-            margin-bottom: 5em;
+            margin-top: 1.5em;
+            margin-bottom: 2em;
             -webkit-transition: all .3s ease-in-out;
             -moz-transition: all .3s ease-in-out;
             -ms-transition: all .3s ease-in-out;
@@ -232,6 +232,9 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             }
 
           }
+        }
+
+
       }
     }
 
@@ -251,7 +254,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
         text-align: center;
         font-family: $main-font;
         color: $gray;
-        font-weight: 300;
+        font-weight: 200;
         margin-bottom: 1.5em;
       }
 
