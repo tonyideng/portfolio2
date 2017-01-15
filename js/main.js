@@ -49,9 +49,13 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
           $(".project-container").fadeOut(1500);
       });*/
 
-//animation to reveal .even-more-projects
+//animation to reveal .even-more-projects, and others
 $('#view-more').click(function(){
   $('.even-more-projects').slideToggle(500);
+});
+
+$('#reveal').click(function(){ //on lurkers.html
+  $('#narrative').slideToggle(500);
 });
 
 //zoom image on click

@@ -102,26 +102,87 @@
       <p>For the website, we created a basic sketch of what we wanted it to feature.
       We decided to build a viewer interface in a website. This way, viewers are able to access the cameras in order to see the position of the ghost, and are able to interact with streamer. </p>
 
+      <p class="reason"><span class="reason-header">Why?</span></br>Originally we thought we could integrate our UI into Twitch itself, however we realized that was not
+      feasible in the initial 5 weeks we had.  </p>
+
+    <p class="reason">Instead, we opted to stream the gameplay on a seperate website where we can easily custom build the UI we wanted for viewers
+  to interact with.</p>
+
+  <h2 class="process-stage-title">3 - Implementation</h2>
+  <p> We decided that our game should have a narrative, so that the player can feel more immersive about the tasks he/she will have to accomplish in the game.</p>
+  <p id="narrative" style ="display: none; background-color: #f7f7f7; padding: 15px; border-radius: 3px;"> Scene 1: Introduction<br><br>
+
+      “Alone. Yes, that's the key word, the most awful word in the English tongue. Murder doesn't hold a candle to it and hell is only a poor synonym.”
+      ― Stephen King<br><br>
+
+      Samantha Price is a scholar and an avid fan of the occult. She spends her free time traveling to allegedly “haunted” locales trying to gather evidence of the paranormal. She sets up cameras and audio equipment, hoping to gather the data she needs to finish her documentary on the paranormal.
+      <br><br>
+      Aiding her in her endeavor are a handful of friends from across the country who watch the camera footage and update Samantha as events unfold. Despite having friends who are willing to accompany her, Samantha believes that she must hunt alone, as it is believed that ghosts fear crowds, and she also believes that having multiple footsteps and multiple voices can dilute the evidence, thus making it less credible.
+      <br><br>
+       So, as always, Samantha is all by herself for the investigation.
+
+      Today, she has come to the abandoned Vaturo estate in rural New York. It is the former residence of Dr. Vincent Vaturo, a psychologist who, over time, transition into an experimental physicist. His goal was to see if the psyche could be split into its separate parts to be studied.
+      <br><br>
+      Dr. Vaturo, during an experiment gone wrong, is said to have successfully split his psyche, killing him. It is rumored that Dr. Vaturo, who died tragically in the house, now haunts the house as a malicious spirit that seeks to find a new body to possess and continue his research.
+      <br><br>
+      (Transition)
+      <br><br>
+      Scene 2: The Hook
+      <br><br>
+      Samantha comes to the house at 7 o’clock PM on August 13th, 2017 to set up her equipment. The house is spacious and well preserved, with everything that Vaturo owned still in the place that it was when he died. Samantha wonders why this is the case. She puts a camera and microphone in each room of the house, double checking each piece of equipment to make sure that it works. At approximately 10:05 PM, Samantha remembers that she has left her own personal camera in her car, and tries to leave the house to go out to her car and quickly discovers that the front door has been sealed shut by a mysterious force.
+      <br><br>
+
+      Suddenly, a gust of wind rushes through the hallway, and to Samantha’s shock, a spectre appears in the hallway. (Show picture of the ghost)
+
+      Samantha is frozen. Even her mind has paused, unable to think or to ponder.  The specter slowly wanders toward Samantha, eagerly eyeing her with hunger and lust. It begins to open its maws in an otherworldly yawn-like gesture, eager to devour her. Time has frozen as Samantha’s life flashes before her eyes; her past becomes a whirlwind of memories and distant beauty as the horror of a final present looms before her eyes. The specter of death lowers its face to Samantha’s and begins to inhale, and Samantha begins to feel her spirit lift from her body. She is helpless, lost, and cold.
+      <br><br>
+      Then it happens.
+      <br><br>
+      The sound of an object falling in the sitting room startles the spectre of Vincent Vaturo, and he halts his feast to go investigate. Samantha’s spirit falls back into place, and she regains her senses and strength and promptly runs off into the adjacent room, shutting the door behind her. She finds a letter on the nearby table, and this is where our story begins…
+      <br><br>
+
+      Scene 3: The Conclusion
+      <br><br>
+
+      Once the exorcism has been performed, the ghost yells out and is swallowed in a cloud of light, disappearing from sight. Upbeat music starts playing, the game ends, and the player receives the following message:
+
+      “Congratulations! Not only did you survive the night, but you defeated the spirit of the rogue doctor! Now the doctor and his family can rest peacefully, and Samantha is safe. The door unlocks and Samantha doesn’t even bother picking up her equipment, and instead promptly starts her car and leaves. She isn’t sure if she will ever ghost hunt again. For now, her and her team decide to take a break from it and become involved in charity work. In particular, they decide to volunteer to help people with mental illness.
+      <br><br>
+As for the house, several realtors attempted to sell it, to no avail. The dark history and general aura of the house deterred dozens of interested buyers. Eventually, an odd fellow by the name of Frederick Allman decided to buy the house and turn it into an occult museum. To this day, people from all over the world come and see various oddities and specimens, as well as to hear the story of one Dr. Vincent Vaturo, who is said to have learned how to separate the spirit from the body, and who is said to still haunt the hallways of the very house that the spectators are standing in. No one knows for sure if the stories are true.”
+ </p>
+  <p id="reveal">Read Full Narrative (5min read)</p>
+
+  <img class ="process_pic" src ="images/radar_1.png">
+  <p>We explored a simple UI for the player in the form of a mini-map or radar.</p>
+
+  <p class="reason"><span class="reason-header">Why?</span></br>We wanted the player to be immersed in the game but also have
+    an idea of his/her surroundings, and an actual Heads Up Display would take away from that. We decided the player can press a key to bring up some sort of navigation.</p>
+
+  <p class="insight"><span class="insight-header">Insights</span></br>Streamers have access to the layout of the house as well as the position of the ghost and themselves. This option makes the game more playable. However, it reduces the horror level.
+</p>
+
+<img class ="process_pic" src ="images/radar_2.png">
+<p>We decided to limit the information the player has to only roughly where the ghost is.</p>
+
+<p class="reason"><span class="reason-header">Why?</span></br>Players can only know the relative position of ghost to themselves. Because this is the only information about the ghost and the house, the game's horror level increases.</p>
+
+<p class="insight"><span class="insight-header">Insights</span></br>In this scenario, streamers will try to communicate more with the viewers to figure out the ghost's location, on top of being on edge as he/she explores the house.
+</p>
+
+ </p>
+
+
+
     </div>
 
     <div id="final-result">
-      <h3> Final Result </h3>
+      <h3> Final Result (Thus Far)</h3>
       <p>After testing the Mid and Hi-Fi prototypes, I built an interactive version using HTML, CSS and JavaScript. </p>
-
-      <div id="pui-wrap">
-
-
 
       <p>The eventual web version had some visual differences from the mock ups and the paper prototypes, but the
       core functions remained the same. I leveraged CSS and JQuery animations to emulate the real user experience of
       using the app in mobile and web forms.
      </p>
-
-
-
-    </div>
-
-
 
     </div>
 

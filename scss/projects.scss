@@ -177,6 +177,40 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
           }
         }
 
+        #reveal{
+          text-align: center;
+          background-color: $orange;
+          color: #FFF !important;
+          padding: 10px 40px 10px 40px;
+          border-radius: 3px;
+          text-decoration: none;
+          font-family: $main-font;
+          display: table;
+          margin: 0 auto;
+          margin-top: -1.5em;
+          margin-bottom: 2em;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+
+
+          &:hover{
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            cursor: pointer;
+            transform: scale(1.05);
+            background-color: $orange;
+            -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
+            -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
+            box-shadow: 3px 3px 0px 0px #FFAFAD;
+
+          }
+        }
 
 
         #pui-wrap{
@@ -197,6 +231,8 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             width: 315px;
             border-radius: 15px;
           }
+
+
 
           #live{
             text-align: center;
