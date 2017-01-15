@@ -2,7 +2,7 @@
   display: none;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   margin-left: -50px;
   margin-top: -22px;
 }
@@ -129,6 +129,7 @@
 .item-container .item-wrap #item-individual-wrap #process .process_pic, .item-container .item-wrap #item-individual-wrap #final-result .process_pic, .item-container .item-wrap #item-individual-wrap #whatlearndid .process_pic {
   width: 100%;
   margin-bottom: -10px;
+  margin-top: 20px;
   border-radius: 3px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
