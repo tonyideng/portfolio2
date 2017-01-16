@@ -178,6 +178,46 @@ As for the house, several realtors attempted to sell it, to no avail. The dark h
   how each room should look in order to create a better horror atmosphere.
 </p>
 
+<img class ="process_pic" src ="images/model_1.png">
+<img class ="process_pic" src ="images/model_2.png">
+<img class ="process_pic" src ="images/model_3.png">
+<img class ="process_pic" src ="images/model_4.png">
+<img class ="process_pic" src ="images/model_5.png">
+
+<p>We created the house in Google SketchUp, and imported the 3D model into Unity later on.</p>
+
+<p class="reason"><span class="reason-header">Why?</span></br>We opted for building the level outside of Unity to take advantage of SkethUp's efficient 3D modeling features.
+We were able to iterate quickly and import those changes into Unity.</p>
+
+<p class="insight"><span class="insight-header">Insights</span></br>When we were adding textures to the model, we realized that certain patterns/colors evoke different emotions
+  for a player (familiarity, fear, confusion etc.)
+</p>
+
+<img class ="process_pic" src ="images/web_test.png">
+<p> We created 3 iterations of Hi-Fidelity mock ups of the web interface which the viewers would use, and conducted user studies using them to validate the UI design decisions we were making. </p>
+
+<img class ="process_pic" src ="images/web_1.png">
+<p> Solution 1 has a compact design, we sought to fit everything neatly. </p>
+<p class="reason"><span class="reason-header">Why?</span></br>We wanted to have the map bigger, and we didn't think the chat will be active.</p>
+<p class="insight"><span class="insight-header">Insights</span></br>When testing with users, we found out that the chat is extremely important, and we could only see 3 messages at a time.
+</p>
+<img class ="process_pic" src ="images/web_2.png">
+<p> In solution 2, we enlarged the chatbox and overlaid the map ontop of the camera stream. </p>
+<p class="reason"><span class="reason-header">Why?</span></br>We thought the map overlaid ontop of the camera stream would look cool and make way for the bigger chat box.</p>
+<p class="insight"><span class="insight-header">Insights</span></br>Although the chat was bigger, users felt the overlay very distracting and interacting with it funky.</p>
+
+<img class ="process_pic" src ="images/web_3.png">
+<p> In solution 3, we decided to sacrifice the screen real estate in order to fit both the chat box and map. </p>
+<p class="reason"><span class="reason-header">Why?</span></br>We found out that the camera stream didn't have to be as big as the main stream, this paved way for putting the map next to it.</p>
+<p class="insight"><span class="insight-header">Insights</span></br>When we tested this, our users were very satisfied with the layout. Based on their feedback, we decided to stick with this solution.</p>
+
+<img class ="process_pic" src ="images/web_4.png">
+<p> We implemented solution 3 using HTML/CSS/JS, and PHP for the backend. We also had to opt for still images from the camera instead of a live feed. </p>
+<p class="reason"><span class="reason-header">Why?</span></br>We realized using a live feed for the camera feed was too complicated, instead we opted for a simpler solution.</p>
+<p class="reason">We loaded the database with a set of still images that would trigger to show a version with a ghost if the ghost was in the room.</p>
+
+<p class="insight"><span class="insight-header">Insights</span></br>Thanks to our user studies, we were able to code the website knowing the design decisions were validated.</p>
+
  </p>
 
 
@@ -199,7 +239,7 @@ As for the house, several realtors attempted to sell it, to no avail. The dark h
       <span id="anchor-divider-1"></span>
       <div id="more-projects-container">
 
-        <h2> Here's a summary of what I did & learned in this project: </h2>
+        <h2> Here's a summary of what I contributed in this project: </h2>
     </div>
 
     <div id="whatlearndid">
@@ -207,21 +247,20 @@ As for the house, several realtors attempted to sell it, to no avail. The dark h
         <div id="did">
         <h3> What I Did </h3>
 
-        <p>Created rapid paper prototypes and conducted user tests to evaluate the effectiveness of each iteration.</p>
+        <p>Designed and implemented the house, textures, and details.</p>
 
-        <p>Used prototyping tools such as Sketch and Invision to visualize final design.</p>
+        <p>Coded the front end of the website for viewers.</p>
 
-        <p>Hand coded a functional mobile-optimized web prototype using HTML/CSS/JS from scratch.</p>
+        <p>Contributed to the atmosphere and lighting design.</p>
         </div>
 
         <div id="learned">
           <h3> What I Learned</h3>
-          <p>Rapid iteration and testing prevented me from having tunnel vision, I realized early on I had missed some features
-          that should've been there all along. </p>
+          <p>The level design of a game greatly impacts the player experience! From the general layout down to the details. </p>
 
-          <p>Mid to Hi-Fi prototyping can reveal previouly overlooked features in Lo-Fi prototypes!</p>
+          <p>Sometimes for practicality purposes, a design mock-up must be changed in order to function.</p>
 
-          <p>Greatly improved my knowledge of CSS and JS because I didn't rely on templates or Bootstrap.</p>
+          <p>For a horror game, the lighting and atmosphere make or break how scary the game could be.</p>
 
 
         </div>
@@ -242,9 +281,9 @@ As for the house, several realtors attempted to sell it, to no avail. The dark h
       <div class ="more-projects">
 
         <div class="ind-project">
-        <img src ="images/lurks.png">
-        <div class ="project-label"> What Lurks in the Dark </div>
-      </div>
+        <img src ="images/pui_main.png">
+        <div class ="project-label"> Interactive Web Prototype </div>
+        </div>
       <span id ="anchor-more"/>
 
       <div class="ind-project">
@@ -268,10 +307,11 @@ As for the house, several realtors attempted to sell it, to no avail. The dark h
             <div class ="project-label"> Adae.co </div>
           </div>
 
+
             <div class="ind-project">
-            <img src ="images/pui_main.png">
-            <div class ="project-label"> Interactive Web Prototype </div>
-            </div>
+            <img src ="images/lurks.png">
+            <div class ="project-label"> What Lurks in the Dark </div>
+          </div>
       </div>
       <a href="#anchor-more"<div id ="view-more"> View All</div></a>
       <a href="#navbar"><div class="back-to-top-2"><img src ="images/up-arrow.png"></div></a>
