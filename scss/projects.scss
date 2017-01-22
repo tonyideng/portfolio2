@@ -541,7 +541,6 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
       display: none;
       background-color: #F4F4F4;
       width: 215px;
-      height: 360px;
       position: fixed;
       right: 0;
       font-family: $main-font;
@@ -565,11 +564,11 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
       }
       ul{
         list-style: none;
-        margin: 25px 0px 0px -25px;
+        margin: 5px 0px 0px -25px;
 
         li{
           display: block;
-          padding: 20px 5px 15px 10px;
+          padding: 15px 5px 15px 10px;
           color: $black;
           transition: all .3s ease-in-out;
           -webkit-transition: all .3s ease-in-out;

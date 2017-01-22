@@ -477,7 +477,6 @@
   display: none;
   background-color: #F4F4F4;
   width: 215px;
-  height: 360px;
   position: fixed;
   right: 0;
   font-family: Avenir Next, Gill Sans, sans-serif;
@@ -501,11 +500,11 @@
 }
 #menu-container .menu ul {
   list-style: none;
-  margin: 25px 0px 0px -25px;
+  margin: 5px 0px 0px -25px;
 }
 #menu-container .menu ul li {
   display: block;
-  padding: 20px 5px 15px 10px;
+  padding: 15px 5px 15px 10px;
   color: #585858;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
