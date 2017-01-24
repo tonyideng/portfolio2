@@ -44,7 +44,7 @@
   line-height: 1.6;
   color: #585858;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 19px;
   letter-spacing: normal;
 }
 .item-container .item-wrap #item-individual-wrap #process, .item-container .item-wrap #item-individual-wrap #final-result, .item-container .item-wrap #item-individual-wrap #whatlearndid {
@@ -64,13 +64,13 @@
   color: #585858;
   font-weight: 400;
   margin-bottom: 3em;
-  font-size: 18px;
+  font-size: 19px;
 }
 .item-container .item-wrap #item-individual-wrap #process .process-stage-title, .item-container .item-wrap #item-individual-wrap #final-result .process-stage-title, .item-container .item-wrap #item-individual-wrap #whatlearndid .process-stage-title {
   font-family: Avenir Next, Gill Sans, sans-serif;
   color: #585858;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 10px;
   margin-top: 30px;
 }
@@ -109,7 +109,7 @@
   padding: 20px 15px 20px 15px;
   margin-bottom: 1em;
   border-left: 5px solid #dcdcdc;
-  height: 100px;
+  height: 130px;
 }
 .item-container .item-wrap #item-individual-wrap #process #learned, .item-container .item-wrap #item-individual-wrap #final-result #learned, .item-container .item-wrap #item-individual-wrap #whatlearndid #learned {
   float: right;
@@ -124,7 +124,7 @@
   margin-bottom: 1em;
   padding: 20px 10px 20px 5px;
   border-radius: 0px 4px 4px 0px;
-  height: 100px;
+  height: 130px;
 }
 .item-container .item-wrap #item-individual-wrap #process .process_pic, .item-container .item-wrap #item-individual-wrap #final-result .process_pic, .item-container .item-wrap #item-individual-wrap #whatlearndid .process_pic {
   width: 100%;
