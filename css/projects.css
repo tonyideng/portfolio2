@@ -29,7 +29,7 @@
   margin: 0 auto;
 }
 .item-container .item-wrap #item-individual-wrap #project-scope {
-  width: 60%;
+  width: 65%;
   display: table;
   margin: 0 auto;
 }
@@ -44,11 +44,11 @@
   line-height: 1.6;
   color: #585858;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 21px;
   letter-spacing: normal;
 }
 .item-container .item-wrap #item-individual-wrap #process, .item-container .item-wrap #item-individual-wrap #final-result, .item-container .item-wrap #item-individual-wrap #whatlearndid {
-  width: 60%;
+  width: 65%;
   display: table;
   margin: 0 auto;
 }
@@ -64,13 +64,13 @@
   color: #585858;
   font-weight: 400;
   margin-bottom: 3em;
-  font-size: 18px;
+  font-size: 20px;
 }
 .item-container .item-wrap #item-individual-wrap #process .process-stage-title, .item-container .item-wrap #item-individual-wrap #final-result .process-stage-title, .item-container .item-wrap #item-individual-wrap #whatlearndid .process-stage-title {
   font-family: Avenir Next, Gill Sans, sans-serif;
   color: #585858;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
   margin-top: 30px;
 }
@@ -83,7 +83,7 @@
 .item-container .item-wrap #item-individual-wrap #process .reason .reason-header, .item-container .item-wrap #item-individual-wrap #final-result .reason .reason-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .reason .reason-header {
   color: #2AA3FA;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 21px;
 }
 .item-container .item-wrap #item-individual-wrap #process .insight, .item-container .item-wrap #item-individual-wrap #final-result .insight, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight {
   margin-top: -1em;
@@ -94,7 +94,7 @@
 .item-container .item-wrap #item-individual-wrap #process .insight .insight-header, .item-container .item-wrap #item-individual-wrap #final-result .insight .insight-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight .insight-header {
   color: #4AC948;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 21px;
 }
 .item-container .item-wrap #item-individual-wrap #process #did, .item-container .item-wrap #item-individual-wrap #final-result #did, .item-container .item-wrap #item-individual-wrap #whatlearndid #did {
   float: left;
