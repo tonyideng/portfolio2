@@ -2,6 +2,7 @@ $orange: #FE777A;
 $gray: #929292;
 $black: #585858;
 $blue: #2AA3FA;
+$green: #4AC948;
 $main-font: Avenir Next, Gill Sans, sans-serif;
 
 
@@ -53,6 +54,19 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             font-size: 19px;
             letter-spacing: normal;
 
+          }
+
+          .opportunities{
+            margin-top: 1em;
+            margin-left: 10px;
+            border-left: 3px solid $green;
+            padding-left: 15px;
+            .opp-header{
+              color: $green;
+              font-weight: 500;
+              font-size: 19px;
+
+            }
           }
         }
 
@@ -210,6 +224,42 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             box-shadow: 3px 3px 0px 0px #FFAFAD;
 
           }
+        }
+
+        #live{
+          text-align: center;
+          background-color: $orange;
+          color: #FFF;
+          padding: 10px 40px 10px 40px;
+          border-radius: 3px;
+          text-decoration: none;
+          font-family: $main-font;
+          display: table;
+          margin: 0 auto;
+          margin-top: 1.5em;
+          margin-bottom: 2em;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+
+
+          &:hover{
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            cursor: pointer;
+            transform: scale(1.05);
+            background-color: $orange;
+            -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
+            -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
+            box-shadow: 3px 3px 0px 0px #FFAFAD;
+
+          }
+
         }
 
 
