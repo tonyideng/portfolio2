@@ -196,7 +196,6 @@ body .project-intro .current-past-projects #current-wrap #current-projects:activ
 }
 body .project-container {
   margin-top: 130px;
-  display: none;
 }
 body .project-container .project-wrap {
   width: 100%;
@@ -215,7 +214,7 @@ body .project-container .project-wrap #individual-wrap {
 body .project-container .project-wrap #individual-wrap .project {
   display: inline-block;
   background-color: #fff;
-  height: 310px;
+  height: 355px;
   width: 300px;
   margin: 18px;
   border-radius: 4px;
@@ -267,11 +266,19 @@ body .project-container .project-wrap #individual-wrap .project img:active {
   opacity: .6;
 }
 body .project-container .project-wrap #individual-wrap .project .project-label {
-  padding: 8px 0px 8px 13px;
+  padding: 8px 0px 0px 13px;
   text-align: left;
   font-family: Avenir Next, Gill Sans, sans-serif;
   color: #585858;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 18px;
+}
+body .project-container .project-wrap #individual-wrap .project .project-label-2 {
+  padding: 2px 10px 0px 13px;
+  text-align: left;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  color: #585858;
+  font-weight: 400;
 }
 
 #footer {

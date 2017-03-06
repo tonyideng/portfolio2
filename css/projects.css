@@ -333,6 +333,14 @@
   font-weight: 500;
   text-indent: 12px;
 }
+.item-container #more-projects-container .more-projects .ind-project .project-label-2 {
+  padding: 2px 0px 0px 0px;
+  text-align: left;
+  font-family: Avenir Next, Gill Sans, sans-serif;
+  color: #585858;
+  font-weight: 500;
+  text-indent: 12px;
+}
 .item-container #more-projects-container .more-projects .ind-project img {
   object-fit: cover;
   height: 260px;
