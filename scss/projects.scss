@@ -61,8 +61,24 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             margin-left: 10px;
             border-left: 3px solid $green;
             padding-left: 15px;
+            color: $green;
+
             .opp-header{
               color: $green;
+              font-weight: 500;
+              font-size: 19px;
+            }
+
+          }
+
+          .my-role{
+            margin-top: 1em;
+            margin-left: 10px;
+            border-left: 3px solid $orange;
+            padding-left: 15px;
+            color: $orange;
+            .role-header{
+              color: $orange;
               font-weight: 500;
               font-size: 19px;
 
@@ -104,6 +120,8 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             margin-left: 10px;
             border-left: 3px solid $blue;
             padding-left: 15px;
+            color: $blue;
+
             .reason-header{
               color: $blue;
               font-weight: 500;
@@ -117,6 +135,8 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             margin-left: 10px;
             border-left: 3px solid #4AC948;
             padding-left: 15px;
+            color: $green;
+
             .insight-header{
               color: #4AC948;
               font-weight: 500;

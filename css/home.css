@@ -196,6 +196,7 @@ body .project-intro .current-past-projects #current-wrap #current-projects:activ
 }
 body .project-container {
   margin-top: 130px;
+  display: none;
 }
 body .project-container .project-wrap {
   width: 100%;

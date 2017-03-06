@@ -52,9 +52,22 @@
   margin-left: 10px;
   border-left: 3px solid #4AC948;
   padding-left: 15px;
+  color: #4AC948;
 }
 .item-container .item-wrap #item-individual-wrap #project-scope .opportunities .opp-header {
   color: #4AC948;
+  font-weight: 500;
+  font-size: 19px;
+}
+.item-container .item-wrap #item-individual-wrap #project-scope .my-role {
+  margin-top: 1em;
+  margin-left: 10px;
+  border-left: 3px solid #FE777A;
+  padding-left: 15px;
+  color: #FE777A;
+}
+.item-container .item-wrap #item-individual-wrap #project-scope .my-role .role-header {
+  color: #FE777A;
   font-weight: 500;
   font-size: 19px;
 }
@@ -90,6 +103,7 @@
   margin-left: 10px;
   border-left: 3px solid #2AA3FA;
   padding-left: 15px;
+  color: #2AA3FA;
 }
 .item-container .item-wrap #item-individual-wrap #process .reason .reason-header, .item-container .item-wrap #item-individual-wrap #final-result .reason .reason-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .reason .reason-header {
   color: #2AA3FA;
@@ -101,6 +115,7 @@
   margin-left: 10px;
   border-left: 3px solid #4AC948;
   padding-left: 15px;
+  color: #4AC948;
 }
 .item-container .item-wrap #item-individual-wrap #process .insight .insight-header, .item-container .item-wrap #item-individual-wrap #final-result .insight .insight-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight .insight-header {
   color: #4AC948;
