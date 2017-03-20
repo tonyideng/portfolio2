@@ -42,11 +42,11 @@
         .item-container .item-wrap #item-individual-wrap #project-scope .opportunities {
           margin-top: 1em;
           margin-left: 10px;
-          border-left: 3px solid #4AC948;
+          border-left: 3px solid #0aba07;
           padding-left: 15px;
-          color: #4AC948; }
+          color: #0aba07; }
           .item-container .item-wrap #item-individual-wrap #project-scope .opportunities .opp-header {
-            color: #4AC948;
+            color: #0aba07;
             font-weight: 600;
             font-size: 19px; }
         .item-container .item-wrap #item-individual-wrap #project-scope .my-role {
@@ -95,11 +95,11 @@
         .item-container .item-wrap #item-individual-wrap #process .insight, .item-container .item-wrap #item-individual-wrap #final-result .insight, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight {
           margin-top: -1em;
           margin-left: 10px;
-          border-left: 3px solid #4AC948;
+          border-left: 3px solid #0aba07;
           padding-left: 15px;
-          color: #4AC948; }
+          color: #0aba07; }
           .item-container .item-wrap #item-individual-wrap #process .insight .insight-header, .item-container .item-wrap #item-individual-wrap #final-result .insight .insight-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight .insight-header {
-            color: #4AC948;
+            color: #0aba07;
             font-weight: 600;
             font-size: 19px; }
         .item-container .item-wrap #item-individual-wrap #process #did, .item-container .item-wrap #item-individual-wrap #final-result #did, .item-container .item-wrap #item-individual-wrap #whatlearndid #did {
