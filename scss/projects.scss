@@ -61,7 +61,7 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             margin-left: 10px;
             border-left: 3px solid $green;
             padding-left: 15px;
-            color: $green;
+            color: $black;
 
             .opp-header{
               color: $green;
@@ -119,8 +119,11 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             margin-top: -1.5em;
             margin-left: 10px;
             border-left: 3px solid $blue;
-            padding-left: 15px;
-            color: $blue;
+            padding: 10px 10px 12px 15px;
+            color: $black;
+            background-color: #eff6ff;
+            width: 88%;
+            border-radius: 0px 3px 3px 0px;
 
             .reason-header{
               color: $blue;
@@ -135,7 +138,11 @@ $main-font: Avenir Next, Gill Sans, sans-serif;
             margin-left: 10px;
             border-left: 3px solid #4AC948;
             padding-left: 15px;
-            color: $green;
+            color: $black;
+            padding: 10px 10px 12px 15px;
+            width: 88%;
+            background-color: #effff1;
+            border-radius: 0px 3px 3px 0px;
 
             .insight-header{
               color: #4AC948;
