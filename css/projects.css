@@ -42,11 +42,11 @@
         .item-container .item-wrap #item-individual-wrap #project-scope .opportunities {
           margin-top: 1em;
           margin-left: 10px;
-          border-left: 3px solid #0aba07;
+          border-left: 3px solid #4AC948;
           padding-left: 15px;
-          color: #0aba07; }
+          color: #585858; }
           .item-container .item-wrap #item-individual-wrap #project-scope .opportunities .opp-header {
-            color: #0aba07;
+            color: #4AC948;
             font-weight: 600;
             font-size: 19px; }
         .item-container .item-wrap #item-individual-wrap #project-scope .my-role {
@@ -86,8 +86,11 @@
           margin-top: -1.5em;
           margin-left: 10px;
           border-left: 3px solid #2AA3FA;
-          padding-left: 15px;
-          color: #2AA3FA; }
+          padding: 10px 10px 12px 15px;
+          color: #585858;
+          background-color: #eff6ff;
+          width: 88%;
+          border-radius: 0px 3px 3px 0px; }
           .item-container .item-wrap #item-individual-wrap #process .reason .reason-header, .item-container .item-wrap #item-individual-wrap #final-result .reason .reason-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .reason .reason-header {
             color: #2AA3FA;
             font-weight: 600;
@@ -95,11 +98,15 @@
         .item-container .item-wrap #item-individual-wrap #process .insight, .item-container .item-wrap #item-individual-wrap #final-result .insight, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight {
           margin-top: -1em;
           margin-left: 10px;
-          border-left: 3px solid #0aba07;
+          border-left: 3px solid #4AC948;
           padding-left: 15px;
-          color: #0aba07; }
+          color: #585858;
+          padding: 10px 10px 12px 15px;
+          width: 88%;
+          background-color: #effff1;
+          border-radius: 0px 3px 3px 0px; }
           .item-container .item-wrap #item-individual-wrap #process .insight .insight-header, .item-container .item-wrap #item-individual-wrap #final-result .insight .insight-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight .insight-header {
-            color: #0aba07;
+            color: #4AC948;
             font-weight: 600;
             font-size: 19px; }
         .item-container .item-wrap #item-individual-wrap #process #did, .item-container .item-wrap #item-individual-wrap #final-result #did, .item-container .item-wrap #item-individual-wrap #whatlearndid #did {
