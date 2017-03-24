@@ -41,7 +41,8 @@ body {
   body .introduction, body .about-me {
     display: none;
     text-align: center;
-    margin-top: 40px; }
+    margin-top: 40px;
+    margin-bottom: -50px; }
     body .introduction #avatar, body .about-me #avatar {
       text-align: center;
       height: 150px;
@@ -171,12 +172,11 @@ body {
           body .project-intro .current-past-projects #current-wrap #current-projects:active {
             background-color: #EC5B5F; }
   body .project-container {
-    margin-top: 130px;
     display: none; }
     body .project-container .project-wrap {
       width: 100%;
       height: auto;
-      margin: 15% 0;
+      margin: 5% 0;
       text-align: center; }
       body .project-container .project-wrap #anchor-home {
         height: 35px; }

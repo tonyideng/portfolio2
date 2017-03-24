@@ -61,6 +61,7 @@ body{
   display: none;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: -50px;
 
   #avatar{
     text-align: center;
@@ -226,14 +227,13 @@ body{
 
 
   .project-container{
-    margin-top: 130px;
     display: none;
       .project-wrap{
           //background-color: #F8F8F8;
           //padding: 40px 0px 40px 0px;
           width: 100%;
           height: auto;
-          margin: 15% 0;
+          margin: 5% 0;
           text-align: center;
 
           #anchor-home{

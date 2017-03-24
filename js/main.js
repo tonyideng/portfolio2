@@ -25,6 +25,14 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
       $(this).fadeIn({duration:900, queue:false}).animate({'margin-top':  '40px'}, {duration:900, queue:false});
    });
 
+   //fading in projects (delayed)
+   $('.project-container').delay(900).queue(function(next) {
+       $(this).fadeIn({duration:900, queue:false});
+    });
+
+
+
+
   //showing side menu on project page to get the attention of the user, and click function to activate the menu.
   $('#menu-tab').delay(1500).show("slide",{ direction: 'right' }, 1500);
 
