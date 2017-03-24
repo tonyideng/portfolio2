@@ -7,7 +7,7 @@
   margin-top: -22px; }
   .intro-hero h1 {
     padding: 4em 0em 4em 0em;
-    font-family: Avenir Next, Lato, sans-serif;
+    font-family: Avenir Next, Nunito, sans-serif;
     color: #fff;
     text-align: center;
     font-weight: 600;
@@ -28,12 +28,12 @@
         display: table;
         margin: 0 auto; }
         .item-container .item-wrap #item-individual-wrap #project-scope h3 {
-          font-family: Avenir Next, Lato, sans-serif;
+          font-family: Avenir Next, Nunito, sans-serif;
           color: #FE777A;
           font-weight: 500;
           font-size: 21px; }
         .item-container .item-wrap #item-individual-wrap #project-scope p {
-          font-family: Avenir Next, Lato, sans-serif;
+          font-family: Avenir Next, Nunito, sans-serif;
           line-height: 1.6;
           color: #585858;
           font-weight: 400;
@@ -64,19 +64,19 @@
         display: table;
         margin: 0 auto; }
         .item-container .item-wrap #item-individual-wrap #process h3, .item-container .item-wrap #item-individual-wrap #final-result h3, .item-container .item-wrap #item-individual-wrap #whatlearndid h3 {
-          font-family: Avenir Next, Lato, sans-serif;
+          font-family: Avenir Next, Nunito, sans-serif;
           color: #FE777A;
           font-weight: 500;
           font-size: 21px; }
         .item-container .item-wrap #item-individual-wrap #process p, .item-container .item-wrap #item-individual-wrap #final-result p, .item-container .item-wrap #item-individual-wrap #whatlearndid p {
-          font-family: Avenir Next, Lato, sans-serif;
+          font-family: Avenir Next, Nunito, sans-serif;
           line-height: 1.6;
           color: #585858;
           font-weight: 400;
           margin-bottom: 3em;
           font-size: 19px; }
         .item-container .item-wrap #item-individual-wrap #process .process-stage-title, .item-container .item-wrap #item-individual-wrap #final-result .process-stage-title, .item-container .item-wrap #item-individual-wrap #whatlearndid .process-stage-title {
-          font-family: Avenir Next, Lato, sans-serif;
+          font-family: Avenir Next, Nunito, sans-serif;
           color: #585858;
           font-weight: 500;
           font-size: 19px;
@@ -165,7 +165,7 @@
         padding: 10px 40px 10px 40px;
         border-radius: 3px;
         text-decoration: none;
-        font-family: Avenir Next, Lato, sans-serif;
+        font-family: Avenir Next, Nunito, sans-serif;
         display: table;
         margin: 0 auto;
         margin-top: -1.5em;
@@ -194,7 +194,7 @@
         padding: 10px 40px 10px 40px;
         border-radius: 3px;
         text-decoration: none;
-        font-family: Avenir Next, Lato, sans-serif;
+        font-family: Avenir Next, Nunito, sans-serif;
         display: table;
         margin: 0 auto;
         margin-top: 1.5em;
@@ -237,7 +237,7 @@
           padding: 10px 40px 10px 40px;
           border-radius: 3px;
           text-decoration: none;
-          font-family: Avenir Next, Lato, sans-serif;
+          font-family: Avenir Next, Nunito, sans-serif;
           display: table;
           margin: 0 auto;
           margin-top: 1.5em;
@@ -270,7 +270,7 @@
     margin-top: 4em; }
     .item-container #more-projects-container h2 {
       text-align: center;
-      font-family: Avenir Next, Lato, sans-serif;
+      font-family: Avenir Next, Nunito, sans-serif;
       color: #929292;
       font-weight: 200;
       margin-bottom: 1.5em; }
@@ -387,7 +387,7 @@
             opacity: 1; }
     .item-container #more-projects-container #view-more {
       background-color: #419bf9;
-      font-family: Avenir Next, Lato, sans-serif;
+      font-family: Avenir Next, Nunito, sans-serif;
       font-size: 16px;
       color: #FFF;
       border-radius: 0px 0px 15px 15px;
@@ -485,7 +485,7 @@
   width: 215px;
   position: fixed;
   right: 0;
-  font-family: Avenir Next, Lato, sans-serif;
+  font-family: Avenir Next, Nunito, sans-serif;
   font-weight: 400;
   font-size: 18px;
   border-radius: 4px 0px 0px 4px;
