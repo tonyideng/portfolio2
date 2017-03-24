@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
 #navbar {
   background: #FDFDFD;
   height: 20px;
@@ -8,7 +9,7 @@
     #navbar #nav-link-wrap a {
       padding: 2px 20px 13px 20px;
       text-decoration: none;
-      font-family: Avenir Next, Lato, sans-serif;
+      font-family: "Avenir Next", "Lato", sans-serif;
       display: inline-block;
       font-size: 18px;
       font-weight: 200;
@@ -58,7 +59,7 @@ body {
     body .introduction h1, body .about-me h1 {
       width: 420px;
       color: #585858;
-      font-family: Avenir Next, Lato, sans-serif;
+      font-family: "Avenir Next", "Lato", sans-serif;
       font-size: 18px;
       font-weight: 200;
       display: table;
@@ -66,7 +67,7 @@ body {
     body .introduction h2, body .about-me h2 {
       width: 420px;
       color: #585858;
-      font-family: Avenir Next, Lato, sans-serif;
+      font-family: "Avenir Next", "Lato", sans-serif;
       font-size: 18px;
       font-weight: 400;
       display: table;
@@ -100,7 +101,7 @@ body {
     margin-bottom: 120px; }
     body .project-intro #sub-intro h3 {
       color: #929292;
-      font-family: Avenir Next, Lato, sans-serif;
+      font-family: "Avenir Next", "Lato", sans-serif;
       font-weight: 300;
       font-size: 18px; }
     body .project-intro .current-past-projects {
@@ -147,7 +148,7 @@ body {
           font-weight: 400;
           color: #fff;
           margin-top: 1px;
-          font-family: Avenir Next, Lato, sans-serif;
+          font-family: "Avenir Next", "Lato", sans-serif;
           cursor: default;
           background-color: #FE777A;
           padding: 10px 20px 10px 20px;
@@ -236,14 +237,14 @@ body {
           body .project-container .project-wrap #individual-wrap .project .project-label {
             padding: 8px 0px 0px 13px;
             text-align: left;
-            font-family: Avenir Next, Lato, sans-serif;
+            font-family: "Avenir Next", "Lato", sans-serif;
             color: #585858;
             font-weight: 600;
             font-size: 17px; }
           body .project-container .project-wrap #individual-wrap .project .project-label-2 {
             padding: 2px 10px 0px 13px;
             text-align: left;
-            font-family: Avenir Next, Lato, sans-serif;
+            font-family: "Avenir Next", "Lato", sans-serif;
             color: #585858;
             font-weight: 400; }
 
@@ -256,7 +257,7 @@ body {
   width: 100%; }
   #footer .footer-text {
     color: #9B9B9B;
-    font-family: Avenir Next, Lato, sans-serif;
+    font-family: "Avenir Next", "Lato", sans-serif;
     font-size: 12px;
     text-align: center;
     padding-top: 3em; }
