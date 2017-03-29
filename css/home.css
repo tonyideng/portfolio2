@@ -216,6 +216,8 @@ body {
             transform: translateY(-10px);
             cursor: pointer;
             transform: scale(1.03); }
+          body .project-container .project-wrap #individual-wrap .project a {
+            text-decoration: none; }
           body .project-container .project-wrap #individual-wrap .project img {
             object-fit: cover;
             height: 260px;

@@ -79,7 +79,7 @@
         .item-container .item-wrap #item-individual-wrap #process .process-stage-title, .item-container .item-wrap #item-individual-wrap #final-result .process-stage-title, .item-container .item-wrap #item-individual-wrap #whatlearndid .process-stage-title {
           font-family: "Avenir Next", "Lato", sans-serif;
           color: #585858;
-          font-weight: 500;
+          font-weight: 600;
           font-size: 19px;
           margin-bottom: 10px;
           margin-top: 30px; }
@@ -188,6 +188,8 @@
           -webkit-box-shadow: 3px 3px 0px 0px #FFAFAD;
           -moz-box-shadow: 3px 3px 0px 0px #FFAFAD;
           box-shadow: 3px 3px 0px 0px #FFAFAD; }
+      .item-container .item-wrap #item-individual-wrap audio {
+        width: 100%; }
       .item-container .item-wrap #item-individual-wrap #live {
         text-align: center;
         background-color: #FE777A;
@@ -275,6 +277,8 @@
       color: #929292;
       font-weight: 200;
       margin-bottom: 1.5em; }
+    .item-container #more-projects-container a {
+      text-decoration: none; }
     .item-container #more-projects-container .more-projects {
       display: table;
       margin: 0 auto; }
@@ -554,6 +558,10 @@
         height: 100% !important;
         width: 100% !important;
         border-radius: 4px; }
+      .item-wrap #item-individual-wrap .video {
+        width: 90% !important; }
+      .item-wrap #item-individual-wrap audio {
+        width: 90% !important; }
 
   #learned p {
     height: 100% !important; }
