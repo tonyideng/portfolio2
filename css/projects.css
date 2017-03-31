@@ -506,9 +506,7 @@
     #menu-container .menu a:visited {
       color: #585858; }
   #menu-container .menu ul {
-    list-style: none;
-    position: relative;
-    left: -15px; }
+    list-style: none; }
     #menu-container .menu ul li {
       display: block;
       padding: 11px;
