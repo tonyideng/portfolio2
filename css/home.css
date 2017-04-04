@@ -204,6 +204,7 @@ body .project-container .project-wrap {
   height: auto;
   margin: 5% 0;
   text-align: center;
+  margin-bottom: 10em;
 }
 body .project-container .project-wrap #anchor-home {
   height: 35px;
