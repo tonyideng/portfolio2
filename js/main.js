@@ -36,11 +36,20 @@ $('.intro-hero').animate({'margin-left': '-10px'}, 900);
   //showing side menu on project page to get the attention of the user, and click function to activate the menu.
   $('#menu-tab').delay(1500).show("slide",{ direction: 'right' }, 1500);
 
+
    $( '#menu-tab' ).click(function(){ //animating the slide menu
      $('.menu').toggle('slide', { direction: 'right' }, 400);
        $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '215px' : '0px'}, 400);
    });
 
+  /* $('#menu-container').click( function(event){
+       event.stopPropagation();
+   });
+
+   $(document).click( function(){
+        $('.menu').hide('slide', { direction: 'right' }, 400);
+        $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '-215px' : '0px'}, 400);
+    });*/
 
   //clicking to reveal projects
   $("#current-projects").click(function(){
