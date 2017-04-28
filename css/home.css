@@ -63,7 +63,8 @@ body {
       font-size: 18px;
       font-weight: 200;
       display: table;
-      margin: 0 auto; }
+      margin: 0 auto;
+      line-height: 1.4; }
     body .introduction h2, body .about-me h2 {
       width: 420px;
       color: #585858;
