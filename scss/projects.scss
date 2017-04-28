@@ -107,6 +107,16 @@ $main-font: 'Avenir Next', 'Lato', sans-serif;
             font-size: 19px;
           }
 
+          .description{
+            width: 70%;
+            display:table;
+            margin: 0 auto;
+
+            p{
+              margin-top: 25px;
+            }
+          }
+
           .process-stage-title{
             font-family: $main-font;
             color: $black;
@@ -296,7 +306,7 @@ $main-font: 'Avenir Next', 'Lato', sans-serif;
 
         }
 
-      
+
         #pui-wrap{
             display: inline-block;
 

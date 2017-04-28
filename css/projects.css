@@ -76,6 +76,12 @@
           font-weight: 400;
           margin-bottom: 3em;
           font-size: 19px; }
+        .item-container .item-wrap #item-individual-wrap #process .description, .item-container .item-wrap #item-individual-wrap #final-result .description, .item-container .item-wrap #item-individual-wrap #whatlearndid .description {
+          width: 70%;
+          display: table;
+          margin: 0 auto; }
+          .item-container .item-wrap #item-individual-wrap #process .description p, .item-container .item-wrap #item-individual-wrap #final-result .description p, .item-container .item-wrap #item-individual-wrap #whatlearndid .description p {
+            margin-top: 25px; }
         .item-container .item-wrap #item-individual-wrap #process .process-stage-title, .item-container .item-wrap #item-individual-wrap #final-result .process-stage-title, .item-container .item-wrap #item-individual-wrap #whatlearndid .process-stage-title {
           font-family: "Avenir Next", "Lato", sans-serif;
           color: #585858;
