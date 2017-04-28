@@ -102,48 +102,62 @@
 
           <img class ="process_pic" src ="images/imgmoji_tag.png">
           <p> Our second inspiration came from the established design pattern of tagging photos on popular image sharing sites such as Facebook </p>
+    </div>
 
+    <div style="width: 85%;" id="process">
 
       <h2 class="process-stage-title">The first mock ups</h2>
         <img class ="process_pic" src ="images/imgmoji_1.jpg">
         <img class ="process_pic" src ="images/imgmoji_2.jpg">
-        <p>We first tried to emulate Nico Nico Douga by having a comment box to the side of the image, where people can vote for the most popular tag comments in addition to being able to add comments directly on the image</p>
-        <p class="reason"><span class="reason-header">Why?</span></br>We assumed this would be a familiar mode of commenting for new users, and that the voting can regulate how many comments show up at a time</p>
-        <p class="insight"><span class="insight-header">Insights</span></br>After designing the UI, something still didn't feel right. Seemed over complicated!</p>
+
+        <div class="description">
+          <p>We first tried to emulate Nico Nico Douga by having a comment box to the side of the image, where people can vote for the most popular tag comments in addition to being able to add comments directly on the image</p>
+          <p class="reason"><span class="reason-header">Why?</span></br>We assumed this would be a familiar mode of commenting for new users, and that the voting can regulate how many comments show up at a time</p>
+          <p class="insight"><span class="insight-header">Insights</span></br>After designing the UI, something still didn't feel right. Seemed over complicated!</p>
+        </div>
 
         <img class ="process_pic" src ="images/imgmoji_3.jpg">
-        <p> It made sense to get rid of all the excess UI, and keep it simple. We found out we could make space for upvotes on the tag comments, so people can self-regulate in some form.
-          We also added in buttons where a user can hide or show the tags, in case the comments were bothersome to users who do not like reading them.</p>
+        <div class="description">
+          <p> It made sense to get rid of all the excess UI, and keep it simple. We found out we could make space for upvotes on the tag comments, so people can self-regulate in some form.
+            We also added in buttons where a user can hide or show the tags, in case the comments were bothersome to users who do not like reading them.</p>
+        </div>
 
-      <h2 class="process-stage-title">But wait!! Why build all of these features without testing if people will actually understand using tag comments?</h2>
+    <h2 class="process-stage-title" style ="font-size: 25px;">But wait!! Why build all of these features without testing if people will actually understand using tag comments?</h2>
 
     <h3> Implementation </h3>
     <img class ="process_pic" src ="images/imgmoji_4.jpg">
-      <p>We built the barebones that's needed for the tag comments to work, and deployed it. We posted the image to a popular image subreddit on Reddit to attract users. </p>
+    <div class="description">
+      <p>So we first built the barebones that's needed for the tag comments to work, and deployed it. We posted the image to a popular image subreddit on Reddit to attract users. </p>
       <p class="reason"><span class="reason-header">Why?</span></br>We made an MVP quickly to test the waters, we didn't want to waste time making everything perfect only to have the core idea not work.</p>
       <p class="insight"><span class="insight-header">Results</span></br>It worked! It worked so well that very quickly the image was filled with tag comments. This pattern repeated itself multiple times on other images we shared.</p>
       <p class="insight"><span class="insight-header">Insights</span></br>We leveraged the common design pattern of tagging photos, and added a few tag comments ourselves so that when the user lands on the image, he/she may get an idea of how to interact. </p>
       <p class="insight">With our assumptions validated by these user tests, we moved forward with creating an upvote/downvote system, rotating tags that pop in and out, and other features. </p>
+    </div>
 
     <h3> Additional Design Features After MVP Deploy </h3>
     <h2 class="process-stage-title">Crowd Moderation Features</h2>
     <img class ="process_pic" src ="images/imgmoji_5.jpg">
-    <p> We let the users themselves moderate tag comments. Upvoted tags become bigger, and downvoted tags become smaller.</p>
-    <p class="reason"><span class="reason-header">Why?</span></br>We thought this system can facilitate fun interaction amongst the users where people can compete to grow their own comments, and also because most of our traffic came from Reddit where upvote/downvote is the norm.</p>
-    <p class="insight"><span class="insight-header">Insights</span></br>Tags became enormous because of the number of upvotes they had, so we decided to cap off the growth of tags to 20 upvotes. Additionally, downvotes would make tags smaller.</p>
+
+    <div class="description">
+      <p> We let the users themselves moderate tag comments. Upvoted tags become bigger, and downvoted tags become smaller.</p>
+      <p class="reason"><span class="reason-header">Why?</span></br>We thought this system can facilitate fun interaction amongst the users where people can compete to grow their own comments, and also because most of our traffic came from Reddit where upvote/downvote is the norm.</p>
+      <p class="insight"><span class="insight-header">Insights</span></br>Tags became enormous because of the number of upvotes they had, so we decided to cap off the growth of tags to 20 upvotes. Additionally, downvotes would make tags smaller.</p>
+    </div>
 
     <img class ="process_pic" src ="images/imgmoji_6.jpg">
-    <p> Downvotes that went below -1 goes into the Graveyard, so it won't appear on the image anymore but users can still take a look if they want.</p>
-    <p class="reason"><span class="reason-header">Why?</span></br>There were so many tags appearing on the image, we had to find a way to curate the best ones and "sacrifice" less popular comments much like comment threads on Reddit.</p>
+    <div class="description">
+      <p> Downvotes that went below -1 goes into the Graveyard, so it won't appear on the image anymore but users can still take a look if they want.</p>
+      <p class="reason"><span class="reason-header">Why?</span></br>There were so many tags appearing on the image, we had to find a way to curate the best ones and "sacrifice" less popular comments much like comment threads on Reddit.</p>
 
-    <p> We also made the tags pop in and out in groups of 3 or 5, so that only a few tags appear at a time and not cover up the image. This created a feeling of "live" as users thought the comments were being streamed in and out in real time.</p>
-
+      <p> We also made the tags pop in and out in groups of 3 or 5, so that only a few tags appear at a time and not cover up the image. This created a feeling of "live" as users thought the comments were being streamed in and out in real time.</p>
+    </div>
 
     <h2 class="process-stage-title"> User Profile Pages</h2>
       <img class ="process_pic" src ="images/profile_tags.jpg">
       <img class ="process_pic" src ="images/profile_uploads.jpg">
-      <p> A user profile pages was in the works when we wanted to give users incentive to sign up, upload their own pictures, and keep track of their uploads and tags. Unfortunately, out of the 15,000+ people that visited and commented, no one signed up. As a result the profiles pages were never implemented. </p>
-
+      <div class="description">
+        <p> A user profile pages was in the works when we wanted to give users incentive to sign up, upload their own pictures, and keep track of their uploads and tags. Unfortunately, out of the 15,000+ people that visited and commented, no one signed up. As a result the profiles pages were never implemented. </p>
+      </div>
     </div>
 
 
