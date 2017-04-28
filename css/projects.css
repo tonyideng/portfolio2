@@ -77,7 +77,7 @@
           margin-bottom: 3em;
           font-size: 19px; }
         .item-container .item-wrap #item-individual-wrap #process .description, .item-container .item-wrap #item-individual-wrap #final-result .description, .item-container .item-wrap #item-individual-wrap #whatlearndid .description {
-          width: 70%;
+          width: 60%;
           display: table;
           margin: 0 auto; }
           .item-container .item-wrap #item-individual-wrap #process .description p, .item-container .item-wrap #item-individual-wrap #final-result .description p, .item-container .item-wrap #item-individual-wrap #whatlearndid .description p {
