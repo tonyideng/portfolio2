@@ -1,12 +1,15 @@
 
 //animation of headers on each page
  //$(document).ready(function() {
-     $('.introduction, .about-me').fadeIn({queue: false, duration: 900});
-     $('.introduction, .about-me').animate({'margin-top': '90px'}, 900);
+     $('.introduction').fadeIn({queue: false, duration: 900});
+     $('.introduction').animate({'margin-top': '90px'}, 900);
 //  });
 
 $('.intro-hero').fadeIn({queue: false, duration: 1000});
 $('.intro-hero').animate({'margin-left': '-10px'}, 900);
+
+$('.about-me').fadeIn({queue: false, duration: 900});
+$('.about-me').animate({'margin-top': '50px'}, 900);
 
 //animation of body content on home-page
 /*$(document).ready(function() {
