@@ -115,6 +115,43 @@ $main-font: 'Avenir Next', 'Lato', sans-serif;
             p{
               margin-top: 25px;
             }
+
+            .reason{
+              margin-top: -1.5em;
+              margin-left: 10px;
+              border-left: 3px solid $blue;
+              padding: 10px 10px 12px 15px;
+              color: $black;
+              background-color: #eff6ff;
+              width: 88%;
+              border-radius: 0px 3px 3px 0px;
+
+              .reason-header{
+                color: $blue;
+                font-weight: 600;
+                font-size: 19px;
+
+              }
+            }
+
+            .insight{
+              margin-top: -1em;
+              margin-left: 10px;
+              border-left: 3px solid #4AC948;
+              padding-left: 15px;
+              color: $black;
+              padding: 10px 10px 12px 15px;
+              width: 88%;
+              background-color: #effff1;
+              border-radius: 0px 3px 3px 0px;
+
+              .insight-header{
+                color: #4AC948;
+                font-weight: 600;
+                font-size: 19px;
+
+              }
+            }
           }
 
           .process-stage-title{
