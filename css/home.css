@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600");
 #navbar {
-  background: #FDFDFD;
+  background: #f8f8f9;
   height: 20px;
   padding: 15px 0px 15px 0px;
   width: 100%; }
@@ -36,7 +36,7 @@ html {
   min-height: 100%; }
 
 body {
-  background: #FDFDFD;
+  background: #f8f8f9;
   margin: 0 0 100px;
   /* bottom = footer height */ }
   body .introduction, body .about-me {
@@ -183,17 +183,17 @@ body {
         body .project-container .project-wrap #individual-wrap .project {
           display: inline-block;
           background-color: #fff;
-          height: 355px;
+          height: 455px;
           width: 300px;
           margin: 18px;
-          border-radius: 4px;
+          border-radius: 3px;
           -webkit-transition: all .3s ease-in-out;
           -moz-transition: all .3s ease-in-out;
           -ms-transition: all .3s ease-in-out;
           -o-transition: all .3s ease-in-out;
-          -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-          -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+          /*  -webkit-box-shadow: 0 1px 7px rgba(0,0,0,.05);
+            -moz-box-shadow: 0 1px 7px rgba(0,0,0,.05);
+            box-shadow: 0 1px 7px rgba(0,0,0,.05);*/
           border: 1px solid rgba(0, 0, 0, 0.04);
           /*.divider{
             margin-top: 5px;
@@ -215,9 +215,9 @@ body {
             text-decoration: none; }
           body .project-container .project-wrap #individual-wrap .project img {
             object-fit: cover;
-            height: 260px;
+            height: 360px;
             width: 300px;
-            border-radius: 4px 4px 0px 0px;
+            border-radius: 3px 3px 0px 0px;
             opacity: .93;
             transition: all .3s ease-in-out; }
             body .project-container .project-wrap #individual-wrap .project img:hover {

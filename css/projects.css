@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600");
+body {
+  background-color: #FDFDFD; }
+
+#navbar {
+  background: #FDFDFD; }
+
 .intro-hero {
   display: none;
   background-repeat: no-repeat;
