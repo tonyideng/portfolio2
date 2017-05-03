@@ -13,7 +13,7 @@
 
 .imgmoji{display:block; width:100%; height:850px; margin:0 auto; z-index: 1000;}
 
-.vimeoFrame2 {width:34%; height:580px; overflow:hidden; margin:0 auto;} .vimeoFrame2 .imgmoji{margin-top:-135px;}
+.vimeoFrame2 {width:34%; height:580px; overflow:hidden; margin:0 auto; margin-bottom: 1em;} .vimeoFrame2 .imgmoji{margin-top:-135px;}
 
 </style>
 
@@ -32,10 +32,10 @@
   <div class="menu">
     <ul>
       <a href="#navbar"><li>Project Scope</li></a>
+      <a href="#final-result"><li>Final Design</li></a>
       <a href="#process"><li>Research Process</li></a>
       <a href="#2"><li>Ideation</li></a>
       <a href="#3"><li>Implementation</li></a>
-      <a href="#final-result"><li>Final Result</li></a>
       <a href="#anchor-divider-1"><li>What I Did & Learned</li></a>
       <a href = "#anchor-divider"><li>More Projects</li></a>
     </ul>
@@ -56,8 +56,7 @@
 
     <div id="project-scope">
       <h3> Project Scope </h3>
-      <p>In a team of 3, we were tasked with designing the core functions of a mobile app for elderly care coordinators based on provided personas: Inez, an elderly woman in her late 70s with slight dementia, Hector, a busy nurse who has a short amount of time each day to check in on Inez, and Rosario, Inez's daughter and primary caregiver. This was a project completed in 3 weeks
-      for the course Interaction Design Studio 1 at CMU.  </p>
+      <p>In a team of 3, we were tasked with designing the core functions of a mobile app for elderly care coordinators based on provided personas: Inez, an elderly woman in her late 70s with slight dementia, Hector, a busy nurse who has a short amount of time each day to check in on Inez, and Rosario, Inez's daughter and primary caregiver. </p>
       <p class="opportunities"><span class="opp-header">How Might We:</span></br>Create an app that allows Hector and Rosario communicate Inez's status descretly and without infringing upon Inez's independence and privacy?</p>
       <p class="my-role"><span class="role-header">My Role:</span></br>Designed and refined the app UI and visual cohesiveness. </p>
       <p class="my-role">Led the team in ideation, design decisions, and project management.</p>
@@ -66,7 +65,61 @@
 
     </div>
 
-    <div id="process">
+
+    <div style="width: 82%;"id="final-result">
+      <h3>How uCare works</h3>
+      <img class ="process_pic" src ="images/ucare_18.png">
+        <div class="description">
+          <p>Our final design and use case scenario begins with Hector taking pictures of Inez's meals throughout the week as he stops by to check on her daily.</p>
+        </div>
+      <img class ="process_pic" src ="images/ucare_19.png">
+        <div class="description">
+          <p>From Monday to Thursday, uCare does not detect any abnormalities from Rosario's pre-uploaded nutrition plan, and relays the information to Rosario, which she sees when she gets off work.</p>
+        </div>
+
+      <img class ="process_pic" src ="images/ucare_20.png">
+        <div class="description">
+          <p>On Friday, Hector stops by as usual and uses uCare to check Inez's meal that day.</p>
+        </div>
+
+      <img class ="process_pic" src ="images/ucare_21.png">
+      <div class="description">
+        <p>Using object-recognition, uCare detected that Inez's meal today is lacking Vitamin C and A. uCare sends a notification to Rosario.</p>
+      </div>
+
+      <img class ="process_pic" src ="images/ucare_22.png">
+      <div class="description">
+        <p>uCare suggests to Rosario foods high in Vitamin A and C, Rosario selects an option and sends it to Hector.</p>
+      </div>
+
+      <img class ="process_pic" src ="images/ucare_23.png">
+      <div class="description">
+        <p>Hector acknowledges that Inez can eat the type of food Rosario suggested, and decides to grab them before checking on Inez the next day.</p>
+      </div>
+
+      <img class ="process_pic" src ="images/ucare_24.png">
+      <div class="description">
+        <p>The next day, Hector stops by Inez's apartment and brings with him the foods Rosario suggested. He tells Inez that she should eat more of these foods for their richness in Vitamins.</p>
+      </div>
+
+      <img class ="process_pic" src ="images/ucare_25.png">
+      <div class="description">
+        <p>As Inez goes to put away and prepare the foods, Hector sends a confirmation to Rosario that everything is ok.</p>
+      </div>
+
+      <img class ="process_pic" src ="images/ucare_26.png">
+      <div class="description">
+        <p>With uCare, Hector can check and report on Inez quickly and discreetly, and Rosario can have a peace of mind when she is not able to check on her mother in person.</p>
+      </div>
+
+      <!--<img class ="process_pic" src ="images/ucare_prototype.gif">-->
+
+
+      <div class="vimeoFrame2">
+        <iframe class="imgmoji" frameborder="0" src="https://player.vimeo.com/video/215577730?autoplay=1title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;autopause=0&amp;color=fdea2e" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+
+    <div style="width: 70%;"id="process">
       <h3> Research Process</h3>
       <img class ="process_pic" src ="images/ucare_1.png">
       <p>We brainstormed about the ecosystem of elder care coordination, and then we did guerilla research via interviews. Afterwards, we created exploratory scenarios and created 3 exploratory storyboards from them. Furthermore, one of our group members referred to prior knowledge due to relevant work experience. </p>
@@ -161,59 +214,7 @@
 
     </div>
 
-    <div style="width: 85%;"id="final-result">
-      <h3> Final Design</h3>
-      <h2 class="process-stage-title">Finalizing our vision for uCare with updated storyboard and scenario scenes.</h2>
-      <img class ="process_pic" src ="images/ucare_18.png">
-        <div class="description">
-          <p>Our final design and use case scenario begins with Hector taking pictures of Inez's meals throughout the week as he stops by to check on her daily.</p>
-        </div>
-      <img class ="process_pic" src ="images/ucare_19.png">
-        <div class="description">
-          <p>From Monday to Thursday, uCare does not detect any abnormalities from Rosario's pre-uploaded nutrition plan, and relays the information to Rosario, which she sees when she gets off work.</p>
-        </div>
 
-      <img class ="process_pic" src ="images/ucare_20.png">
-        <div class="description">
-          <p>On Friday, Hector stops by as usual and uses uCare to check Inez's meal that day.</p>
-        </div>
-
-      <img class ="process_pic" src ="images/ucare_21.png">
-      <div class="description">
-        <p>Using object-recognition, uCare detected that Inez's meal today is lacking Vitamin C and A. uCare sends a notification to Rosario.</p>
-      </div>
-
-      <img class ="process_pic" src ="images/ucare_22.png">
-      <div class="description">
-        <p>uCare suggests to Rosario foods high in Vitamin A and C, Rosario selects an option and sends it to Hector.</p>
-      </div>
-
-      <img class ="process_pic" src ="images/ucare_23.png">
-      <div class="description">
-        <p>Hector acknowledges that Inez can eat the type of food Rosario suggested, and decides to grab them before checking on Inez the next day.</p>
-      </div>
-
-      <img class ="process_pic" src ="images/ucare_24.png">
-      <div class="description">
-        <p>The next day, Hector stops by Inez's apartment and brings with him the foods Rosario suggested. He tells Inez that she should eat more of these foods for their richness in Vitamins.</p>
-      </div>
-
-      <img class ="process_pic" src ="images/ucare_25.png">
-      <div class="description">
-        <p>As Inez goes to put away and prepare the foods, Hector sends a confirmation to Rosario that everything is ok.</p>
-      </div>
-
-      <img class ="process_pic" src ="images/ucare_26.png">
-      <div class="description">
-        <p>With uCare, Hector can check and report on Inez quickly and discreetly, and Rosario can have a peace of mind when she is not able to check on her mother in person.</p>
-      </div>
-
-      <!--<img class ="process_pic" src ="images/ucare_prototype.gif">-->
-
-
-      <div class="vimeoFrame2">
-        <iframe class="imgmoji" frameborder="0" src="https://player.vimeo.com/video/215577730?autoplay=1title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1&amp;autopause=0&amp;color=fdea2e" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
 
       <h2 class="process-stage-title">Our final vision for uCare going forward</h2>
       <img class ="process_pic" src ="images/ucare_27.png">
@@ -223,9 +224,6 @@
         <p class="reason"><span class="reason-header">Why?</span></br>With long-term trends and data, the care providers can become better informed of the elderly's diet. </p>
         <p class="reason">Based on the variations in the trend, care providers can decide whether further treatments are neccessary. </p>
       </div>
-
-
-    </div>
 
     <div class="divider"></div>
       <span id="anchor-divider-1"></span>
