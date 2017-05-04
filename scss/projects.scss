@@ -21,14 +21,70 @@ body{
   background-position: center;
   margin-left: -50px;
   margin-top: -22px;
+  padding-bottom: 10em;
 
   h1{
-    padding: 4em 0em 4em 0em;
+    padding: 3em 0em 2em 0em;
     font-family: $main-font;
     color: #fff;
     text-align: center;
     font-weight: 600;
     font-size: 40px;
+  }
+
+  #project-scope{
+    width: 500px;
+    display: table;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .85);
+    padding: 2.5em;
+    margin-top: -3em;
+    h3{
+      font-family: $main-font;
+      color: $orange;
+      font-weight: 500;
+      font-size: 21px;
+
+    }
+
+    p{
+      font-family: $main-font;
+      line-height: 1.5;
+      color: $black;
+      font-weight: 400;
+      font-size: 19px;
+      letter-spacing: normal;
+
+    }
+
+    .opportunities{
+      margin-top: 1em;
+      margin-left: 10px;
+      border-left: 3px solid $green;
+      padding-left: 15px;
+      color: $black;
+
+      .opp-header{
+        color: $green;
+        font-weight: 600;
+        font-size: 19px;
+      }
+
+    }
+
+    .my-role{
+      margin-top: 1em;
+      margin-left: 10px;
+      border-left: 3px solid $orange;
+      padding-left: 15px;
+      color: $orange;
+      .role-header{
+        color: $orange;
+        font-weight: 600;
+        font-size: 19px;
+
+      }
+    }
   }
 }
 
@@ -42,57 +98,7 @@ body{
         #item-individual-wrap{
           display: table;
           margin: 0 auto;
-        #project-scope{
-          width: 60%;
-          display: table;
-          margin: 0 auto;
-          h3{
-            font-family: $main-font;
-            color: $orange;
-            font-weight: 500;
-            font-size: 21px;
 
-          }
-
-          p{
-            font-family: $main-font;
-            line-height: 1.5;
-            color: $black;
-            font-weight: 400;
-            font-size: 19px;
-            letter-spacing: normal;
-
-          }
-
-          .opportunities{
-            margin-top: 1em;
-            margin-left: 10px;
-            border-left: 3px solid $green;
-            padding-left: 15px;
-            color: $black;
-
-            .opp-header{
-              color: $green;
-              font-weight: 600;
-              font-size: 19px;
-            }
-
-          }
-
-          .my-role{
-            margin-top: 1em;
-            margin-left: 10px;
-            border-left: 3px solid $orange;
-            padding-left: 15px;
-            color: $orange;
-            .role-header{
-              color: $orange;
-              font-weight: 600;
-              font-size: 19px;
-
-            }
-          }
-        }
 
         #process, #final-result, #whatlearndid{
           width: 60%;
@@ -755,6 +761,10 @@ body{
     height: 20px;
     padding: 20px 0px 17px 0px;
     width: 100%;
+  }
+
+  #project-scope{
+    width: 50% !important;
   }
 
   .introduction{

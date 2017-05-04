@@ -11,14 +11,54 @@ body {
   background-size: cover;
   background-position: center;
   margin-left: -50px;
-  margin-top: -22px; }
+  margin-top: -22px;
+  padding-bottom: 10em; }
   .intro-hero h1 {
-    padding: 4em 0em 4em 0em;
+    padding: 3em 0em 2em 0em;
     font-family: "Avenir Next", "Lato", sans-serif;
     color: #fff;
     text-align: center;
     font-weight: 600;
     font-size: 40px; }
+  .intro-hero #project-scope {
+    width: 500px;
+    display: table;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 2.5em;
+    margin-top: -3em; }
+    .intro-hero #project-scope h3 {
+      font-family: "Avenir Next", "Lato", sans-serif;
+      color: #FE777A;
+      font-weight: 500;
+      font-size: 21px; }
+    .intro-hero #project-scope p {
+      font-family: "Avenir Next", "Lato", sans-serif;
+      line-height: 1.5;
+      color: #585858;
+      font-weight: 400;
+      font-size: 19px;
+      letter-spacing: normal; }
+    .intro-hero #project-scope .opportunities {
+      margin-top: 1em;
+      margin-left: 10px;
+      border-left: 3px solid #4AC948;
+      padding-left: 15px;
+      color: #585858; }
+      .intro-hero #project-scope .opportunities .opp-header {
+        color: #4AC948;
+        font-weight: 600;
+        font-size: 19px; }
+    .intro-hero #project-scope .my-role {
+      margin-top: 1em;
+      margin-left: 10px;
+      border-left: 3px solid #FE777A;
+      padding-left: 15px;
+      color: #FE777A; }
+      .intro-hero #project-scope .my-role .role-header {
+        color: #FE777A;
+        font-weight: 600;
+        font-size: 19px; }
 
 .item-container {
   margin-top: 150px;
@@ -30,42 +70,6 @@ body {
     .item-container .item-wrap #item-individual-wrap {
       display: table;
       margin: 0 auto; }
-      .item-container .item-wrap #item-individual-wrap #project-scope {
-        width: 60%;
-        display: table;
-        margin: 0 auto; }
-        .item-container .item-wrap #item-individual-wrap #project-scope h3 {
-          font-family: "Avenir Next", "Lato", sans-serif;
-          color: #FE777A;
-          font-weight: 500;
-          font-size: 21px; }
-        .item-container .item-wrap #item-individual-wrap #project-scope p {
-          font-family: "Avenir Next", "Lato", sans-serif;
-          line-height: 1.5;
-          color: #585858;
-          font-weight: 400;
-          font-size: 19px;
-          letter-spacing: normal; }
-        .item-container .item-wrap #item-individual-wrap #project-scope .opportunities {
-          margin-top: 1em;
-          margin-left: 10px;
-          border-left: 3px solid #4AC948;
-          padding-left: 15px;
-          color: #585858; }
-          .item-container .item-wrap #item-individual-wrap #project-scope .opportunities .opp-header {
-            color: #4AC948;
-            font-weight: 600;
-            font-size: 19px; }
-        .item-container .item-wrap #item-individual-wrap #project-scope .my-role {
-          margin-top: 1em;
-          margin-left: 10px;
-          border-left: 3px solid #FE777A;
-          padding-left: 15px;
-          color: #FE777A; }
-          .item-container .item-wrap #item-individual-wrap #project-scope .my-role .role-header {
-            color: #FE777A;
-            font-weight: 600;
-            font-size: 19px; }
       .item-container .item-wrap #item-individual-wrap #process, .item-container .item-wrap #item-individual-wrap #final-result, .item-container .item-wrap #item-individual-wrap #whatlearndid {
         width: 60%;
         display: table;
@@ -575,6 +579,9 @@ body {
     height: 20px;
     padding: 20px 0px 17px 0px;
     width: 100%; }
+
+  #project-scope {
+    width: 50% !important; }
 
   .introduction {
     width: 95% !important; }
