@@ -45,7 +45,6 @@ body{
       font-weight: 600;
       font-size: 27px;
       text-align: center;
-
     }
 
     p{
@@ -801,6 +800,9 @@ body{
 
           }
 
+          .iphone_pic{
+            display: none !important;
+          }
           .video{
             width: 90% !important;
           }
