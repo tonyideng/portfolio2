@@ -99,6 +99,11 @@ body{
           display: table;
           margin: 0 auto;
 
+          .hidden-process{
+            display: none;
+          }
+
+
 
         #process, #final-result, #whatlearndid{
           width: 60%;
@@ -428,6 +433,42 @@ body{
       margin-top: 5em;
     }
 
+    .view-process{
+      text-align: center;
+      background-color: #4AC948;
+      color: #FFF;
+      padding: 10px 60px 10px 60px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-family: $main-font;
+      font-size: 20px;
+      display: table;
+      margin: 0 auto;
+      margin-top: 1.5em;
+      margin-bottom: 2em;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+
+
+      &:hover{
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        transform: scale(1.05);
+        background-color: #4AC948;
+        -webkit-box-shadow: 3px 3px 0px 0px #a5f762;
+        -moz-box-shadow: 3px 3px 0px 0px #a5f762;
+        box-shadow: 3px 3px 0px 0px #a5f762;
+
+      }
+    }
+
     #more-projects-container{
       margin-top: 4em;
 
@@ -441,7 +482,6 @@ body{
 
       a{
         text-decoration: none;
-
       }
 
       .more-projects{

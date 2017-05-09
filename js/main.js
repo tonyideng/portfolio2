@@ -78,6 +78,11 @@ $('#reveal').click(function(){ //on lurkers.html
   $('#narrative').slideToggle(500);
 });
 
+
+//reveal .hidden-process on all project pages
+$('.view-process').click(function(){
+  $('.hidden-process').slideToggle(3000);
+});
 //zoom image on click
 $('.process_pic').click(function() {
     $(this).toggleClass('transition');
