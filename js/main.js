@@ -82,7 +82,11 @@ $('#reveal').click(function(){ //on lurkers.html
 //reveal .hidden-process on all project pages
 $('.view-process').click(function(){
   $('.hidden-process').slideToggle(3000);
+  $('.view-process').html($('.view-process').text() == 'Hide Full Design Process' ? 'View Full Design Process' : 'Hide Full Design Process');
 });
+
+
+
 //zoom image on click
 $('.process_pic').click(function() {
     $(this).toggleClass('transition');
