@@ -81,7 +81,7 @@ $('#reveal').click(function(){ //on lurkers.html
 
 //reveal .hidden-process on all project pages
 $('.view-process').click(function(){
-  $('.hidden-process').slideToggle(3000);
+  $('.hidden-process').fadeToggle(1300);
   $('.view-process').html($('.view-process').text() == 'Hide Full Design Process' ? 'View Full Design Process' : 'Hide Full Design Process');
 });
 
