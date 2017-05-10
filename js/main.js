@@ -72,6 +72,8 @@ $('.about-me').animate({'margin-top': '50px'}, 900);
 //animation to reveal .even-more-projects, and others
 $('#view-more').click(function(){
   $('.even-more-projects').slideToggle(500);
+  $('#view-more').html($('#view-more').text() == 'View Less' ? 'View All' : 'View Less');
+
 });
 
 $('#reveal').click(function(){ //on lurkers.html
@@ -81,17 +83,17 @@ $('#reveal').click(function(){ //on lurkers.html
 
 //reveal .hidden-process on all project pages
 $('#view-research-process').click(function(){
-  $('#hidden-research-process').slideToggle(1300);
+  $('#hidden-research-process').slideToggle(1000);
   $('#view-research-process').html($('#view-research-process').text() == 'Hide Research Process' ? 'View Research Process' : 'Hide Research Process');
 });
 
 $('#view-ideation-process').click(function(){
-  $('#hidden-ideation-process').slideToggle(1300);
+  $('#hidden-ideation-process').slideToggle(1000);
   $('#view-ideation-process').html($('#view-ideation-process').text() == 'Hide Ideation Process' ? 'View Ideation Process' : 'Hide Ideation Process');
 });
 
 $('#view-implementation-process').click(function(){
-  $('#hidden-implementation-process').slideToggle(1300);
+  $('#hidden-implementation-process').slideToggle(1000);
   $('#view-implementation-process').html($('#view-implementation-process').text() == 'Hide Implementation Process' ? 'View Implementation Process' : 'Hide Implementation Process');
 });
 
