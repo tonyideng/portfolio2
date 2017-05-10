@@ -80,9 +80,24 @@ $('#reveal').click(function(){ //on lurkers.html
 
 
 //reveal .hidden-process on all project pages
-$('.view-process').click(function(){
-  $('.hidden-process').fadeToggle(1300);
-  $('.view-process').html($('.view-process').text() == 'Hide Full Design Process' ? 'View Full Design Process' : 'Hide Full Design Process');
+$('#view-research-process').click(function(){
+  $('#hidden-research-process').slideToggle(1300);
+  $('#view-research-process').html($('#view-research-process').text() == 'Hide Research Process' ? 'View Research Process' : 'Hide Research Process');
+});
+
+$('#view-ideation-process').click(function(){
+  $('#hidden-ideation-process').slideToggle(1300);
+  $('#view-ideation-process').html($('#view-ideation-process').text() == 'Hide Ideation Process' ? 'View Ideation Process' : 'Hide Ideation Process');
+});
+
+$('#view-implementation-process').click(function(){
+  $('#hidden-implementation-process').slideToggle(1300);
+  $('#view-implementation-process').html($('#view-implementation-process').text() == 'Hide Implementation Process' ? 'View Implementation Process' : 'Hide Implementation Process');
+});
+
+$('#view-process').click(function(){
+  $('#hidden-process').slideToggle(1300);
+  //$('#view-implementation-process').html($('#view-implementation-process').text() == 'Hide Implementation Process' ? 'View Implementation Process' : 'Hide Implementation Process');
 });
 
 

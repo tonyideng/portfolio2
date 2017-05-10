@@ -73,29 +73,29 @@ body {
       margin: 0 auto; }
       .item-container .item-wrap #item-individual-wrap .hidden-process {
         display: none; }
-      .item-container .item-wrap #item-individual-wrap #process, .item-container .item-wrap #item-individual-wrap #final-result, .item-container .item-wrap #item-individual-wrap #whatlearndid {
+      .item-container .item-wrap #item-individual-wrap #process, .item-container .item-wrap #item-individual-wrap #final-result, .item-container .item-wrap #item-individual-wrap #whatlearndid, .item-container .item-wrap #item-individual-wrap #ideation, .item-container .item-wrap #item-individual-wrap #implementation {
         width: 60%;
         display: table;
         margin: 0 auto; }
-        .item-container .item-wrap #item-individual-wrap #process h3, .item-container .item-wrap #item-individual-wrap #final-result h3, .item-container .item-wrap #item-individual-wrap #whatlearndid h3 {
+        .item-container .item-wrap #item-individual-wrap #process h3, .item-container .item-wrap #item-individual-wrap #final-result h3, .item-container .item-wrap #item-individual-wrap #whatlearndid h3, .item-container .item-wrap #item-individual-wrap #ideation h3, .item-container .item-wrap #item-individual-wrap #implementation h3 {
           font-family: "Avenir Next", "Lato", sans-serif;
           color: #FE777A;
           font-weight: 500;
           font-size: 21px; }
-        .item-container .item-wrap #item-individual-wrap #process p, .item-container .item-wrap #item-individual-wrap #final-result p, .item-container .item-wrap #item-individual-wrap #whatlearndid p {
+        .item-container .item-wrap #item-individual-wrap #process p, .item-container .item-wrap #item-individual-wrap #final-result p, .item-container .item-wrap #item-individual-wrap #whatlearndid p, .item-container .item-wrap #item-individual-wrap #ideation p, .item-container .item-wrap #item-individual-wrap #implementation p {
           font-family: "Avenir Next", "Lato", sans-serif;
           line-height: 1.5;
           color: #585858;
           font-weight: 400;
           margin-bottom: 3em;
           font-size: 19px; }
-        .item-container .item-wrap #item-individual-wrap #process .description, .item-container .item-wrap #item-individual-wrap #final-result .description, .item-container .item-wrap #item-individual-wrap #whatlearndid .description {
+        .item-container .item-wrap #item-individual-wrap #process .description, .item-container .item-wrap #item-individual-wrap #final-result .description, .item-container .item-wrap #item-individual-wrap #whatlearndid .description, .item-container .item-wrap #item-individual-wrap #ideation .description, .item-container .item-wrap #item-individual-wrap #implementation .description {
           width: 65% !important;
           display: table;
           margin: 0 auto; }
-          .item-container .item-wrap #item-individual-wrap #process .description p, .item-container .item-wrap #item-individual-wrap #final-result .description p, .item-container .item-wrap #item-individual-wrap #whatlearndid .description p {
+          .item-container .item-wrap #item-individual-wrap #process .description p, .item-container .item-wrap #item-individual-wrap #final-result .description p, .item-container .item-wrap #item-individual-wrap #whatlearndid .description p, .item-container .item-wrap #item-individual-wrap #ideation .description p, .item-container .item-wrap #item-individual-wrap #implementation .description p {
             margin-top: 25px; }
-          .item-container .item-wrap #item-individual-wrap #process .description .reason, .item-container .item-wrap #item-individual-wrap #final-result .description .reason, .item-container .item-wrap #item-individual-wrap #whatlearndid .description .reason {
+          .item-container .item-wrap #item-individual-wrap #process .description .reason, .item-container .item-wrap #item-individual-wrap #final-result .description .reason, .item-container .item-wrap #item-individual-wrap #whatlearndid .description .reason, .item-container .item-wrap #item-individual-wrap #ideation .description .reason, .item-container .item-wrap #item-individual-wrap #implementation .description .reason {
             margin-top: -1.5em;
             margin-left: 10px;
             border-left: 3px solid #2AA3FA;
@@ -104,11 +104,11 @@ body {
             background-color: #eff6ff;
             width: 88%;
             border-radius: 0px 3px 3px 0px; }
-            .item-container .item-wrap #item-individual-wrap #process .description .reason .reason-header, .item-container .item-wrap #item-individual-wrap #final-result .description .reason .reason-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .description .reason .reason-header {
+            .item-container .item-wrap #item-individual-wrap #process .description .reason .reason-header, .item-container .item-wrap #item-individual-wrap #final-result .description .reason .reason-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .description .reason .reason-header, .item-container .item-wrap #item-individual-wrap #ideation .description .reason .reason-header, .item-container .item-wrap #item-individual-wrap #implementation .description .reason .reason-header {
               color: #2AA3FA;
               font-weight: 600;
               font-size: 19px; }
-          .item-container .item-wrap #item-individual-wrap #process .description .insight, .item-container .item-wrap #item-individual-wrap #final-result .description .insight, .item-container .item-wrap #item-individual-wrap #whatlearndid .description .insight {
+          .item-container .item-wrap #item-individual-wrap #process .description .insight, .item-container .item-wrap #item-individual-wrap #final-result .description .insight, .item-container .item-wrap #item-individual-wrap #whatlearndid .description .insight, .item-container .item-wrap #item-individual-wrap #ideation .description .insight, .item-container .item-wrap #item-individual-wrap #implementation .description .insight {
             margin-top: -1em;
             margin-left: 10px;
             border-left: 3px solid #4AC948;
@@ -118,18 +118,18 @@ body {
             width: 88%;
             background-color: #effff1;
             border-radius: 0px 3px 3px 0px; }
-            .item-container .item-wrap #item-individual-wrap #process .description .insight .insight-header, .item-container .item-wrap #item-individual-wrap #final-result .description .insight .insight-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .description .insight .insight-header {
+            .item-container .item-wrap #item-individual-wrap #process .description .insight .insight-header, .item-container .item-wrap #item-individual-wrap #final-result .description .insight .insight-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .description .insight .insight-header, .item-container .item-wrap #item-individual-wrap #ideation .description .insight .insight-header, .item-container .item-wrap #item-individual-wrap #implementation .description .insight .insight-header {
               color: #4AC948;
               font-weight: 600;
               font-size: 19px; }
-        .item-container .item-wrap #item-individual-wrap #process .process-stage-title, .item-container .item-wrap #item-individual-wrap #final-result .process-stage-title, .item-container .item-wrap #item-individual-wrap #whatlearndid .process-stage-title {
+        .item-container .item-wrap #item-individual-wrap #process .process-stage-title, .item-container .item-wrap #item-individual-wrap #final-result .process-stage-title, .item-container .item-wrap #item-individual-wrap #whatlearndid .process-stage-title, .item-container .item-wrap #item-individual-wrap #ideation .process-stage-title, .item-container .item-wrap #item-individual-wrap #implementation .process-stage-title {
           font-family: "Avenir Next", "Lato", sans-serif;
           color: #585858;
           font-weight: 600;
           font-size: 19px;
           margin-bottom: 10px;
           margin-top: 30px; }
-        .item-container .item-wrap #item-individual-wrap #process .reason, .item-container .item-wrap #item-individual-wrap #final-result .reason, .item-container .item-wrap #item-individual-wrap #whatlearndid .reason {
+        .item-container .item-wrap #item-individual-wrap #process .reason, .item-container .item-wrap #item-individual-wrap #final-result .reason, .item-container .item-wrap #item-individual-wrap #whatlearndid .reason, .item-container .item-wrap #item-individual-wrap #ideation .reason, .item-container .item-wrap #item-individual-wrap #implementation .reason {
           margin-top: -1.5em;
           margin-left: 10px;
           border-left: 3px solid #2AA3FA;
@@ -138,11 +138,11 @@ body {
           background-color: #eff6ff;
           width: 88%;
           border-radius: 0px 3px 3px 0px; }
-          .item-container .item-wrap #item-individual-wrap #process .reason .reason-header, .item-container .item-wrap #item-individual-wrap #final-result .reason .reason-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .reason .reason-header {
+          .item-container .item-wrap #item-individual-wrap #process .reason .reason-header, .item-container .item-wrap #item-individual-wrap #final-result .reason .reason-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .reason .reason-header, .item-container .item-wrap #item-individual-wrap #ideation .reason .reason-header, .item-container .item-wrap #item-individual-wrap #implementation .reason .reason-header {
             color: #2AA3FA;
             font-weight: 600;
             font-size: 19px; }
-        .item-container .item-wrap #item-individual-wrap #process .insight, .item-container .item-wrap #item-individual-wrap #final-result .insight, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight {
+        .item-container .item-wrap #item-individual-wrap #process .insight, .item-container .item-wrap #item-individual-wrap #final-result .insight, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight, .item-container .item-wrap #item-individual-wrap #ideation .insight, .item-container .item-wrap #item-individual-wrap #implementation .insight {
           margin-top: -1em;
           margin-left: 10px;
           border-left: 3px solid #4AC948;
@@ -152,35 +152,35 @@ body {
           width: 88%;
           background-color: #effff1;
           border-radius: 0px 3px 3px 0px; }
-          .item-container .item-wrap #item-individual-wrap #process .insight .insight-header, .item-container .item-wrap #item-individual-wrap #final-result .insight .insight-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight .insight-header {
+          .item-container .item-wrap #item-individual-wrap #process .insight .insight-header, .item-container .item-wrap #item-individual-wrap #final-result .insight .insight-header, .item-container .item-wrap #item-individual-wrap #whatlearndid .insight .insight-header, .item-container .item-wrap #item-individual-wrap #ideation .insight .insight-header, .item-container .item-wrap #item-individual-wrap #implementation .insight .insight-header {
             color: #4AC948;
             font-weight: 600;
             font-size: 19px; }
-        .item-container .item-wrap #item-individual-wrap #process #did, .item-container .item-wrap #item-individual-wrap #final-result #did, .item-container .item-wrap #item-individual-wrap #whatlearndid #did {
+        .item-container .item-wrap #item-individual-wrap #process #did, .item-container .item-wrap #item-individual-wrap #final-result #did, .item-container .item-wrap #item-individual-wrap #whatlearndid #did, .item-container .item-wrap #item-individual-wrap #ideation #did, .item-container .item-wrap #item-individual-wrap #implementation #did {
           float: left;
           width: 50%; }
-          .item-container .item-wrap #item-individual-wrap #process #did h3, .item-container .item-wrap #item-individual-wrap #final-result #did h3, .item-container .item-wrap #item-individual-wrap #whatlearndid #did h3 {
+          .item-container .item-wrap #item-individual-wrap #process #did h3, .item-container .item-wrap #item-individual-wrap #final-result #did h3, .item-container .item-wrap #item-individual-wrap #whatlearndid #did h3, .item-container .item-wrap #item-individual-wrap #ideation #did h3, .item-container .item-wrap #item-individual-wrap #implementation #did h3 {
             text-align: center;
             margin-bottom: -7px; }
-          .item-container .item-wrap #item-individual-wrap #process #did p, .item-container .item-wrap #item-individual-wrap #final-result #did p, .item-container .item-wrap #item-individual-wrap #whatlearndid #did p {
+          .item-container .item-wrap #item-individual-wrap #process #did p, .item-container .item-wrap #item-individual-wrap #final-result #did p, .item-container .item-wrap #item-individual-wrap #whatlearndid #did p, .item-container .item-wrap #item-individual-wrap #ideation #did p, .item-container .item-wrap #item-individual-wrap #implementation #did p {
             background: #F7F7F7;
             padding: 20px 15px 20px 15px;
             margin-bottom: 1em;
             border-left: 5px solid #dcdcdc;
             height: 130px; }
-        .item-container .item-wrap #item-individual-wrap #process #learned, .item-container .item-wrap #item-individual-wrap #final-result #learned, .item-container .item-wrap #item-individual-wrap #whatlearndid #learned {
+        .item-container .item-wrap #item-individual-wrap #process #learned, .item-container .item-wrap #item-individual-wrap #final-result #learned, .item-container .item-wrap #item-individual-wrap #whatlearndid #learned, .item-container .item-wrap #item-individual-wrap #ideation #learned, .item-container .item-wrap #item-individual-wrap #implementation #learned {
           float: right;
           width: 50%; }
-          .item-container .item-wrap #item-individual-wrap #process #learned h3, .item-container .item-wrap #item-individual-wrap #final-result #learned h3, .item-container .item-wrap #item-individual-wrap #whatlearndid #learned h3 {
+          .item-container .item-wrap #item-individual-wrap #process #learned h3, .item-container .item-wrap #item-individual-wrap #final-result #learned h3, .item-container .item-wrap #item-individual-wrap #whatlearndid #learned h3, .item-container .item-wrap #item-individual-wrap #ideation #learned h3, .item-container .item-wrap #item-individual-wrap #implementation #learned h3 {
             text-align: center;
             margin-bottom: -7px; }
-          .item-container .item-wrap #item-individual-wrap #process #learned p, .item-container .item-wrap #item-individual-wrap #final-result #learned p, .item-container .item-wrap #item-individual-wrap #whatlearndid #learned p {
+          .item-container .item-wrap #item-individual-wrap #process #learned p, .item-container .item-wrap #item-individual-wrap #final-result #learned p, .item-container .item-wrap #item-individual-wrap #whatlearndid #learned p, .item-container .item-wrap #item-individual-wrap #ideation #learned p, .item-container .item-wrap #item-individual-wrap #implementation #learned p {
             background: #F7F7F7;
             margin-bottom: 1em;
             padding: 20px 10px 20px 5px;
             border-radius: 0px 4px 4px 0px;
             height: 130px; }
-        .item-container .item-wrap #item-individual-wrap #process .process_pic, .item-container .item-wrap #item-individual-wrap #final-result .process_pic, .item-container .item-wrap #item-individual-wrap #whatlearndid .process_pic {
+        .item-container .item-wrap #item-individual-wrap #process .process_pic, .item-container .item-wrap #item-individual-wrap #final-result .process_pic, .item-container .item-wrap #item-individual-wrap #whatlearndid .process_pic, .item-container .item-wrap #item-individual-wrap #ideation .process_pic, .item-container .item-wrap #item-individual-wrap #implementation .process_pic {
           width: 100%;
           margin-bottom: -10px;
           margin-top: 20px;
@@ -189,9 +189,9 @@ body {
           -moz-transition: all .3s ease-in-out;
           -ms-transition: all .3s ease-in-out;
           -o-transition: all .3s ease-in-out; }
-          .item-container .item-wrap #item-individual-wrap #process .process_pic:hover, .item-container .item-wrap #item-individual-wrap #final-result .process_pic:hover, .item-container .item-wrap #item-individual-wrap #whatlearndid .process_pic:hover {
+          .item-container .item-wrap #item-individual-wrap #process .process_pic:hover, .item-container .item-wrap #item-individual-wrap #final-result .process_pic:hover, .item-container .item-wrap #item-individual-wrap #whatlearndid .process_pic:hover, .item-container .item-wrap #item-individual-wrap #ideation .process_pic:hover, .item-container .item-wrap #item-individual-wrap #implementation .process_pic:hover {
             cursor: zoom-in; }
-        .item-container .item-wrap #item-individual-wrap #process .transition, .item-container .item-wrap #item-individual-wrap #final-result .transition, .item-container .item-wrap #item-individual-wrap #whatlearndid .transition {
+        .item-container .item-wrap #item-individual-wrap #process .transition, .item-container .item-wrap #item-individual-wrap #final-result .transition, .item-container .item-wrap #item-individual-wrap #whatlearndid .transition, .item-container .item-wrap #item-individual-wrap #ideation .transition, .item-container .item-wrap #item-individual-wrap #implementation .transition {
           -webkit-transform: scale(1.635);
           -moz-transform: scale(1.635);
           -o-transform: scale(1.635);
@@ -203,7 +203,7 @@ body {
           -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
           -moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.3); }
-          .item-container .item-wrap #item-individual-wrap #process .transition:hover, .item-container .item-wrap #item-individual-wrap #final-result .transition:hover, .item-container .item-wrap #item-individual-wrap #whatlearndid .transition:hover {
+          .item-container .item-wrap #item-individual-wrap #process .transition:hover, .item-container .item-wrap #item-individual-wrap #final-result .transition:hover, .item-container .item-wrap #item-individual-wrap #whatlearndid .transition:hover, .item-container .item-wrap #item-individual-wrap #ideation .transition:hover, .item-container .item-wrap #item-individual-wrap #implementation .transition:hover {
             cursor: zoom-out; }
       .item-container .item-wrap #item-individual-wrap #reveal {
         text-align: center;
@@ -315,36 +315,39 @@ body {
     display: table;
     margin: 0 auto;
     margin-top: 5em; }
-  .item-container .view-process {
-    text-align: center;
-    background-color: #4AC948;
-    color: #FFF;
-    padding: 12px 70px 12px 70px;
-    border-radius: 3px;
+  .item-container #view-research-process, .item-container #view-ideation-process, .item-container #view-implementation-process, .item-container #view-process {
+    width: 100%;
+    color: #929292;
     text-decoration: none;
+    text-align: left;
     font-family: "Avenir Next", "Lato", sans-serif;
     font-size: 20px;
+    font-weight: 300;
     display: table;
     margin: 0 auto;
-    margin-top: 1.5em;
+    margin-top: 2em;
     margin-bottom: 2em;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 16px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
-    .item-container .view-process:hover {
+    .item-container #view-research-process:hover, .item-container #view-ideation-process:hover, .item-container #view-implementation-process:hover, .item-container #view-process:hover {
       -webkit-transition: all .3s ease-in-out;
       -moz-transition: all .3s ease-in-out;
       -ms-transition: all .3s ease-in-out;
       -o-transition: all .3s ease-in-out;
       transition: all .3s ease-in-out;
       cursor: pointer;
-      transform: scale(1.05);
-      background-color: #4AC948;
-      -webkit-box-shadow: 3px 3px 0px 0px #a5f762;
-      -moz-box-shadow: 3px 3px 0px 0px #a5f762;
-      box-shadow: 3px 3px 0px 0px #a5f762; }
+      color: #4AC948;
+      border-bottom: 1px solid #4AC948;
+      -webkit-transform: translateX(3px);
+      -moz-transform: translateX(3px);
+      -ms-transform: translateX(3px);
+      -o-transform: translateX(3px);
+      transform: translateX(3px); }
   .item-container #more-projects-container {
     margin-top: 4em; }
     .item-container #more-projects-container h2 {

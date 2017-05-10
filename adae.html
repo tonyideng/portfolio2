@@ -29,7 +29,7 @@
       <a href="#final-result"><li>Final Design</li></a>
       <a href="#process"><li>Research Process</li></a>
       <a href="#2"><li>Ideation</li></a>
-      <a href="#3"><li>Implementation</li></a>      
+      <a href="#3"><li>Implementation</li></a>
       <a href="#anchor-divider-1"><li>What I Did & Learned</li></a>
       <a href = "#anchor-divider"><li>More Projects</li></a>
     </ul>
@@ -69,15 +69,20 @@
 
 
 
-  <div class="hidden-process">
-    <div id="process">
+
+  <div id="process">
+    <a style="text-decoration: none;"href="#process"><div id="view-research-process"> View Research Process </div></a>
+    <div id="hidden-research-process" class="hidden-process">
       <h3> Research Process</h3>
       <p>Due to monetary and time constraints, our team did not implement primary research. We performed a competitive analysis of
       other marketplace apps, did guerilla research at Starbucks, and also thought about our own experiences.</p>
       <p class="insight"><span class="insight-header">Insights</span></br>We discovered that other similiar apps all used physical cash.</p>
       <p class="insight">We had thought about Renting items, however after our research it seemed that it was not a viable choice: many renting websites were defunct, and people we talked to were extremely skeptical.</p>
+    </div> <!--hidden process end div-->
 
 
+  <a style="text-decoration: none;"href="#ideation"><div id="view-ideation-process"> View Ideation Process </div></a>
+    <div id="hidden-ideation-process" class="hidden-process">
     <h3 id="2"> Ideation </h3>
     <h2 class="process-stage-title">What can Adae offer to potential users.</h2>
 
@@ -87,8 +92,9 @@
       <p>We wrote down all the core possibilities of things that Adae can provide.</p>
       <p class="reason"><span class="reason-header">Why?</span></br>We didn't want to invest a lot of time into making something that wouldn't be useful.</p>
       <p class="insight"><span class="insight-header">Insights</span></br>We realized in order to make our system secure, we had to figure out a way to check user transactions remotely.</p>
+    </div> <!--hidden process end div-->
 
-
+<div id="hidden-implementation-process" class="hidden-process">
     <!--<h2 class="process-stage-title">3 - Implementation</h2>-->
   <h3 id="3"> Implementation </h3>
   <p>We went straight into Hi-Fi production to deploy our product as quick as possible, and decided to pivot based on user response.<br><br>
@@ -140,10 +146,7 @@ in this section, and then detail how it performed when we deployed it for the fi
 <img class ="process_pic" src ="images/adae_3.png">
 <p>When they meet in person, they will pay with the QR code scan using the companion app to complete the transaction. This is then timestamped and stored in our database.</p>
 
-
-    </div>
-
-    <div id="final-result">
+    <div style="width: 100%" id="final-result">
       <h3> Final Design & Results</h3>
       <img class ="process_pic" src ="images/adae.gif"></img>
         <p> When we deployed to the public for the first time, we had to do most of the heavy lifting and legwork ourselves. At the beginning,
@@ -163,9 +166,11 @@ in this section, and then detail how it performed when we deployed it for the fi
 
     </div>
   </div> <!--hidden process end div-->
-  <a style="text-decoration: none;"href="#process"><div class="view-process"> View Full Design Process </div></a>
+  <a style="text-decoration: none;"href="#implementation"><div id="view-implementation-process"> View Implementation Process </div></a>
+</div>
 
-    <div class="divider"></div>
+
+    <!--<div class="divider"></div>-->
       <span id="anchor-divider-1"></span>
       <div id="more-projects-container">
 
