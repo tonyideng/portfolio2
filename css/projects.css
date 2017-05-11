@@ -319,7 +319,7 @@ body {
     width: 100%;
     background-image: url(../images/open_button.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right 9px;
     background-size: 24px 24px;
     color: #7a7a7a;
     text-decoration: none;
@@ -340,7 +340,7 @@ body {
     .item-container #view-research-process:hover, .item-container #view-ideation-process:hover, .item-container #view-implementation-process:hover, .item-container #view-process:hover {
       background-image: url(../images/open_button_hover.png);
       background-repeat: no-repeat;
-      background-position: right 5px;
+      background-position: right 9px;
       -webkit-transition: all .3s ease-in-out;
       -moz-transition: all .3s ease-in-out;
       -ms-transition: all .3s ease-in-out;
