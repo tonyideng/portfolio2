@@ -557,7 +557,8 @@ body {
   right: 0;
   margin-left: 210px;
   top: 15.5em;
-  z-index: 1000; }
+  z-index: 1000;
+  display: none; }
   #menu-container #menu-tab #list {
     height: 20px;
     width: auto;
