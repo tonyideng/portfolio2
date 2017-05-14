@@ -37,12 +37,13 @@ $('.about-me').animate({'margin-top': '50px'}, 900);
 
 
   //showing side menu on project page to get the attention of the user, and click function to activate the menu.
-  $('#menu-tab').delay(3500).show("slide",{ direction: 'right' }, 1500);
+  $('#menu-tab').delay(2000).show("slide",{ direction: 'right' }, 1500);
 
 
    $( '#menu-tab' ).click(function(){ //animating the slide menu
      $('.menu').toggle('slide', { direction: 'right' }, 400);
-       $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '215px' : '0px'}, 400);
+       $('#menu-tab').animate({ 'margin-right' : $('#menu-tab').css('margin-right') == '0px' ? '245px' : '0px'}, 400);
+
    });
 
   /* $('#menu-container').click( function(event){

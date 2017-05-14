@@ -726,15 +726,15 @@ body{
 #menu-container{
 
     #menu-tab{
-      background-color: #AAD1FF;
+      background-color: rgba(175, 207, 255, 0.92);
       width: 35px;
       height: 292px;
-      border-right: 3px solid #539EF5;
-      border-radius: 4px 0px 0px 4px;
+      border-right: 3px solid #90c1f9;
+      border-radius: 2px 0px 0px 2px;
       position: fixed;
       right: 0;
       margin-left: 210px;
-      top: 14.5em;
+      top: 15.5em;
       z-index: 1000;
       display: none;
       -webkit-box-shadow: 0px 2px 4px 0px #dcdcdc;
@@ -759,8 +759,9 @@ body{
 
     .menu{
       display: none;
-      background-color: #F4F4F4;
-      width: 215px;
+      background-color: rgba(97, 152, 232, 0.93);
+      width: 245px;
+      padding: 25px 0px 25px 0px;
       position: fixed;
       right: 0;
       font-family: $main-font;
@@ -769,9 +770,9 @@ body{
       border-radius: 4px 0px 0px 4px;
       top: 11em;
       z-index: 1000;
-      -webkit-box-shadow: 0px 2px 4px 0px #dcdcdc;
-      -moz-box-shadow: 0px 2px 4px 0px #dcdcdc;
-      box-shadow: 0px 2px 4px 0px #dcdcdc;
+      // -webkit-box-shadow: 0px 2px 4px 0px #dcdcdc;
+      // -moz-box-shadow: 0px 2px 4px 0px #dcdcdc;
+      // box-shadow: 0px 2px 4px 0px #dcdcdc;
       a{
         text-decoration: none;
         &:link{
@@ -788,7 +789,8 @@ body{
         li{
           display: block;
           padding: 11px;
-          color: $black;
+          color: #fff;
+          font-weight: 200;
           transition: all .3s ease-in-out;
           -webkit-transition: all .3s ease-in-out;
           -moz-transition: all .3s ease-in-out;
@@ -796,7 +798,7 @@ body{
           -o-transition: all .3s ease-in-out;
           &:hover{
             cursor: pointer;
-            color: $orange;
+            color: #005fef;
             transition: all .3s ease-in-out;
             -webkit-transition: all .3s ease-in-out;
             -moz-transition: all .3s ease-in-out;
@@ -871,6 +873,11 @@ body{
           }
 
         }
+    }
+
+    #menu-tab{
+
+      width: 20px !important;
     }
 
     #learned{
