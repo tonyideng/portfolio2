@@ -10,8 +10,25 @@ body{
   background-color: #FDFDFD;
 }
 
-#navbar{
-  background: #FDFDFD;
+.mainmenu{
+  background: rgba(244, 248, 251, 0.97) !important;
+  position: fixed;
+  transition: top 0.2s ease-in-out;
+  height: 25px !important;
+  top: 0;
+  a{
+    padding: 2px 20px 17px 20px !important;
+  }
+}
+
+.nav-down{
+    top: 0;
+    transition: top 0.2s ease-in-out;
+  //  border-bottom: 1px solid #c8e1ff;
+}
+.nav-up {
+    top: -57px;
+  //  border-bottom: 1px solid #c8e1ff;
 }
 
 .intro-hero{
