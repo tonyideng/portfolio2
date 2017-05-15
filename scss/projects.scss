@@ -16,6 +16,7 @@ body{
   transition: top 0.2s ease-in-out;
   height: 25px !important;
   top: 0;
+
   a{
     padding: 2px 20px 17px 20px !important;
   }
@@ -24,11 +25,11 @@ body{
 .nav-down{
     top: 0;
     transition: top 0.2s ease-in-out;
-  //  border-bottom: 1px solid #c8e1ff;
+    border-bottom: 1px solid rgba(0,0,0,.06);
 }
 .nav-up {
     top: -57px;
-  //  border-bottom: 1px solid #c8e1ff;
+    border-bottom: 1px solid rgba(0,0,0,.06);
 }
 
 .intro-hero{
