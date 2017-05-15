@@ -106,7 +106,7 @@ $('#view-process').click(function(){
 
 $(window).bind('scroll', function () {
 
-    if ($(window).scrollTop() > 150)
+    if ($(window).scrollTop() > 10)
         $('.mainmenu').addClass('nav-down');
     else
         $('.mainmenu').removeClass('nav-down');
