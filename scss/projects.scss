@@ -510,7 +510,7 @@ body{
         .ind-project{
           display: inline-block;
           background-color: #fff;
-          height: 355px;
+          height: 450px;
           width: 300px;
           margin: 15px;
           border-radius: 4px;
@@ -518,10 +518,10 @@ body{
           -moz-transition: all .3s ease-in-out;
           -ms-transition: all .3s ease-in-out;
           -o-transition: all .3s ease-in-out;
-          -webkit-box-shadow: 0 1px 7px rgba(0,0,0,.05);
-          -moz-box-shadow: 0 1px 7px rgba(0,0,0,.05);
-          box-shadow: 0 1px 7px rgba(0,0,0,.05);
-          border: 1px solid rgba(0,0,0,.04);
+          // -webkit-box-shadow: 0 1px 7px rgba(0,0,0,.05);
+          // -moz-box-shadow: 0 1px 7px rgba(0,0,0,.05);
+          // box-shadow: 0 1px 7px rgba(0,0,0,.05);
+          border: 1px solid rgba(0,0,0,.05);
 
           &:hover{
             opacity: 1;
@@ -537,26 +537,24 @@ body{
           }
 
           .project-label{
-            padding: 5px 0px 0px 0px;
+            padding: 15px 0px 0px 17px;
             text-align: left;
             font-family: $main-font;
             color: #585858;
             font-weight: 600;
-            text-indent: 12px;
-            font-size: 17px;
+            font-size: 18px;
           }
 
           .project-label-2{
-              padding: 2px 10px 0px 13px;
-              text-align: left;
-              font-family: $main-font;
-              color: #585858;
-              font-weight: 400;
-
+            padding: 2px 10px 0px 17px;
+            text-align: left;
+            font-family: $main-font;
+            color: #585858;
+            font-weight: 400;
           }
           img{
             object-fit: cover;
-            height: 260px;
+            height: 340px;
             width: 300px;
             border-radius: 4px 4px 0px 0px;
             transition: all .3s ease-in-out;
@@ -589,7 +587,7 @@ body{
         .ind-project{
           display: inline-block;
           background-color: #fff;
-          height: 355px;
+          height: 450px;
           width: 300px;
           margin: 15px;
           border-radius: 4px;
@@ -597,10 +595,10 @@ body{
           -moz-transition: all .3s ease-in-out;
           -ms-transition: all .3s ease-in-out;
           -o-transition: all .3s ease-in-out;
-          -webkit-box-shadow: 0 1px 7px rgba(0,0,0,.05);
-          -moz-box-shadow: 0 1px 7px rgba(0,0,0,.05);
-          box-shadow: 0 1px 7px rgba(0,0,0,.05);
-          border: 1px solid rgba(0,0,0,.04);
+          // -webkit-box-shadow: 0 1px 7px rgba(0,0,0,.05);
+          // -moz-box-shadow: 0 1px 7px rgba(0,0,0,.05);
+          // box-shadow: 0 1px 7px rgba(0,0,0,.05);
+          border: 1px solid rgba(0,0,0,.05);
 
           &:hover{
             opacity: 1;
@@ -611,7 +609,7 @@ body{
           }
         img{
           object-fit: cover;
-          height: 260px;
+          height: 340px;
           width: 300px;
           border-radius: 4px 4px 0px 0px;
           transition: all .3s ease-in-out;

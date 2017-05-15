@@ -370,7 +370,7 @@ body {
       .item-container #more-projects-container .more-projects .ind-project {
         display: inline-block;
         background-color: #fff;
-        height: 355px;
+        height: 450px;
         width: 300px;
         margin: 15px;
         border-radius: 4px;
@@ -378,10 +378,7 @@ body {
         -moz-transition: all .3s ease-in-out;
         -ms-transition: all .3s ease-in-out;
         -o-transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-        -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-        border: 1px solid rgba(0, 0, 0, 0.04); }
+        border: 1px solid rgba(0, 0, 0, 0.05); }
         .item-container #more-projects-container .more-projects .ind-project:hover {
           opacity: 1;
           transition: all .3s ease-in-out;
@@ -393,22 +390,21 @@ body {
           cursor: pointer;
           transform: scale(1.03); }
         .item-container #more-projects-container .more-projects .ind-project .project-label {
-          padding: 5px 0px 0px 0px;
+          padding: 15px 0px 0px 17px;
           text-align: left;
           font-family: "Avenir Next", "Lato", sans-serif;
           color: #585858;
           font-weight: 600;
-          text-indent: 12px;
-          font-size: 17px; }
+          font-size: 18px; }
         .item-container #more-projects-container .more-projects .ind-project .project-label-2 {
-          padding: 2px 10px 0px 13px;
+          padding: 2px 10px 0px 17px;
           text-align: left;
           font-family: "Avenir Next", "Lato", sans-serif;
           color: #585858;
           font-weight: 400; }
         .item-container #more-projects-container .more-projects .ind-project img {
           object-fit: cover;
-          height: 260px;
+          height: 340px;
           width: 300px;
           border-radius: 4px 4px 0px 0px;
           transition: all .3s ease-in-out;
@@ -435,7 +431,7 @@ body {
       .item-container #more-projects-container .even-more-projects .ind-project {
         display: inline-block;
         background-color: #fff;
-        height: 355px;
+        height: 450px;
         width: 300px;
         margin: 15px;
         border-radius: 4px;
@@ -443,10 +439,7 @@ body {
         -moz-transition: all .3s ease-in-out;
         -ms-transition: all .3s ease-in-out;
         -o-transition: all .3s ease-in-out;
-        -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-        -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-        box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
-        border: 1px solid rgba(0, 0, 0, 0.04); }
+        border: 1px solid rgba(0, 0, 0, 0.05); }
         .item-container #more-projects-container .even-more-projects .ind-project:hover {
           opacity: 1;
           transition: all .3s ease-in-out;
@@ -454,7 +447,7 @@ body {
           transform: scale(1.03); }
         .item-container #more-projects-container .even-more-projects .ind-project img {
           object-fit: cover;
-          height: 260px;
+          height: 340px;
           width: 300px;
           border-radius: 4px 4px 0px 0px;
           transition: all .3s ease-in-out;
