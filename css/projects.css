@@ -3,7 +3,7 @@ body {
   background-color: #FDFDFD; }
 
 .mainmenu {
-  background: rgba(244, 248, 251, 0.97) !important;
+  background: rgba(255, 255, 255, 0.97) !important;
   position: fixed;
   transition: top 0.2s ease-in-out;
   height: 25px !important;
