@@ -104,6 +104,16 @@ $('#view-process').click(function(){
 });
 
 
+//scroll reveal goes here
+window.sr = ScrollReveal();
+sr.reveal('#view-research-process', { duration: 1200, scale: .98, distance: '100px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
+sr.reveal('#view-ideation-process', { duration: 1200, scale: .98, distance: '100px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
+sr.reveal('#view-implementation-process', { duration: 1200, scale: .98, distance: '100px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
+
+sr.reveal('#process', { duration: 1200, scale: .98, distance: '100px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
+sr.reveal('#whatlearndid', { duration: 1400, scale: .98, distance: '80px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
+sr.reveal('.more-projects', { duration: 1100, scale: .98, distance: '100px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
+
 $(window).bind('scroll', function () {
 
     if ($(window).scrollTop() > 10)
