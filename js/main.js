@@ -9,7 +9,7 @@ $('.intro-hero').fadeIn({queue: false, duration: 1000});
 $('.intro-hero').animate({'margin-left': '-10px'}, 900);
 
 $('.about-me').fadeIn({queue: false, duration: 900});
-$('.about-me').animate({'margin-top': '50px'}, 900);
+$('.about-me').animate({'margin-top': '150px'}, 900);
 
 //animation of body content on home-page
 /*$(document).ready(function() {
@@ -113,6 +113,10 @@ sr.reveal('#view-implementation-process', { duration: 1200, scale: .98, distance
 //sr.reveal('#process', { duration: 1200, scale: .98, distance: '100px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
 sr.reveal('#whatlearndid', { duration: 1400, scale: .98, distance: '80px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
 sr.reveal('.more-projects', { duration: 1100, scale: .98, distance: '100px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
+
+//about page scroll stuff
+sr.reveal('.blurb-parts', { duration: 1400, scale: .98, distance: '100px', easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'});
+
 
 $(window).bind('scroll', function () {
 

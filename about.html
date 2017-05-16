@@ -4,12 +4,14 @@
 <title>Tony's Portfolio</title>
 <link rel="stylesheet" type="text/css" href="css/home.css" >
 <link rel="stylesheet" type="text/css" href="css/about.css" >
+<link rel="stylesheet" type="text/css" href="css/projects.css" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="images/My_favicon.ico" type="image/x-icon" />
 
 </head>
 
-<nav id="navbar">
+
+<nav id="navbar" class="mainmenu">
   <div id="nav-link-wrap">
     <a target="_blank" href="pdf/tony_resume.pdf">Resume</a>
     <a href="about.html">About</a>
@@ -21,12 +23,33 @@
 
 <div class="about-me">
   <img id ="avatar2" src ="images/about_me_ pic.jpg">
-  <div class="blurb">
-    <p>I'm Tony! Currently, I'm a Master of Human Computer Interaction candidate at Carnegie Mellon University. </p>
-    <p>Before I moved to Pittsburgh I was a Product Designer in Toronto where I worked at Arima, an early stage startup, and Adae, a startup I co-founded. In 5 person teams I've designed, built, and shipped 4 products from scratch with limited time and money.</p>
-    <p>I'm passionate about designing for joy, delight, and social good: products can be your friend.</p>
-    <p> I enjoy playing basketball and tennis, watching horror games & science fiction, and pigeons (they're like my spirit animals). </p>
-    <p>Thanks for visiting, and feel free to contact me!</p>
+</div>
+
+
+    <div class="blurb-parts">
+      <p class="bold">I'm Tony! Currently, I'm a Master of Human Computer Interaction candidate at Carnegie Mellon University. </p>
+      <p class="normal">Where I've greatly improved my knowledge about design, teamwork, and client communications.</p>
+    </div>
+
+    <div class="blurb-parts">
+      <p class="bold">I co-founded a startup, and know first-hand the challenges in making a valuable product.</p>
+      <p class="normal">I was a Product Designer in Toronto where I worked at Arima, an early stage startup, and Adae, a startup I co-founded. In 5 person teams I've designed, built, and shipped 4 products from scratch with limited time and money.</p>
+    </div>
+
+    <div class="blurb-parts">
+      <p class="bold">I'm passionate about designing for joy, delight, and social good.</p>
+      <p class="normal">Products can change lives, or make a small, joyful difference in your day.</p>
+    </div>
+
+    <div class="blurb-parts">
+      <p class="bold"> My hobbies include basketball, tennis, horror games, and all things Sci-Fi. </p>
+      <p class="normal">Oh, and watching pigeons (they're like my spirit animals).</p>
+    </div>
+
+    <div class="blurb-parts">
+      <p class="bold"> Now, I'm ready to take the next steps of my career. </p>
+      <p class="normal">After August, I hope to be part of a great team building exciting products! Where ever I go, I'll go with all my heart.</p>
+    </div>
 
   <div class="links">
       <a href="mailto:tonydeng@cmu.edu" target="_top">Email</a>
@@ -37,13 +60,90 @@
   </div>
 
 
+  <div class="item-container">
+    <div class="item-wrap">
+      <div id ="item-individual-wrap">
 
-</div>
+    <div class="divider"></div>
+      <span id="anchor-divider"></span>
+      <div id="more-projects-container">
+
+        <h2> ...and in case you didn't check out my projects yet </h2>
+
+        <div class ="more-projects">
+
+
+
+        <div class="ind-project">
+            <a href="penny.html"><img src ="images/penny_main.jpg">
+            <div class ="project-label"> Project Penny</div>
+            <div class ="project-label-2"> A project based around micro-transactions for joy and social good.</div></a>
+
+        </div>
+        <span id ="anchor-more"/>
+
+        <div class="ind-project">
+        <a href="ucare.html"><img src ="images/ucare_index.jpg">
+        <div class ="project-label"> uCare Mobile App</div>
+        <div class ="project-label-2"> A mobile health app for elderly care coordination.</div></a>
+
+        </div>
+      <div class="ind-project">
+        <a href="walt.html"><img src ="images/walt_cover.jpg">
+        <div class ="project-label"> Walt</div>
+        <div class ="project-label-2"> A Conversational User Interface as a Disney Resort Voice Assistant.</div></a>
+
+      </div>
+
+            <div class ="even-more-projects">
+              <div class="ind-project">
+              <a href="lurkers.html"><img src ="images/lurk_hero.jpg">
+              <div class ="project-label"> What Lurks in the Dark </div>
+              <div class ="project-label-2"> An audience participation horror game, integrated with Twitch.</div></a>
+
+              </div>
+
+              <a href="imagemoji.html"><div class="ind-project">
+                <img src ="images/imgmoji_main.png">
+                <div class ="project-label"> Imagemoji </div>
+                <div class ="project-label-2"> A web startup that visualized fun, interactive comments on images.</div></a>
+
+              </div>
+
+              <div class="ind-project">
+              <a href="adae.html"><img src ="images/adae-main.png">
+              <div class ="project-label"> Adae.co </div>
+              <div class ="project-label-2"> A P2P Marketplace web startup that I co-founded.</div></a>
+
+            </div>
+
+            <a href="pui.html"><div style="display: table; margin: 0 auto;"class="ind-project">
+              <img src ="images/pui_main.png">
+              <div class ="project-label"> Interactive Web Prototype </div>
+              <div class ="project-label-2"> Web prototype of a To-Do List app to show my web prototyping skills.</div>
+
+            </div></a>
+        </div>
+        <a href="#anchor-more"<div id ="view-more"> View All</div></a>
+        <a href="#avatar2"><div class="back-to-top-2"><img src ="images/up-arrow.png"></div></a>
+
+      </div>
+
+
+
+  </div>
+
+
+
+
 
 
 </body>
 
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 <script src="js/main.js"></script>
 
 <footer id="footer">

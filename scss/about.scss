@@ -6,41 +6,104 @@ $blue: #2AA3FA;
 $green: #4AC948;
 $main-font: 'Avenir Next', 'Lato', sans-serif;
 
+.mainmenu{
+  background: #fff !important;
+  position: fixed;
+  transition: top 0.4s ease-in-out;
+  height: 25px !important;
+  top: 0;
+  z-index: 2000;
+  a{
+    padding: 2px 20px 15px 20px !important;
+  }
+}
+
+.nav-down{
+    top: 0;
+    transition: top 0.4s ease-in-out;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    z-index: 2000;
+}
+.nav-up {
+    top: -57px;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+    z-index: 2000;
+}
 .about-me{
   display: table;
   margin: 0 auto;
+
   #avatar2{
-    text-align: center;
+    //text-align: center;
     height: 350px;
     width: auto;
-    margin-bottom: 20px;
+    //margin-bottom: 20px;
     margin-top: 55px;
     display: table;
     margin: 0 auto;
-  }
-
-  .blurb{
-    width: 550px;
-    display: table;
-    margin: 0 auto;
-    font-family: $main-font;
-    margin-top: 1em;
-    p{
-      font-family: $main-font;
-      line-height: 1.5;
-      color: $black;
-      font-weight: 400;
-      font-size: 19px;
-      letter-spacing: normal;
-      text-align: left;
-    }
-
-    .links{
-      margin-top: 2em;
-      margin-bottom: 5em;
-    }
+    margin-bottom: 5em;
   }
 }
+  // .blurb{
+  //   width: 540px;
+  //   display: table;
+  //   margin: 0 auto;
+  //   font-family: $main-font;
+  //   margin-top: 1em;
+
+    .blurb-parts{
+      margin-top: 1em !important;
+      margin: 0 auto;
+      display: table;
+      width: 30%;
+          .bold{
+            font-family: $main-font;
+            line-height: 1.4;
+            color: $black;
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: normal;
+            text-align: left;
+          }
+
+          .normal{
+            font-family: $main-font;
+            line-height: 1.5;
+            color: $black;
+            font-weight: 300;
+            font-size: 20px;
+            letter-spacing: normal;
+            margin-top: -1em;
+            text-align: left;
+          }
+        }
+    .links{
+      margin-top: 5em;
+    //  margin-bottom: 1em;
+      text-align: center;
+      a{
+      font-family: $main-font;
+      text-align: center;
+      font-weight: 300;
+      font-size: 18px;
+      padding: 10px;
+      text-decoration: none;
+      color: #a7a7a7;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      &:hover{
+        color: $orange;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+      }
+    }
+  }
+  // }
+
 
 #footer{
   background-color: #F4F4F4;

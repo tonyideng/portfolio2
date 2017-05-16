@@ -1,32 +1,80 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:200,300,400,500,600");
+.mainmenu {
+  background: #fff !important;
+  position: fixed;
+  transition: top 0.4s ease-in-out;
+  height: 25px !important;
+  top: 0;
+  z-index: 2000; }
+  .mainmenu a {
+    padding: 2px 20px 15px 20px !important; }
+
+.nav-down {
+  top: 0;
+  transition: top 0.4s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  z-index: 2000; }
+
+.nav-up {
+  top: -57px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  z-index: 2000; }
+
 .about-me {
   display: table;
   margin: 0 auto; }
   .about-me #avatar2 {
-    text-align: center;
     height: 350px;
     width: auto;
-    margin-bottom: 20px;
     margin-top: 55px;
     display: table;
-    margin: 0 auto; }
-  .about-me .blurb {
-    width: 550px;
-    display: table;
     margin: 0 auto;
+    margin-bottom: 5em; }
+
+.blurb-parts {
+  margin-top: 1em !important;
+  margin: 0 auto;
+  display: table;
+  width: 30%; }
+  .blurb-parts .bold {
     font-family: "Avenir Next", "Lato", sans-serif;
-    margin-top: 1em; }
-    .about-me .blurb p {
-      font-family: "Avenir Next", "Lato", sans-serif;
-      line-height: 1.5;
-      color: #585858;
-      font-weight: 400;
-      font-size: 19px;
-      letter-spacing: normal;
-      text-align: left; }
-    .about-me .blurb .links {
-      margin-top: 2em;
-      margin-bottom: 5em; }
+    line-height: 1.4;
+    color: #585858;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: normal;
+    text-align: left; }
+  .blurb-parts .normal {
+    font-family: "Avenir Next", "Lato", sans-serif;
+    line-height: 1.5;
+    color: #585858;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: normal;
+    margin-top: -1em;
+    text-align: left; }
+
+.links {
+  margin-top: 5em;
+  text-align: center; }
+  .links a {
+    font-family: "Avenir Next", "Lato", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    color: #a7a7a7;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out; }
+    .links a:hover {
+      color: #FE777A;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out; }
 
 #footer {
   background-color: #F4F4F4;
