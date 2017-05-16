@@ -35,7 +35,7 @@
   margin-top: 1em !important;
   margin: 0 auto;
   display: table;
-  width: 30%; }
+  width: 510px; }
   .blurb-parts .bold {
     font-family: "Avenir Next", "Lato", sans-serif;
     line-height: 1.4;
@@ -48,7 +48,7 @@
     font-family: "Avenir Next", "Lato", sans-serif;
     line-height: 1.5;
     color: #585858;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 20px;
     letter-spacing: normal;
     margin-top: -1em;
@@ -95,7 +95,7 @@
     width: 90% !important;
     height: auto; }
 
-  .blurb {
+  .blurb-parts {
     width: 90% !important; } }
 
 /*# sourceMappingURL=about.css.map */
