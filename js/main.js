@@ -37,7 +37,7 @@ $('.about-me').animate({'margin-top': '50px'}, 900);
 
 
   //showing side menu on project page to get the attention of the user, and click function to activate the menu.
-  $('#menu-tab').delay(2000).show("slide",{ direction: 'right' }, 2000);
+  $('#menu-tab').delay(2000).show("slide",{ direction: 'right' }, 2000).effect( "bounce",{ direction: 'right', distance: 20, times:1 }, 500 );
 
 
    $( '#menu-tab' ).click(function(){ //animating the slide menu
