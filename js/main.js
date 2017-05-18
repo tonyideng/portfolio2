@@ -85,17 +85,17 @@ $('#reveal').click(function(){ //on lurkers.html
 //reveal .hidden-process on all project pages
 $('#view-research-process').click(function(){
   $('#hidden-research-process').slideToggle(1000);
-  $('#view-research-process').html($('#view-research-process').text() == 'Hide Research Process' ? 'View Research Process' : 'Hide Research Process');
+  $('#view-research-process').html($('#view-research-process').text() == 'Hide Research Decisions' ? 'View Research Decisions' : 'Hide Research Decisions');
 });
 
 $('#view-ideation-process').click(function(){
   $('#hidden-ideation-process').slideToggle(1000);
-  $('#view-ideation-process').html($('#view-ideation-process').text() == 'Hide Ideation Process' ? 'View Ideation Process' : 'Hide Ideation Process');
+  $('#view-ideation-process').html($('#view-ideation-process').text() == 'Hide Ideation Decisions' ? 'View Ideation Decisions' : 'Hide Ideation Decisions');
 });
 
 $('#view-implementation-process').click(function(){
   $('#hidden-implementation-process').slideToggle(1000);
-  $('#view-implementation-process').html($('#view-implementation-process').text() == 'Hide Implementation Process' ? 'View Implementation Process' : 'Hide Implementation Process');
+  $('#view-implementation-process').html($('#view-implementation-process').text() == 'Hide Implementation Decisions' ? 'View Implementation Decisions' : 'Hide Implementation Decisions');
 });
 
 $('#view-process').click(function(){
