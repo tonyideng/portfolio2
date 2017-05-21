@@ -90,6 +90,9 @@ body {
       display: table;
       margin: 0 auto; }
       .item-container .item-wrap #item-individual-wrap .jump-to {
+        width: 80%;
+        display: table;
+        margin: 0 auto;
         text-align: center;
         font-family: "Avenir Next", "Lato", sans-serif;
         color: #929292;
@@ -97,6 +100,45 @@ body {
         margin-bottom: 1.5em;
         margin-top: 1.5em;
         font-size: 25px; }
+        .item-container .item-wrap #item-individual-wrap .jump-to #jumping {
+          background-image: url(../images/open_button.png);
+          background-repeat: no-repeat;
+          background-position: right 4px;
+          background-size: 20px 20px;
+          color: #dbdbdb;
+          text-decoration: none;
+          text-align: left;
+          font-family: "Avenir Next", "Lato", sans-serif;
+          font-size: 20px;
+          font-weight: 200;
+          margin-top: 2.5em;
+          border-bottom: 1px solid #eeeeee;
+          padding: 0px 35px 6px 0px;
+          -webkit-transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -ms-transition: all .3s ease-in-out;
+          -o-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out; }
+          .item-container .item-wrap #item-individual-wrap .jump-to #jumping a {
+            text-decoration: none !important;
+            color: inherit; }
+          .item-container .item-wrap #item-individual-wrap .jump-to #jumping:hover {
+            background-image: url(../images/open_button_hover.png);
+            background-repeat: no-repeat;
+            background-position: right 5px;
+            -webkit-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -ms-transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+            cursor: pointer;
+            color: #4AC948;
+            border-bottom: 1px solid #4AC948;
+            -webkit-transform: translateX(4px);
+            -moz-transform: translateX(4px);
+            -ms-transform: translateX(4px);
+            -o-transform: translateX(4px);
+            transform: translateX(4px); }
       .item-container .item-wrap #item-individual-wrap .hidden-process {
         display: none; }
       .item-container .item-wrap #item-individual-wrap #process, .item-container .item-wrap #item-individual-wrap #final-result, .item-container .item-wrap #item-individual-wrap #whatlearndid, .item-container .item-wrap #item-individual-wrap #ideation, .item-container .item-wrap #item-individual-wrap #implementation {

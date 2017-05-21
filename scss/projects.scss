@@ -121,6 +121,9 @@ body{
 
 
           .jump-to{
+            width: 80%;
+            display: table;
+            margin: 0 auto;
             text-align: center;
             font-family: $main-font;
             color: $gray;
@@ -128,6 +131,61 @@ body{
             margin-bottom: 1.5em;
             margin-top: 1.5em;
             font-size: 25px;
+
+            #jumping{
+              background-image: url(../images/open_button.png);
+              background-repeat: no-repeat;
+              background-position: right 4px;
+              background-size: 20px 20px;
+              color: #dbdbdb;
+              //padding: 12px 70px 12px 70px;
+              //border-radius: 3px;
+              text-decoration: none;
+              text-align: left;
+              font-family: $main-font;
+              font-size: 20px;
+              font-weight: 200;
+              margin-top: 2.5em;
+              border-bottom: 1px solid #eeeeee;
+              padding: 0px 35px 6px 0px;
+              -webkit-transition: all .3s ease-in-out;
+              -moz-transition: all .3s ease-in-out;
+              -ms-transition: all .3s ease-in-out;
+              -o-transition: all .3s ease-in-out;
+              transition: all .3s ease-in-out;
+
+              a{
+                text-decoration: none !important;
+                color: inherit;
+              }
+
+
+              &:hover{
+                background-image: url(../images/open_button_hover.png);
+                background-repeat: no-repeat;
+                background-position: right 5px;
+                -webkit-transition: all .3s ease-in-out;
+                -moz-transition: all .3s ease-in-out;
+                -ms-transition: all .3s ease-in-out;
+                -o-transition: all .3s ease-in-out;
+                transition: all .3s ease-in-out;
+                cursor: pointer;
+                color: #4AC948;
+                border-bottom: 1px solid #4AC948;
+                -webkit-transform: translateX(4px);
+                 -moz-transform: translateX(4px);
+                  -ms-transform: translateX(4px);
+                   -o-transform: translateX(4px);
+                      transform: translateX(4px);
+              //  transform: scale(1.05);
+              //  background-color: #4AC948;
+              //  -webkit-box-shadow: 3px 3px 0px 0px #a5f762;
+              //  -moz-box-shadow: 3px 3px 0px 0px #a5f762;
+              //  box-shadow: 3px 3px 0px 0px #a5f762;
+
+              }
+
+            }
           }
 
           .hidden-process{
