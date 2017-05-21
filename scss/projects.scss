@@ -119,6 +119,17 @@ body{
           display: table;
           margin: 0 auto;
 
+
+          .jump-to{
+            text-align: center;
+            font-family: $main-font;
+            color: $gray;
+            font-weight: 200;
+            margin-bottom: 1.5em;
+            margin-top: 1.5em;
+            font-size: 25px;
+          }
+
           .hidden-process{
             display: none;
           }

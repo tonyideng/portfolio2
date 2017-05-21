@@ -89,6 +89,14 @@ body {
     .item-container .item-wrap #item-individual-wrap {
       display: table;
       margin: 0 auto; }
+      .item-container .item-wrap #item-individual-wrap .jump-to {
+        text-align: center;
+        font-family: "Avenir Next", "Lato", sans-serif;
+        color: #929292;
+        font-weight: 200;
+        margin-bottom: 1.5em;
+        margin-top: 1.5em;
+        font-size: 25px; }
       .item-container .item-wrap #item-individual-wrap .hidden-process {
         display: none; }
       .item-container .item-wrap #item-individual-wrap #process, .item-container .item-wrap #item-individual-wrap #final-result, .item-container .item-wrap #item-individual-wrap #whatlearndid, .item-container .item-wrap #item-individual-wrap #ideation, .item-container .item-wrap #item-individual-wrap #implementation {
