@@ -106,6 +106,58 @@ body{
       }
     }
   }
+
+  /* Variables */
+$dotSize: 4px;
+$mouseWidth: 18px;
+$mouseHeight: $mouseWidth * 2;
+$animationDuration: 2s;
+
+/* Presentation styling, ignore */
+
+/* End presentation styling */
+  .mouse-container{
+    display: table;
+    margin: 0 auto;
+    .mouse {
+      box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.8);
+      border-radius: 100px;
+      top: 2em;
+      position: relative;
+      height: $mouseHeight;
+      width: $mouseWidth;
+
+    }
+    .mouse:before,
+    .mouse:after {
+      animation: mouse-wheel $animationDuration ease-in-out infinite;
+      background: #fff;
+      border-radius: 100px;
+      content: '';
+      height: 8px;
+      width: $dotSize;
+      opacity: 0;
+      position: absolute;
+      left: $mouseWidth / 2 - $dotSize / 2;
+      top: $mouseHeight / 2 - $dotSize / 2;
+    }
+    .mouse:after {
+      animation-delay: $animationDuration / 2;
+    }
+
+    @keyframes mouse-wheel {
+      0% {
+        transform: translateY(-$mouseHeight / 1.5 + ($mouseWidth / 1.5 - $dotSize / 1.5));
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY($mouseHeight / 1.5 - ($mouseWidth / 1.5 - $dotSize / 1.5));
+      }
+    }
+  }
 }
 
 .item-container{

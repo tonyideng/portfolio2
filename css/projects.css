@@ -30,7 +30,10 @@ body {
   background-position: center;
   margin-left: -50px;
   margin-top: -22px;
-  padding-bottom: 10em; }
+  padding-bottom: 10em;
+  /* Variables */
+  /* Presentation styling, ignore */
+  /* End presentation styling */ }
   .intro-hero h1 {
     padding: 2.5em 0em 1em 0em;
     font-family: "Avenir Next", "Lato", sans-serif;
@@ -78,7 +81,38 @@ body {
         color: #FE777A;
         font-weight: 600;
         font-size: 19px; }
-
+  .intro-hero .mouse-container {
+    display: table;
+    margin: 0 auto; }
+    .intro-hero .mouse-container .mouse {
+      box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.8);
+      border-radius: 100px;
+      top: 2em;
+      position: relative;
+      height: 36px;
+      width: 18px; }
+    .intro-hero .mouse-container .mouse:before,
+    .intro-hero .mouse-container .mouse:after {
+      animation: mouse-wheel 2s ease-in-out infinite;
+      background: #fff;
+      border-radius: 100px;
+      content: '';
+      height: 8px;
+      width: 4px;
+      opacity: 0;
+      position: absolute;
+      left: 7px;
+      top: 16px; }
+    .intro-hero .mouse-container .mouse:after {
+      animation-delay: 1s; }
+@keyframes mouse-wheel {
+  0% {
+    transform: translateY(-14.66667px); }
+  50% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    transform: translateY(14.66667px); } }
 .item-container {
   margin-top: 150px;
   display: none; }
