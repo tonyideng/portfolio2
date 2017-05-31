@@ -1,8 +1,8 @@
 
 //animation of headers on each page
  //$(document).ready(function() {
-     $('.introduction').fadeIn({queue: false, duration: 900});
-     $('.introduction').animate({'margin-top': '90px'}, 900);
+     $('.introduction').fadeIn({queue: false, duration: 800});
+     $('.introduction').animate({'margin-top': '90px'}, 800);
 //  });
 
 $('.intro-hero').fadeIn({queue: false, duration: 1000});
