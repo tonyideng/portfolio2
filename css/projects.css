@@ -47,7 +47,8 @@ body {
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.95);
     padding: 3em;
-    margin-top: -3em; }
+    margin-top: -3em;
+    border-radius: 10px; }
     .intro-hero #project-scope h3 {
       font-family: "Avenir Next", "Lato", sans-serif;
       color: #585858;
@@ -417,7 +418,7 @@ body {
     display: table;
     margin: 0 auto;
     margin-top: 5em; }
-  .item-container #view-research-process, .item-container #view-ideation-process, .item-container #view-implementation-process, .item-container #view-process {
+  .item-container .accordion, .item-container #view-research-process, .item-container #view-ideation-process, .item-container #view-implementation-process, .item-container #view-process {
     width: 100%;
     background-image: url(../images/open_button.png);
     background-repeat: no-repeat;
@@ -439,7 +440,7 @@ body {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
-    .item-container #view-research-process:hover, .item-container #view-ideation-process:hover, .item-container #view-implementation-process:hover, .item-container #view-process:hover {
+    .item-container .accordion:hover, .item-container #view-research-process:hover, .item-container #view-ideation-process:hover, .item-container #view-implementation-process:hover, .item-container #view-process:hover {
       background-image: url(../images/open_button_hover.png);
       background-repeat: no-repeat;
       background-position: right 9px;

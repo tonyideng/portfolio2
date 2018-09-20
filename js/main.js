@@ -83,6 +83,25 @@ $('#reveal').click(function(){ //on lurkers.html
 
 
 //reveal .hidden-process on all project pages
+$('#car-play').click(function(){
+  $('#hidden-research-process').slideToggle(1000);
+  $('#car-play').html($('#view-research-process').text() == 'Google Maps in Apple CarPlay' ? 'Google Maps in Apple CarPlay' : 'Google Maps in Apple CarPlay');
+});
+
+$('#custom-chevron').click(function(){
+  $('#hidden-research-process-2').slideToggle(1000);
+  $('#custom-chevron').html($('#view-research-process').text() == ' Delightful Navigation Car ' ? ' Delightful Navigation Car ' : ' Delightful Navigation Car ');
+});
+
+
+
+$('#view-process').click(function(){
+  $('.hidden-process').slideToggle(1300);
+  //$('#view-implementation-process').html($('#view-implementation-process').text() == 'Hide Implementation Process' ? 'View Implementation Process' : 'Hide Implementation Process');
+});
+
+
+//for google maps part
 $('#view-research-process').click(function(){
   $('#hidden-research-process').slideToggle(1000);
   $('#view-research-process').html($('#view-research-process').text() == 'Hide Research Decisions' ? 'View Research Decisions' : 'Hide Research Decisions');
