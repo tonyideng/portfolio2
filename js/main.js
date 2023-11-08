@@ -83,13 +83,19 @@ $('#reveal').click(function(){ //on lurkers.html
 
 
 //reveal .hidden-process on all project pages
+$('#lane-nav').click(function(){
+  $('#hidden-research-process-lane-nav').slideToggle(1000);
+  $('#lane-nav').html($('#view-research-process').text() == 'Lane Aware Navigation' ? 'Lane Aware Navigation' : 'Lane Aware Navigation');
+});
+
+
 $('#car-play').click(function(){
-  $('#hidden-research-process').slideToggle(1000);
+  $('#hidden-research-process-car-play').slideToggle(1000);
   $('#car-play').html($('#view-research-process').text() == 'Google Maps in Apple CarPlay' ? 'Google Maps in Apple CarPlay' : 'Google Maps in Apple CarPlay');
 });
 
 $('#custom-chevron').click(function(){
-  $('#hidden-research-process-2').slideToggle(1000);
+  $('#hidden-research-process-chevron').slideToggle(1000);
   $('#custom-chevron').html($('#view-research-process').text() == ' Delightful Navigation Car ' ? ' Delightful Navigation Car ' : ' Delightful Navigation Car ');
 });
 
